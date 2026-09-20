@@ -1,0 +1,278 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AgentInterface, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct AgentInterface.Constants: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 SUCCESS IsConst : Public, Static
+    Int32 INVALID IsConst : Public, Static
+    Int32 ERROR_FILE_FOUND_NOT IsConst : Public, Static
+    Int32 ERROR_NULL_POINTER IsConst : Public, Static
+    Int32 ERROR_EXCEPTION IsConst : Public, Static
+    Int32 ERROR_INVALID_ARG IsConst : Public, Static
+    Int32 ERROR_INVALID_ARG1 IsConst : Public, Static
+    Int32 ERROR_INVALID_ARG2 IsConst : Public, Static
+    Int32 ERROR_INVALID_ARG3 IsConst : Public, Static
+    Int32 ERROR_INVALID_ARG4 IsConst : Public, Static
+    Int32 ERROR_CHANNEL_NOT_FOUND IsConst : Public, Static
+    Int32 ERROR_CHANNEL_NOT_READY IsConst : Public, Static
+    Int32 ERROR_CHANNEL_IO_FAILED IsConst : Public, Static
+    Int32 ERROR_CONNECTION_NOT_FOUND IsConst : Public, Static
+    Int32 ERROR_JOB_NOT_FOUND IsConst : Public, Static
+    Int32 ERROR_JOB IsConst : Public, Static
+    Int32 ERROR_CONNECTION_DISCONNECTED IsConst : Public, Static
+Class AgentInterface.AgentGuid: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(UInt32, UInt32, UInt32, UInt32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[AgentInterface.AgentGuid]
+  Fields:
+    UInt32 A : Public
+    UInt32 B : Public
+    UInt32 C : Public
+    UInt32 D : Public
+  Methods:
+    Equals(AgentGuid): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class AgentInterface.AgentMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(AgentInterface.ESwarmVersionValue, AgentInterface.EMessageType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(AgentInterface.EMessageType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 To : Public
+    Int32 From : Public
+    AgentInterface.ESwarmVersionValue Version : Public
+    AgentInterface.EMessageType Type : Public
+Class AgentInterface.AgentInfoMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentMessage
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String TextMessage : Public
+Class AgentInterface.AgentTimingMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentMessage
+    Void .ctor(AgentInterface.EProgressionState, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.EProgressionState State : Public
+    Int32 ThreadNum : Public
+Class AgentInterface.AgentJobMessageBase: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentMessage
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.EMessageType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.AgentGuid JobGuid : Public
+Class AgentInterface.AgentAlertMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentJobMessageBase
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.EAlertLevel, AgentInterface.AgentGuid, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(AgentInterface.AgentGuid): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.EAlertLevel AlertLevel : Public
+    AgentInterface.AgentGuid ObjectGuid : Public
+    Int32 TypeId : Public
+    System.String TextMessage : Public
+Class AgentInterface.AgentJobSpecification: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.EJobTaskFlags, System.String, System.String, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.AgentGuid JobGuid : Public
+    AgentInterface.EJobTaskFlags JobFlags : Public
+    System.String ExecutableName : Public
+    System.String Parameters : Public
+    System.Collections.Generic.List`1[System.String] RequiredDependencies : Public
+    System.Collections.Generic.List`1[System.String] OptionalDependencies : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.String] DependenciesOriginalNames : Public
+Class AgentInterface.AgentSignalMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentMessage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Threading.ManualResetEvent ResetEvent : Public
+Class AgentInterface.AgentTaskRequestResponse: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentJobMessageBase
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.ETaskRequestResponseType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.ETaskRequestResponseType ResponseType : Public
+Class AgentInterface.AgentTaskSpecification: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentTaskRequestResponse
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.AgentGuid, Int32, System.String, Int32, System.Collections.Generic.List`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.AgentGuid TaskGuid : Public
+    Int32 TaskFlags : Public
+    System.String Parameters : Public
+    Int32 Cost : Public
+    System.Collections.Generic.List`1[System.String] Dependencies : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.String] DependenciesOriginalNames : Public
+Class AgentInterface.AgentJobState: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentJobMessageBase
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.EJobTaskState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.EJobTaskState JobState : Public
+    System.String JobMessage : Public
+    Double JobRunningTime : Public
+    Int32 JobExitCode : Public
+Class AgentInterface.AgentTaskState: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :AgentInterface.AgentJobMessageBase
+    Void .ctor(AgentInterface.AgentGuid, AgentInterface.AgentGuid, AgentInterface.EJobTaskState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    AgentInterface.AgentGuid TaskGuid : Public
+    AgentInterface.EJobTaskState TaskState : Public
+    System.String TaskMessage : Public
+    Double TaskRunningTime : Public
+    Int32 TaskExitCode : Public
+Interface AgentInterface.IAgentInterface: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    OpenConnection(Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseConnection(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SendMessage(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetMessage(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddChannel(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    TestChannel(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenChannel(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseChannel(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenJob(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeginJobSpecification(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddTask(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EndJobSpecification(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseJob(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Method(Int32, Hashtable, Hashtable&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Log(EVerbosityLevel, Color, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct AgentInterface.ESwarmVersionValue: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.ESwarmVersionValue INVALID = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.ESwarmVersionValue VER_1_0 = 16 : Public, Static, Literal, HasDefault
+Struct AgentInterface.ELogFlags: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.ELogFlags LOG_NONE = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_TIMINGS = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_CONNECTIONS = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_CHANNELS = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_MESSAGES = 8 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_JOBS = 16 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_TASKS = 32 : Public, Static, Literal, HasDefault
+    AgentInterface.ELogFlags LOG_ALL = 63 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EVerbosityLevel: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EVerbosityLevel Silent = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel Critical = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel Simple = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel Informative = 3 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel Complex = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel Verbose = 5 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel ExtraVerbose = 6 : Public, Static, Literal, HasDefault
+    AgentInterface.EVerbosityLevel SuperVerbose = 7 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EProgressionState: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EProgressionState TaskTotal = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState TasksInProgress = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState TasksCompleted = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Idle = 3 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState InstigatorConnected = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState RemoteConnected = 5 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Exporting = 6 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState BeginJob = 7 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Blocked = 8 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Preparing0 = 9 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Preparing1 = 10 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Preparing2 = 11 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Preparing3 = 12 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Processing0 = 13 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState FinishedProcessing0 = 17 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Processing1 = 14 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState FinishedProcessing1 = 18 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Processing2 = 15 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState FinishedProcessing2 = 19 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Processing3 = 16 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState FinishedProcessing3 = 20 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState ExportingResults = 21 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState ImportingResults = 22 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState Finished = 23 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState RemoteDisconnected = 24 : Public, Static, Literal, HasDefault
+    AgentInterface.EProgressionState InstigatorDisconnected = 25 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EChannelFlags: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EChannelFlags TYPE_PERSISTENT = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags TYPE_JOB_ONLY = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags TYPE_MASK = 15 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags ACCESS_READ = 16 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags ACCESS_WRITE = 32 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags ACCESS_MASK = 240 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags MISC_ENABLE_PAPER_TRAIL = 65536 : Public, Static, Literal, HasDefault
+    AgentInterface.EChannelFlags MISC_MASK = -65536 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EMessageType: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EMessageType NONE = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType INFO = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType ALERT = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType TIMING = 3 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType PING = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType SIGNAL = 5 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType JOB_SPECIFICATION = 16 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType JOB_STATE = 32 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType TASK_REQUEST = 256 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType TASK_REQUEST_RESPONSE = 512 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType TASK_STATE = 768 : Public, Static, Literal, HasDefault
+    AgentInterface.EMessageType QUIT = -559030611 : Public, Static, Literal, HasDefault
+Struct AgentInterface.ETaskRequestResponseType: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.ETaskRequestResponseType RELEASE = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.ETaskRequestResponseType RESERVATION = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.ETaskRequestResponseType SPECIFICATION = 3 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EJobTaskFlags: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EJobTaskFlags FLAG_USE_DEFAULTS = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskFlags FLAG_ALLOW_REMOTE = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskFlags FLAG_MANUAL_START = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskFlags FLAG_64BIT = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskFlags TASK_FLAG_USE_DEFAULTS = 0 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskFlags TASK_FLAG_ALLOW_REMOTE = 256 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EJobTaskState: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EJobTaskState STATE_INVALID = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_IDLE = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_READY = 3 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_RUNNING = 4 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_COMPLETE_SUCCESS = 5 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_COMPLETE_FAILURE = 6 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState STATE_KILLED = 7 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_INVALID = 17 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_IDLE = 18 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_ACCEPTED = 19 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_REJECTED = 20 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_RUNNING = 21 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_COMPLETE_SUCCESS = 22 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_COMPLETE_FAILURE = 23 : Public, Static, Literal, HasDefault
+    AgentInterface.EJobTaskState TASK_STATE_KILLED = 24 : Public, Static, Literal, HasDefault
+Struct AgentInterface.EAlertLevel: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AgentInterface.EAlertLevel ALERT_INFO = 1 : Public, Static, Literal, HasDefault
+    AgentInterface.EAlertLevel ALERT_WARNING = 2 : Public, Static, Literal, HasDefault
+    AgentInterface.EAlertLevel ALERT_ERROR = 3 : Public, Static, Literal, HasDefault
+    AgentInterface.EAlertLevel ALERT_CRITICAL_ERROR = 4 : Public, Static, Literal, HasDefault

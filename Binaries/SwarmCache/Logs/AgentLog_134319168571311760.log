@@ -1,0 +1,18 @@
+Starting up SwarmAgent ...
+ ... registering SwarmAgent with remoting service
+ ... registering SwarmAgent network channels
+ ... initializing SwarmAgent
+ ...... checking certificate
+ ......... certificate check has failed
+ ...... initializing cache
+ ......... using cache folder 'D:\UnrealEngine3-SC\Binaries\SwarmCache'
+ ......... recreating SwarmAgent cache staging area
+ ...... initializing connection to SwarmCoordinator
+ ......... using SwarmCoordinator on RENDER-01
+[PingCoordinator] Determined that we couldn't ping the coordinator
+[PingCoordinator] Coordinator ping failed
+ ......... SwarmCoordinator failed to be initialized
+ ...... initializing local performance monitoring subsystem
+ ... initialization successful, SwarmAgent now running
+[PingCoordinator] Determined that we couldn't ping the coordinator
+[PingCoordinator] CoordinatorResponding is false
