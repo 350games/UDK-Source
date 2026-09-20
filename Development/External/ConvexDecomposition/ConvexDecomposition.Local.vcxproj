@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ConvexDecomposition\bestfit.cpp" />
+    <ClCompile Include="ConvexDecomposition\bestfitobb.cpp" />
+    <ClCompile Include="ConvexDecomposition\cd_hull.cpp" />
+    <ClCompile Include="ConvexDecomposition\cd_wavefront.cpp" />
+    <ClCompile Include="ConvexDecomposition\concavity.cpp" />
+    <ClCompile Include="ConvexDecomposition\ConvexDecomposition.cpp" />
+    <ClCompile Include="ConvexDecomposition\fitsphere.cpp" />
+    <ClCompile Include="ConvexDecomposition\float_math.cpp" />
+    <ClCompile Include="ConvexDecomposition\meshvolume.cpp" />
+    <ClCompile Include="ConvexDecomposition\planetri.cpp" />
+    <ClCompile Include="ConvexDecomposition\raytri.cpp" />
+    <ClCompile Include="ConvexDecomposition\splitplane.cpp" />
+    <ClCompile Include="ConvexDecomposition\triangulate.cpp" />
+    <ClCompile Include="ConvexDecomposition\vlookup.cpp" />
+  </ItemGroup>
+</Project>
