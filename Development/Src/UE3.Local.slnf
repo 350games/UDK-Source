@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "path": "UE3.sln",
+    "projects": [
+      "UnrealBuildTool\\UnrealBuildTool.csproj",
+      "Core\\Core.vcxproj",
+      "Engine\\Engine.vcxproj",
+      "UnrealEd\\UnrealEd.vcxproj",
+      "GameFramework\\GameFramework.vcxproj",
+      "OnlineSubsystemLive\\OnlineSubsystemLive.vcxproj",
+      "Launch\\Launch.vcxproj",
+      "WinDrv\\WinDrv.vcxproj",
+      "D3D9Drv\\D3D9Drv.vcxproj",
+      "IpDrv\\IpDrv.vcxproj",
+      "OnlineSubsystemGameSpy\\OnlineSubsystemGameSpy.vcxproj",
+      "OnlineSubsystemPC\\OnlineSubsystemPC.vcxproj",
+      "XAudio2\\XAudio2.vcxproj",
+      "UnrealEdCLR\\UnrealEdCLR.vcxproj",
+      "UnrealEdCSharp\\UnrealEdCSharp.csproj",
+      "UnrealSwarm\\SwarmInterfaceMake.vcxproj",
+      "IPhone\\IPhone.vcxproj",
+      "ES2Drv\\ES2Drv.vcxproj",
+      "OnlineSubsystemSteamworks\\OnlineSubsystemSteamworks.vcxproj",
+      "GFxUI\\GFxUI.vcxproj",
+      "GFxUIEditor\\GFxUIEditor.vcxproj",
+      "ALAudio\\ALAudio.vcxproj",
+      "Android\\Android.vcxproj",
+      "OnlineSubsystemGameCenter\\OnlineSubsystemGameCenter.vcxproj",
+      "D3D11Drv\\D3D11Drv.vcxproj",
+      "Targets\\MultiBuild\\MultiBuild.vcxproj",
+      "OpenGLDrv\\OpenGLDrv.vcxproj",
+      "Mac\\Mac.vcxproj",
+      "SubstanceAir\\SubstanceAir.vcxproj",
+      "SubstanceAirEd\\SubstanceAirEd.vcxproj",
+      "SubstanceAirEdCLR\\SubstanceAirEdCLR.vcxproj"
+    ]
+  }
+}
