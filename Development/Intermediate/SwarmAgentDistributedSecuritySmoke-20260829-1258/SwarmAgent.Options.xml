@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<SettableOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SerialisableColours>
+    <SerialisableColour LocalColour="-1" />
+    <SerialisableColour LocalColour="-1" />
+    <SerialisableColour LocalColour="-1" />
+    <SerialisableColour LocalColour="-1" />
+    <SerialisableColour LocalColour="-5658199" />
+    <SerialisableColour LocalColour="-5658199" />
+    <SerialisableColour LocalColour="-5658199" />
+    <SerialisableColour LocalColour="-2894893" />
+    <SerialisableColour LocalColour="-1" />
+    <SerialisableColour LocalColour="-7667712" />
+    <SerialisableColour LocalColour="-7667712" />
+    <SerialisableColour LocalColour="-2987746" />
+    <SerialisableColour LocalColour="-2987746" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-16777077" />
+    <SerialisableColour LocalColour="-7278960" />
+    <SerialisableColour LocalColour="-16744448" />
+    <SerialisableColour LocalColour="-16711681" />
+    <SerialisableColour LocalColour="-8388480" />
+    <SerialisableColour LocalColour="-16744448" />
+    <SerialisableColour LocalColour="-16777216" />
+    <SerialisableColour LocalColour="-16777216" />
+  </SerialisableColours>
+  <EnableStandaloneMode>false</EnableStandaloneMode>
+  <AllowedRemoteAgentNames>TEST-REMOTE</AllowedRemoteAgentNames>
+  <AllowedRemoteAgentGroup>SecuritySmoke</AllowedRemoteAgentGroup>
+  <AgentGroupName>SecuritySmoke</AgentGroupName>
+  <CoordinatorRemotingHost>127.0.0.1</CoordinatorRemotingHost>
+  <CacheFolder>D:\UnrealEngine3-SC\Development\Intermediate\SwarmAgentDistributedSecuritySmoke-20260829-1258\SwarmCache</CacheFolder>
+  <MaximumJobsToKeep>5</MaximumJobsToKeep>
+  <OptionsVersion>15</OptionsVersion>
+  <WindowLocation>
+    <X>0</X>
+    <Y>0</Y>
+  </WindowLocation>
+  <WindowSize>
+    <Width>768</Width>
+    <Height>768</Height>
+  </WindowSize>
+  <AgentTabIndex>1</AgentTabIndex>
+  <VisualiserZoomLevel>4</VisualiserZoomLevel>
+</SettableOptions>

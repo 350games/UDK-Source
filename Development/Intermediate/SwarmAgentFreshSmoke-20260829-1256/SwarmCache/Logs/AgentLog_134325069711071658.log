@@ -1,0 +1,11 @@
+Starting up SwarmAgent ...
+ ... registering SwarmAgent with remoting service
+ ... registering SwarmAgent network channels
+ ... initializing SwarmAgent
+ ...... unsigned local-source executable accepted for standalone-only execution
+ ...... initializing cache
+ ......... using cache folder 'D:\UnrealEngine3-SC\Development\Intermediate\SwarmAgentFreshSmoke-20260829-1256\SwarmCache'
+ ......... recreating SwarmAgent cache staging area
+ ...... standalone mode enabled; SwarmCoordinator connection disabled
+ ...... initializing local performance monitoring subsystem
+ ... initialization successful, SwarmAgent now running

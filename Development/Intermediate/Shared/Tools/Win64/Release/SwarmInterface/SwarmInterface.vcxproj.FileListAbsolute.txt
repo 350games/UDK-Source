@@ -1,0 +1,2 @@
+D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.vcxproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.lib

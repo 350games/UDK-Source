@@ -1,0 +1,5 @@
+Starting up SwarmAgent ...
+ ... registering SwarmAgent with remoting service
+ ... registering SwarmAgent network channels
+ ... initializing SwarmAgent
+ ......... unsigned executable rejected: distributed or published Swarm requires a validated deployment certificate
