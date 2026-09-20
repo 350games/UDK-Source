@@ -1,0 +1,2 @@
+"%DXSDK_DIR%\Utilities\Bin\x86\fxc" D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Shaders\PC-D3D-SM3\Global\FGammaCorrectionPixelShader\GammaCorrectionPixelShader.usf /D PIXELSHADER=1 /D DOMAINSHADER=0 /D HULLSHADER=0 /D VERTEXSHADER=0 /D GEOMETRYSHADER=0 /D COMPUTESHADER=0 /D ALLOW_NVIDIA_STEREO_3D=0 /D COMPILER_HLSL=1 /D SM3_PROFILE=1 /D COMPILER_SUPPORTS_ATTRIBUTES=1 /E Main /I D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Shaders /Gec /T ps_3_0 
+ pause

@@ -1,0 +1,1004 @@
+#line 1 "D:\\UnrealEngine3-SC\\Binaries\\Win64\\LUTBlender"
+
+
+#line 6
+
+
+#line 1 "PostProcessCommon.usf"
+
+
+#line 6
+
+
+#line 1 "Common.usf"
+
+
+#line 6
+
+
+#line 1 "Definitions.usf"
+
+
+#line 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 70
+
+
+
+
+
+
+
+
+
+
+#line 81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 123
+
+
+#line 127
+
+
+#line 131
+
+
+
+
+
+
+
+
+
+
+
+
+#line 144
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 186
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 210
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 239
+
+
+#line 243
+
+
+
+
+#line 250
+
+
+
+
+#line 257
+
+
+
+
+#line 266
+
+
+
+
+
+
+
+#line 10 "Common.usf"
+
+
+
+
+
+#line 17
+
+
+#line 82
+
+
+#line 85
+
+
+
+#line 89
+
+
+
+
+
+
+#line 110
+
+
+#line 114
+
+
+
+
+
+
+#line 144
+
+
+float3 PackColor3 ( float3 UnpackedVector ) 
+{ 
+    return UnpackedVector ; 
+} 
+
+float4 PackColor4 ( float4 UnpackedVector ) 
+{ 
+    return UnpackedVector ; 
+} 
+
+half3 UnpackColor3 ( half3 PackedVector ) 
+{ 
+    return PackedVector ; 
+} 
+
+half4 UnpackColor4 ( half4 PackedVector ) 
+{ 
+    return PackedVector ; 
+} 
+
+
+#line 170
+
+
+float UnClampedPow ( float X , float Y ) 
+{ 
+    return pow ( X , Y ) ; 
+} 
+float2 UnClampedPow ( float2 X , float2 Y ) 
+{ 
+    return pow ( X , Y ) ; 
+} 
+float3 UnClampedPow ( float3 X , float3 Y ) 
+{ 
+    return pow ( X , Y ) ; 
+} 
+float4 UnClampedPow ( float4 X , float4 Y ) 
+{ 
+    return pow ( X , Y ) ; 
+} 
+
+#line 190
+float ClampedPow ( float X , float Y ) 
+{ 
+    
+#line 195
+    
+    return abs ( X ) < 0.000001f ? 0 : pow ( abs ( X ) , Y ) ; 
+    
+#line 199
+    
+} 
+float2 ClampedPow ( float2 X , float2 Y ) 
+{ 
+    return pow ( max ( abs ( X ) , float2 ( 0.000001f , 0.000001f ) ) , Y ) ; 
+} 
+float3 ClampedPow ( float3 X , float3 Y ) 
+{ 
+    return pow ( max ( abs ( X ) , float3 ( 0.000001f , 0.000001f , 0.000001f ) ) , Y ) ; 
+} 
+float4 ClampedPow ( float4 X , float4 Y ) 
+{ 
+    return pow ( max ( abs ( X ) , float4 ( 0.000001f , 0.000001f , 0.000001f , 0.000001f ) ) , Y ) ; 
+} 
+
+#line 219
+half PhongShadingPow ( half X , half Y ) 
+{ 
+    
+#line 237
+    return ClampedPow ( X , Y ) ; 
+} 
+
+
+
+
+
+#line 249
+
+
+#line 254
+
+
+
+
+
+
+
+
+
+
+
+#line 267
+
+
+
+#line 273
+
+
+
+
+
+
+
+#line 319
+
+
+#line 322
+
+
+
+
+
+
+
+
+
+#line 332
+
+
+
+
+
+
+#line 339
+
+
+
+
+#line 348
+
+
+
+
+
+
+#line 355
+
+
+#line 427
+
+
+float4x4 ViewProjectionMatrix : register ( c0 ) ; 
+
+float4 CameraPositionVS : register ( c4 ) ; 
+float4 PreViewTranslation : register ( c5 ) ; 
+
+#line 435
+
+
+#line 438
+float4 ScreenPositionScaleBias ; 
+float4 MinZ_MaxZRatio ; 
+float4 CameraPositionPS ; 
+float4 ScreenAndTexelSize ; 
+
+float NvStereoEnabled ; 
+float4 DiffuseOverrideParameter ; 
+float4 SpecularOverrideParameter ; 
+
+
+#line 449
+
+
+
+#line 456
+
+
+#line 461
+
+
+
+
+#line 469
+
+
+#line 472
+
+
+#line 480
+
+
+sampler2D SceneDepthTexture ; 
+sampler2D SceneColorTexture ; 
+
+#line 487
+
+
+#line 491
+
+
+#line 497
+float4 MonoToStereoClipPos ( float4 monoClipPos ) 
+{ 
+    
+#line 511
+    
+    
+#line 515
+    
+    
+#line 518
+    return monoClipPos ; 
+} 
+
+#line 531
+
+
+
+
+
+#line 538
+
+
+float Square ( float A ) 
+{ 
+    return A * A ; 
+} 
+float2 Square ( float2 A ) 
+{ 
+    return A * A ; 
+} 
+float3 Square ( float3 A ) 
+{ 
+    return A * A ; 
+} 
+float4 Square ( float4 A ) 
+{ 
+    return A * A ; 
+} 
+
+#line 558
+float4 ExpandRGBE ( float4 RGBE ) 
+{ 
+    
+#line 562
+    
+    return half4 ( ldexp ( RGBE . xyz , 255.0 * RGBE . w - 128.0 ) , 1.0 ) ; 
+    
+} 
+
+float4 ExpandCompressedRGBE ( float4 RGBE ) 
+{ 
+    
+#line 571
+    
+    return half4 ( ldexp ( RGBE . xyz , 255.0 / 16.0 * RGBE . w - 8.0 ) , 1.0 ) ; 
+    
+} 
+
+half3 PointLightPhong ( half3 DiffuseColor , half DiffusePower , half3 TransmissionMask , half3 SpecularColor , half SpecularPower , half3 L , float3 E , half3 N , float3 R ) 
+{ 
+    half DiffuseLighting = PhongShadingPow ( saturate ( dot ( N , L ) ) , DiffusePower ) ; 
+    
+    half SpecularLighting = PhongShadingPow ( saturate ( dot ( R , L ) ) , SpecularPower ) ; 
+    
+#line 583
+    
+    
+#line 586
+    return DiffuseColor * lerp ( half3 ( DiffuseLighting , DiffuseLighting , DiffuseLighting ) , TransmissionMask , TransmissionMask ) + SpecularLighting * SpecularColor ; 
+} 
+
+float3 PointLightAnisotropic ( half3 DiffuseColor , half3 TransmissionMask , half3 SpecularColor , half SpecularPower , half3 L , float3 E , half3 N , float3 R , half3 T ) 
+{ 
+    
+    half DiffuseLighting = sqrt ( 1.0 - Square ( dot ( L , T ) ) ) ; 
+    half VdotR = sqrt ( 1.0 - Square ( dot ( L , T ) ) ) * sqrt ( 1.0 - Square ( dot ( E , T ) ) ) - dot ( L , T ) * dot ( E , T ) ; 
+    
+    half SpecularLighting = PhongShadingPow ( saturate ( VdotR ) , SpecularPower ) ; 
+    
+#line 598
+    
+    
+#line 602
+    half DiffuseAttenuation = saturate ( dot ( N , L ) ) ; 
+    half SpecularAttenuation = PhongShadingPow ( saturate ( dot ( N , L ) ) , 0.3f ) ; 
+    
+#line 606
+    half3 Spec = SpecularAttenuation * SpecularLighting * SpecularColor ; 
+    return DiffuseColor * lerp ( half3 ( DiffuseAttenuation , DiffuseAttenuation , DiffuseAttenuation ) * DiffuseLighting , TransmissionMask , TransmissionMask . x ) + Spec ; 
+} 
+
+float4 PreviousLighting ( float4 ScreenPosition ) 
+{ 
+    return tex2D ( SceneColorTexture , ScreenPosition . xy / ScreenPosition . w * ScreenPositionScaleBias . xy + ScreenPositionScaleBias . wz ) ; 
+} 
+
+sampler2D LightAttenuationTexture ; 
+
+#line 618
+half4 GetLightAttenuation ( float4 ScreenPosition ) 
+{ 
+    float4 stereoClipPos = MonoToStereoClipPos ( ScreenPosition ) ; 
+    stereoClipPos . xy = float2 ( stereoClipPos . xy / stereoClipPos . w * ScreenPositionScaleBias . xy + ScreenPositionScaleBias . wz ) ; 
+    float4 Attenuation = tex2D ( LightAttenuationTexture , stereoClipPos . xy ) ; 
+    
+    return Square ( Attenuation ) ; 
+} 
+
+#line 628
+float EncodeLightAttenuation ( float InColor ) 
+{ 
+    
+#line 632
+    return sqrt ( InColor ) ; 
+} 
+
+#line 636
+half4 EncodeLightAttenuation ( half4 InColor ) 
+{ 
+    return sqrt ( InColor ) ; 
+} 
+
+#line 642
+half3 CalcSceneColor ( float2 ScreenUV ) 
+{ 
+    return tex2D ( SceneColorTexture , ScreenUV ) . rgb ; 
+} 
+
+#line 648
+half4 CalcFullSceneColor ( float2 ScreenUV ) 
+{ 
+    return tex2D ( SceneColorTexture , ScreenUV ) ; 
+} 
+
+#line 654
+float ConvertFromDeviceZ ( float DeviceZ ) 
+{ 
+    
+#line 658
+    DeviceZ = min ( DeviceZ , 1 - 0.001f ) ; 
+    return 1.f / ( DeviceZ * MinZ_MaxZRatio [ 2 ] - MinZ_MaxZRatio [ 3 ] ) ; 
+} 
+
+#line 666
+float EncodeFloatW ( float W ) 
+{ 
+    
+#line 670
+    
+    float DepthAdd = - MinZ_MaxZRatio [ 0 ] ; 
+    float DepthMul = 1 - MinZ_MaxZRatio [ 1 ] ; 
+    
+    return DepthMul + DepthAdd / W ; 
+    
+} 
+
+#line 682
+float DecodeFloatW ( float EncodedW ) 
+{ 
+    float DepthAdd = - MinZ_MaxZRatio [ 0 ] ; 
+    float DepthMul = 1 - MinZ_MaxZRatio [ 1 ] ; 
+    
+    return DepthAdd / ( EncodedW - DepthMul ) ; 
+} 
+
+#line 691
+float CalcSceneDepth ( float2 ScreenUV ) 
+{ 
+    
+#line 696
+    
+    
+    return DecodeFloatW ( tex2Dlod ( SceneColorTexture , float4 ( ScreenUV , 0 , 0 ) ) . a ) ; 
+    
+} 
+
+#line 705
+float4 CalcSceneColorAndDepth ( float2 ScreenUV ) 
+{ 
+    return float4 ( CalcSceneColor ( ScreenUV ) , CalcSceneDepth ( ScreenUV ) ) ; 
+} 
+
+float PreviousDepth ( float4 ScreenPosition ) 
+{ 
+    float4 stereoClipPos = MonoToStereoClipPos ( ScreenPosition ) ; 
+    stereoClipPos . xy = float2 ( stereoClipPos . xy / stereoClipPos . w * ScreenPositionScaleBias . xy + ScreenPositionScaleBias . wz ) ; 
+    return CalcSceneDepth ( stereoClipPos . xy ) ; 
+} 
+
+#line 741
+
+
+#line 757
+
+float PreviousDepthForShadows ( float4 ScreenPosition ) 
+{ 
+    return PreviousDepth ( ScreenPosition ) ; 
+} 
+
+
+#line 768
+float4 ScreenAlignedPosition ( float4 ScreenPosition ) 
+{ 
+    return float4 ( ScreenPosition . xy / ScreenPosition . w * ScreenPositionScaleBias . xy + ScreenPositionScaleBias . wz , ScreenPosition . z / ScreenPosition . w , 1 ) ; 
+} 
+
+#line 776
+half2 ScreenAlignedUV ( half2 UV ) 
+{ 
+    return ( UV * half2 ( 2 , - 2 ) + half2 ( - 1 , 1 ) ) * ScreenPositionScaleBias . xy + ScreenPositionScaleBias . wz ; 
+} 
+
+#line 784
+float4 NormalCalcZ ( float4 Normal ) 
+{ 
+    return float4 ( Normal . xy , sqrt ( 1.0 - dot ( Normal . xy , Normal . xy ) ) , 1 ) ; 
+} 
+
+#line 792
+float4 BiasNormalMap ( float4 Normal ) 
+{ 
+    return Normal * float4 ( 2.f , 2.f , 2.f , 1.f ) - float4 ( 1.f , 1.f , 1.f , 0.f ) ; 
+} 
+
+#line 821
+
+
+float4 BiasNormalizeNormalMap_DXT1 ( float4 Normal ) { return BiasNormalMap ( Normal ) ; } 
+float4 BiasNormalizeNormalMap_DXT5 ( float4 Normal ) { return BiasNormalMap ( Normal ) ; } 
+float4 BiasNormalizeNormalMap_V8U8 ( float4 Normal ) { return NormalCalcZ ( Normal ) ; } 
+float4 BiasNormalizeNormalMap_BC5 ( float4 Normal ) { return NormalCalcZ ( BiasNormalMap ( Normal ) ) ; } 
+
+
+
+#line 831
+float AntialiasedTextureMask ( sampler2D Tex , float2 UV , float ThresholdConst , int Channel ) 
+{ 
+    
+    half4 MaskConst = half4 ( Channel == 0 , Channel == 1 , Channel == 2 , Channel == 3 ) ; 
+    
+#line 837
+    const float WidthConst = 1.0f ; 
+    float InvWidthConst = 1 / WidthConst ; 
+    
+#line 861
+    float Result ; 
+    { 
+        
+        float Sample1 = dot ( MaskConst , tex2D ( Tex , UV ) ) ; 
+        
+#line 867
+        float2 TexDD = float2 ( ddx ( Sample1 ) , ddy ( Sample1 ) ) ; 
+        
+        float TexDDLength = max ( abs ( TexDD . x ) , abs ( TexDD . y ) ) ; 
+        float Top = InvWidthConst * ( Sample1 - ThresholdConst ) ; 
+        Result = Top / TexDDLength + ThresholdConst ; 
+    } 
+    
+    Result = saturate ( Result ) ; 
+    
+    return Result ; 
+} 
+
+#line 892
+float2 RayBoxIntersect ( float3 RayOrigin , float3 RayEnd , float3 BoxMin , float3 BoxMax ) 
+{ 
+    float3 InvRayDir = 1.0f / ( RayEnd - RayOrigin ) ; 
+    
+#line 897
+    float3 FirstPlaneIntersections = ( BoxMin - RayOrigin ) * InvRayDir ; 
+    
+    float3 SecondPlaneIntersections = ( BoxMax - RayOrigin ) * InvRayDir ; 
+    
+    float3 ClosestPlaneIntersections = min ( FirstPlaneIntersections , SecondPlaneIntersections ) ; 
+    
+    float3 FurthestPlaneIntersections = max ( FirstPlaneIntersections , SecondPlaneIntersections ) ; 
+    
+    float2 BoxIntersections ; 
+    
+    BoxIntersections . x = max ( ClosestPlaneIntersections . x , max ( ClosestPlaneIntersections . y , ClosestPlaneIntersections . z ) ) ; 
+    
+    BoxIntersections . y = min ( FurthestPlaneIntersections . x , min ( FurthestPlaneIntersections . y , FurthestPlaneIntersections . z ) ) ; 
+    
+    return saturate ( BoxIntersections ) ; 
+} 
+
+#line 915
+float3 TransformTangentVectorToWorld ( float3x3 TangentToWorld , float3 InTangentVector ) 
+{ 
+    
+#line 919
+    return mul ( TangentToWorld , InTangentVector ) ; 
+} 
+
+#line 923
+float3 TransformWorldVectorToTangent ( float3x3 TangentToWorld , float3 InWorldVector ) 
+{ 
+    
+    return mul ( InWorldVector , TangentToWorld ) ; 
+} 
+
+#line 932
+
+
+
+float EvaluateAttributeAtSample ( float Attribute , uint SampleIndex ) { return Attribute ; } 
+float2 EvaluateAttributeAtSample ( float2 Attribute , uint SampleIndex ) { return Attribute ; } 
+float3 EvaluateAttributeAtSample ( float3 Attribute , uint SampleIndex ) { return Attribute ; } 
+float4 EvaluateAttributeAtSample ( float4 Attribute , uint SampleIndex ) { return Attribute ; } 
+
+
+
+
+half4 FixupSceneColor ( half4 In ) 
+{ 
+    return In ; 
+} 
+
+
+#line 950
+bool bDecompressSceneColor ; 
+
+half4 GetMaterialEffectSceneColor ( sampler2D s , float2 UV ) 
+{ 
+    half4 SceneColor = tex2D ( s , UV ) ; 
+    
+#line 964
+    
+    
+    return SceneColor ; 
+} 
+
+#line 973
+float2 GetScreenSize ( ) 
+{ 
+    return ScreenAndTexelSize . xy ; 
+} 
+
+#line 981
+float2 GetTexelSize ( ) 
+{ 
+    return ScreenAndTexelSize . zw ; 
+} 
+
+
+#line 11 "PostProcessCommon.usf"
+
+
+#line 15
+float4 SceneShadowsAndDesaturation ; 
+float4 SceneInverseHighLights ; 
+float4 SceneMidTones ; 
+float4 SceneScaledLuminanceWeights ; 
+float4 SceneColorize ; 
+
+static float3 SceneShadows = SceneShadowsAndDesaturation . rgb ; 
+static float SceneDesaturation = SceneShadowsAndDesaturation . a ; 
+
+#line 27
+float4 GammaColorScaleAndInverse ; 
+
+float4 GammaOverlayColor ; 
+
+#line 32
+float4 RenderTargetExtent ; 
+
+static float3 GammaColorScale = GammaColorScaleAndInverse . rgb ; 
+
+static float GammaInverse = GammaColorScaleAndInverse . a ; 
+
+#line 41
+static float SmallPowConst = 0.00000001f ; 
+
+#line 48
+half3 ColorCorrection ( half3 InLDRColor ) 
+{ 
+    half3 Color = UnClampedPow ( max ( saturate ( InLDRColor - SceneShadows ) * SceneInverseHighLights . rgb , SmallPowConst ) , SceneMidTones . rgb ) ; 
+    
+    half3 ScaledLuminance = dot ( Color . rgb , SceneScaledLuminanceWeights . rgb ) ; 
+    
+    half3 MaterialResult = Color * SceneDesaturation + ScaledLuminance ; 
+    
+    half3 LinearColor = MaterialResult . rgb * GammaColorScale . rgb + GammaOverlayColor . rgb ; 
+    
+    return LinearColor * SceneColorize . rgb ; 
+} 
+
+#line 63
+const static float X360DepthRange = 15000.0f ; 
+
+#line 69
+float CompressSceneDepthIntoHalfResTextureChannel ( float In , bool bMotionBlurObject ) 
+{ 
+    float Sign = bMotionBlurObject ? 1.0f : - 1.0f ; 
+    
+    
+    
+#line 76
+    In = min ( In , 65503.0f ) ; 
+    
+    
+#line 81
+    
+    if ( In < 14.0f ) 
+    { 
+        In = 65504.0f ; 
+    } 
+    
+    
+#line 91
+    
+    
+    return In * Sign ; 
+    
+} 
+
+#line 98
+float DecompressSceneDepthFromHalfResTextureChannel ( float In , out bool bMotionBlurObject ) 
+{ 
+    bMotionBlurObject = ( In >= 0.0f ) ; 
+    
+#line 103
+    In = abs ( In ) ; 
+    
+#line 107
+    
+    return In ; 
+    
+} 
+
+#line 117
+float ComputeCircleOfConfusion ( float D , float F , float P ) 
+{ 
+    
+    P *= 0.001f / 128 ; 
+    D *= 0.001f / 128 ; 
+    
+#line 124
+    float A = 0.5f ; 
+    
+    float Div = abs ( D * ( P - F ) ) ; 
+    
+#line 131
+    float CoCRadiusFactor = A * F * abs ( P - D ) / Div ; 
+    
+    return saturate ( CoCRadiusFactor ) ; 
+} 
+
+#line 138
+
+
+#line 8 "D:\\UnrealEngine3-SC\\Binaries\\Win64\\LUTBlender"
+void MainVS ( 
+float2 InPosition : POSITION , 
+float2 InUV : TEXCOORD0 , 
+out float2 OutUV : TEXCOORD0 , 
+out float4 OutPosition : POSITION 
+) 
+{ 
+    OutPosition = float4 ( InPosition , 0 , 1 ) ; 
+    OutUV = InUV ; 
+} 
+
+#line 22
+sampler2D Texture1 , Texture2 , Texture3 , Texture4 ; 
+
+float LUTWeights [ 5 ] ; 
+
+#line 27
+void MainPS ( float2 InUV : TEXCOORD0 , out float4 OutColor : COLOR0 ) 
+{ 
+    float4 Neutral ; 
+    
+#line 58
+    
+    
+    { 
+        float2 UV = InUV ; 
+        
+        UV -= float2 ( 0.5f / 256.0f , 0.5f / 16.0f ) ; 
+        
+        float Scale = 16.0f / 15.0f ; 
+        
+        float3 RGB ; 
+        
+        RGB . r = frac ( UV . x * 16.0f ) ; 
+        RGB . b = UV . x - RGB . r / 16.0f ; 
+        RGB . g = UV . y ; 
+        
+        Neutral = float4 ( RGB * Scale , 0 ) ; 
+    } 
+    
+    
+#line 82
+    
+    OutColor = LUTWeights [ 0 ] * Neutral ; 
+    
+#line 88
+    
+    
+#line 92
+    
+    
+#line 96
+    
+    
+#line 100
+    
+    
+#line 104
+    OutColor . rgb = ColorCorrection ( OutColor . rgb ) ; 
+    
+#line 109
+    OutColor = UnClampedPow ( max ( float4 ( SmallPowConst , SmallPowConst , SmallPowConst , SmallPowConst ) , OutColor ) , 2.2f * GammaInverse ) ; 
+    
+} 

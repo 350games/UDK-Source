@@ -1,0 +1,33 @@
+#line 1 "D:\\UnrealEngine3-SC\\Binaries\\Win64\\UberPostProcessVertexShader"
+
+
+#line 6
+float4 SceneCoordinate1ScaleBias ; 
+float4 SceneCoordinate2ScaleBias ; 
+float4 SceneCoordinate3ScaleBias ; 
+
+void Main ( 
+float4 InPosition : POSITION , 
+float2 InScreenUV : TEXCOORD0 , 
+out float4 OutScreenPosition : TEXCOORD0 , 
+out float4 OutFilterBufferUV : TEXCOORD1 , 
+out float2 OutPixelPos : TEXCOORD2 , 
+out float4 OutPosition : POSITION 
+) 
+{ 
+    OutPosition = InPosition ; 
+    
+    OutScreenPosition . xy = InPosition . xy ; 
+    
+    OutFilterBufferUV . xy = InScreenUV ; 
+    
+#line 26
+    float2 PixelPos = InPosition . xy / InPosition . w * SceneCoordinate1ScaleBias . xy + SceneCoordinate1ScaleBias . wz ; 
+    
+    OutPixelPos = PixelPos ; 
+    
+#line 31
+    OutFilterBufferUV . zw = PixelPos * SceneCoordinate2ScaleBias . xy + SceneCoordinate2ScaleBias . wz ; 
+    
+    OutScreenPosition . zw = PixelPos * SceneCoordinate3ScaleBias . xy + SceneCoordinate3ScaleBias . wz ; 
+} 
