@@ -1,0 +1,11 @@
+D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe.config
+D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe
+D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.pdb
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.Properties.Resources.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.SwarmCoordinator.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.GenerateResource.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.CoreCompileInputs.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoo.9C5859EF.Up2Date
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.exe
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.pdb

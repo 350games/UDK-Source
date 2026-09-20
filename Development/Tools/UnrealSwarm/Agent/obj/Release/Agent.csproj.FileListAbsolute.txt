@@ -1,0 +1,11 @@
+D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe.config
+D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe
+D:\UnrealEngine3-SC\Binaries\SwarmAgent.pdb
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.SwarmAgentWindow.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.Properties.Resources.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.GenerateResource.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.CoreCompileInputs.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.Up2Date
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.exe
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.pdb

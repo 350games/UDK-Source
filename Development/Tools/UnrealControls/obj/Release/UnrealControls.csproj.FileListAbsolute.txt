@@ -1,0 +1,10 @@
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Binaries\UnrealControls.dll
+D:\UnrealEngine3-SC\Binaries\UnrealControls.pdb
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.OutputWindowView.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.Properties.Resources.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.UnrealAboutBox.resources
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.GenerateResource.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.CoreCompileInputs.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.dll
+D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.pdb

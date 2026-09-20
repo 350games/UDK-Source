@@ -1,0 +1,6 @@
+D:\UnrealEngine3-SC\Binaries\AgentInterface.dll
+D:\UnrealEngine3-SC\Binaries\AgentInterface.pdb
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.csproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.csproj.CoreCompileInputs.cache
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.dll
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.pdb

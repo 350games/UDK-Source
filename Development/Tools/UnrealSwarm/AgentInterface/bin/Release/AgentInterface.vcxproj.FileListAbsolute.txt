@@ -1,0 +1,1 @@
+D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\bin\Release\AgentInterface.vcxproj.AssemblyReference.cache

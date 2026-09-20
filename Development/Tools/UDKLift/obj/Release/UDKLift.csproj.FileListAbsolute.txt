@@ -1,0 +1,7 @@
+D:\UnrealEngine3-SC\Binaries\UDKLift.exe.config
+D:\UnrealEngine3-SC\Binaries\UDKLift.exe
+D:\UnrealEngine3-SC\Binaries\UDKLift.pdb
+D:\UnrealEngine3-SC\Development\Tools\UDKLift\obj\Release\UDKLift.csproj.AssemblyReference.cache
+D:\UnrealEngine3-SC\Development\Tools\UDKLift\obj\Release\UDKLift.csproj.CoreCompileInputs.cache
+D:\UnrealEngine3-SC\Development\Tools\UDKLift\obj\Release\UDKLift.exe
+D:\UnrealEngine3-SC\Development\Tools\UDKLift\obj\Release\UDKLift.pdb
