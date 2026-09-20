@@ -1,0 +1,110 @@
+Log: Log file open, 08/22/26 17:04:58
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 16:54:28
+Init: Changelist: 1532151
+Init: Command line: Core.HelpCommandlet -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -PreserveShaderWorkerOutputs -ini:UTEngine:DevOptions.Shaders.NumUnusedShaderCompilingThreads=6 -log=UDKCommandletTwoShaderThreads-20260822-170800 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.46] Init: Computer: CHEATS
+[0000.46] Init: User: vande
+[0000.46] Init: CPU Page size=4096, Processors=8
+[0000.46] Init: High frequency timer resolution =10.000000 MHz
+[0000.46] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.49] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.49] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.49] Init: Object subsystem initialized
+[0000.51] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.82] Log: Executing Class Core.HelpCommandlet
+[0001.27] Log: Missing cached shader map for material LandscapeGizmo_Mat, quality 0, compiling.
+[0001.35] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2974 file=..\..\Engine\Shaders\WorkingDirectory\UT\4408\0\WorkerOutputConsumed-0.out
+[0001.53] Log: Preserved shader-worker output: thread=1 batchId=1 bytes=13353 file=..\..\Engine\Shaders\WorkingDirectory\UT\4408\1\WorkerOutputConsumed-1.out
+[0001.53] Critical: appError called: Assertion failed: 0 [File:D:\UnrealEngine3-SC\Development\Src\Engine\Src\ShaderCompiler.cpp] [Line: 1267]
+Unsupported shader platform
+Stack: appFailAssertFunc() Address = 0x4c25146e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishWorkerCompile() Address = 0x4c6557b5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FlushBatchedJobs() Address = 0x4c655fa3 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginWorkerCompile() Address = 0x4c639310 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShaderThroughWorker() Address = 0x4e19eb16 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShader() Address = 0x4e19d95a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginCompilingThreadLoop() Address = 0x4c638908 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompileThreadRunnable::Run() Address = 0x4c66ce3c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FRunnableThreadWin::_ThreadProc() Address = 0x4c2cc284 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0001.53] Critical: Windows GetLastError: The operation completed successfully. (0)
+[0001.53] Critical: Error reentered: Assertion failed: 0 [File:D:\UnrealEngine3-SC\Development\Src\Engine\Src\ShaderCompiler.cpp] [Line: 1267]
+Unsupported shader platform
+Stack: ?appFailAssertFunc@@YAXPEBD0HPEB_WZZ() Address = 0x4c25146e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishWorkerCompile() Address = 0x4c6557b5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FlushBatchedJobs() Address = 0x4c655fa3 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginWorkerCompile() Address = 0x4c639310 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShaderThroughWorker() Address = 0x4e19eb16 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShader() Address = 0x4e19d95a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginCompilingThreadLoop() Address = 0x4c638908 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishCompiling() Address = 0x4c64eeb8 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishDeferredCompilation() Address = 0x4c65242a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterialShaderMap::Compile() Address = 0x4cf71e98 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterial::CompileShaderMap() Address = 0x4c52ab25 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterial::Compile() Address = 0x4c52a5fa (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterialResource::Compile() Address = 0x4c52a7f0 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterial::InitShaderMap() Address = 0x4c546ffa (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FMaterial::InitShaderMap() Address = 0x4c54716e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UMaterial::CacheResourceShaders() Address = 0x4c4cb5ec (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UMaterial::PostLoad() Address = 0x4c4f9332 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UObject::ConditionalPostLoad() Address = 0x4c26611e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UObject::EndLoad() Address = 0x4c2692cc (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UObject::StaticLoadObject() Address = 0x4c28ede4 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UObject::StaticLoadClass() Address = 0x4c28dc97 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FEngineLoop::PreInit() Address = 0x4e1e67bc (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GuardedMain() Address = 0x4e1e1214 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GuardedMainWrapper() Address = 0x4e1e13ba (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WinMain() Address = 0x4e1eecdf (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+__scrt_common_main_seh() 0x4e256f79 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0001.53] Log: === Critical error: ===
+Assertion failed: 0 [File:D:\UnrealEngine3-SC\Development\Src\Engine\Src\ShaderCompiler.cpp] [Line: 1267]
+Unsupported shader platform
+Stack: appFailAssertFunc() Address = 0x4c25146e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishWorkerCompile() Address = 0x4c6557b5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FlushBatchedJobs() Address = 0x4c655fa3 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginWorkerCompile() Address = 0x4c639310 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShaderThroughWorker() Address = 0x4e19eb16 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShader() Address = 0x4e19d95a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginCompilingThreadLoop() Address = 0x4c638908 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompileThreadRunnable::Run() Address = 0x4c66ce3c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FRunnableThreadWin::_ThreadProc() Address = 0x4c2cc284 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+
+
+[0001.53] Log: Assertion failed: 0 [File:D:\UnrealEngine3-SC\Development\Src\Engine\Src\ShaderCompiler.cpp] [Line: 1267]
+Unsupported shader platform
+Stack: appFailAssertFunc() Address = 0x4c25146e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FinishWorkerCompile() Address = 0x4c6557b5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::FlushBatchedJobs() Address = 0x4c655fa3 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginWorkerCompile() Address = 0x4c639310 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShaderThroughWorker() Address = 0x4e19eb16 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+D3D9BeginCompileShader() Address = 0x4e19d95a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompilingThreadManager::BeginCompilingThreadLoop() Address = 0x4c638908 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FShaderCompileThreadRunnable::Run() Address = 0x4c66ce3c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FRunnableThreadWin::_ThreadProc() Address = 0x4c2cc284 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+
+
+[0001.53] Exit: Executing UObject::StaticShutdownAfterError
+[0001.53] Exit: Executing UWindowsClient::ShutdownAfterError
+[0001.53] Log: appRequestExit(1)

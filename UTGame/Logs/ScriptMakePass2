@@ -1,0 +1,160 @@
+Log: Log file open, 08/22/26 10:39:42
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 10:25:27
+Init: Changelist: 1532151
+Init: Command line: make -full -unattended -nopause -forcelogflush -nullrhi -warningsaserrors -log=ScriptMakePass2 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.40] Init: Computer: CHEATS
+[0000.41] Init: User: vande
+[0000.41] Init: CPU Page size=4096, Processors=8
+[0000.41] Init: High frequency timer resolution =10.000000 MHz
+[0000.41] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.44] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.44] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.45] Init: Object subsystem initialized
+[0000.46] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.62] Log: Executing Class UnrealEd.MakeCommandlet
+[0000.63] Heading: --------------------Core - Release--------------------
+[0000.63] Log: Analyzing...
+[0000.63] Log: Loading global macros for Core
+[0000.68] Log: Exporting native class declarations for Core
+[0000.68] Log: Autogenerating C++ header: 
+[0000.68] Log: Autogenerating C++ header: CoreNames.h
+[0000.68] Log: Success: Compiled 3350 line(s), 499 statement(s).
+
+[0000.68] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\Core.u'
+[0000.72] Log: Save=43.710100
+[0000.72] Log: Moving '..\..\UTGame\Script\Core_save.tmp' to '..\..\UTGame\Script\Core.u'
+[0000.72] Heading: --------------------Engine - Release--------------------
+[0000.74] Log: Analyzing...
+[0000.74] Log: Loading global macros for Engine
+[0000.98] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 11
+[0002.81] Log: Exporting native class declarations for Engine
+[0002.81] Log: Autogenerating C++ header: 
+[0003.01] Log: Autogenerating C++ header: Mesh
+[0003.02] Log: Autogenerating C++ header: ForceField
+[0003.02] Log: Autogenerating C++ header: ProcBuilding
+[0003.03] Log: Autogenerating C++ header: Camera
+[0003.03] Log: Autogenerating C++ header: Controller
+[0003.03] Log: Autogenerating C++ header: Particle
+[0003.07] Log: Autogenerating C++ header: Fluid
+[0003.08] Log: Autogenerating C++ header: FogVolume
+[0003.08] Log: Autogenerating C++ header: ReplicationInfo
+[0003.08] Log: Autogenerating C++ header: GameEngine
+[0003.08] Log: Autogenerating C++ header: Foliage
+[0003.09] Log: Autogenerating C++ header: Sound
+[0003.09] Log: Autogenerating C++ header: LensFlare
+[0003.09] Log: Autogenerating C++ header: Light
+[0003.10] Log: Autogenerating C++ header: Pawn
+[0003.10] Log: Autogenerating C++ header: Prefab
+[0003.10] Log: Autogenerating C++ header: Anim
+[0003.12] Log: Autogenerating C++ header: SpeedTree
+[0003.12] Log: Autogenerating C++ header: Spline
+[0003.12] Log: Autogenerating C++ header: AudioDevice
+[0003.13] Log: Autogenerating C++ header: PlatformInterface
+[0003.13] Log: Autogenerating C++ header: Base
+[0003.13] Log: Autogenerating C++ header: Interpolation
+[0003.14] Log: Autogenerating C++ header: Material
+[0003.17] Log: Autogenerating C++ header: Scene
+[0003.17] Log: Autogenerating C++ header: Sequence
+[0003.21] Log: Autogenerating C++ header: SkeletalMesh
+[0003.22] Log: Autogenerating C++ header: Texture
+[0003.22] Log: Autogenerating C++ header: UserInterface
+[0003.22] Log: Autogenerating C++ header: AI
+[0003.24] Log: Autogenerating C++ header: Decal
+[0003.24] Log: Autogenerating C++ header: Physics
+[0003.25] Log: Autogenerating C++ header: Terrain
+[0003.26] Log: Autogenerating C++ header: UIPrivate
+[0003.27] Log: Autogenerating C++ header: EngineNames.h
+[0003.50] Log: Success: Compiled 174157 line(s), 19464 statement(s).
+
+[0003.50] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\Engine.u'
+[0004.08] Log: Save=580.882600
+[0004.08] Log: Moving '..\..\UTGame\Script\Engine_save.tmp' to '..\..\UTGame\Script\Engine.u'
+[0004.08] Heading: --------------------IpDrv - Release--------------------
+[0004.08] Log: Analyzing...
+[0004.08] Log: Loading global macros for IpDrv
+[0004.31] Log: Exporting native class declarations for IpDrv
+[0004.31] Log: Autogenerating C++ header: 
+[0004.32] Log: Autogenerating C++ header: UIPrivate
+[0004.32] Log: Autogenerating C++ header: IpDrvNames.h
+[0004.32] Log: Success: Compiled 22426 line(s), 1995 statement(s).
+
+[0004.32] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\IpDrv.u'
+[0004.38] Log: Save=62.981900
+[0004.38] Log: Moving '..\..\UTGame\Script\IpDrv_save.tmp' to '..\..\UTGame\Script\IpDrv.u'
+[0004.38] Heading: --------------------GameFramework - Release--------------------
+[0004.39] Log: Analyzing...
+[0004.39] Log: Loading global macros for GameFramework
+[0004.71] Log: Exporting native class declarations for GameFramework
+[0004.71] Log: Autogenerating C++ header: 
+[0004.73] Log: Autogenerating C++ header: Camera
+[0004.73] Log: Autogenerating C++ header: Anim
+[0004.73] Log: Autogenerating C++ header: SpecialMoves
+[0004.73] Log: Autogenerating C++ header: GameStats
+[0004.73] Log: Autogenerating C++ header: GameFrameworkNames.h
+[0004.84] Log: Success: Compiled 23901 line(s), 2529 statement(s).
+
+[0004.84] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\GameFramework.u'
+[0004.93] Log: Save=85.013500
+[0004.93] Log: Moving '..\..\UTGame\Script\GameFramework_save.tmp' to '..\..\UTGame\Script\GameFramework.u'
+[0004.93] Heading: --------------------UnrealEd - Release--------------------
+[0004.93] Log: Analyzing...
+[0004.93] Log: Loading global macros for UnrealEd
+[0005.39] Log: Exporting native class declarations for UnrealEd
+[0005.39] Log: Autogenerating C++ header: 
+[0005.45] Log: Autogenerating C++ header: Cascade
+[0005.45] Log: Autogenerating C++ header: Private
+[0005.45] Log: Autogenerating C++ header: GameStats
+[0005.45] Log: Autogenerating C++ header: UnrealEdNames.h
+[0005.78] Log: Success: Compiled 10589 line(s), 1113 statement(s).
+
+[0005.78] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\UnrealEd.u'
+[0005.82] Log: Save=41.455500
+[0005.82] Log: Moving '..\..\UTGame\Script\UnrealEd_save.tmp' to '..\..\UTGame\Script\UnrealEd.u'
+[0005.82] Heading: --------------------WinDrv - Release--------------------
+[0005.82] Log: Analyzing...
+[0005.82] Log: Loading global macros for WinDrv
+[0005.84] Log: Exporting native class declarations for WinDrv
+[0005.84] Log: Autogenerating C++ header: 
+[0005.84] Log: Autogenerating C++ header: WinDrvNames.h
+[0005.84] Log: Success: Compiled 407 line(s), 66 statement(s).
+
+[0005.84] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\WinDrv.u'
+[0005.86] Log: Save=16.897800
+[0005.86] Log: Moving '..\..\UTGame\Script\WinDrv_save.tmp' to '..\..\UTGame\Script\WinDrv.u'
+[0005.86] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0005.86] Log: Analyzing...
+[0005.86] Log: Loading global macros for OnlineSubsystemPC
+[0005.88] Log: Exporting native class declarations for OnlineSubsystemPC
+[0005.88] Log: Autogenerating C++ header: 
+[0005.89] Log: Autogenerating C++ header: OnlineSubsystemPCNames.h
+[0005.89] Log: Success: Compiled 2013 line(s), 228 statement(s).
+
+[0005.89] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\OnlineSubsystemPC.u'
+[0005.91] Log: Save=20.611700
+[0005.91] Log: Moving '..\..\UTGame\Script\OnlineSubsystemPC_save.tmp' to '..\..\UTGame\Script\OnlineSubsystemPC.u'
+[0005.91] Heading: --------------------UTGame - Release--------------------
+[0005.91] Log: Analyzing...
+[0005.91] Log: Loading global macros for UTGame
+[0006.07] Log: Exporting native class declarations for UTGame
+[0006.08] Log: Autogenerating C++ header: 
+[0006.08] Log: Autogenerating C++ header: UTGameNames.h
+[0006.12] Log: Success: Compiled 12226 line(s), 1208 statement(s).
+
+[0006.12] Log: Scripts successfully compiled - saving package 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\UTGame\Script\UTGame.u'
+[0006.18] Log: Save=54.972900
+[0006.18] Log: Moving '..\..\UTGame\Script\UTGame_save.tmp' to '..\..\UTGame\Script\UTGame.u'
+[0006.24] Log: 
+[0006.24] Log: Success - 0 error(s), 0 warning(s)
+[0006.24] Log: 
+Execution of commandlet took:  5.61 seconds
+[0006.24] Exit: Preparing to exit.
+[0006.28] Exit: Object subsystem successfully closed.
+[0006.28] Exit: Exiting.
+[0006.28] Log: Log file closed, 08/22/26 10:39:48

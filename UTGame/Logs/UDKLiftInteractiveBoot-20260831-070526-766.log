@@ -1,0 +1,44 @@
+Log: Log file open, 08/31/26 07:05:27
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=UDKLiftInteractiveBoot-20260831-070526-766.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.44] Init: Computer: CHEATS
+[0000.44] Init: User: vande
+[0000.44] Init: CPU Page size=4096, Processors=8
+[0000.44] Init: High frequency timer resolution =10.000000 MHz
+[0000.44] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=19.8GB Virtual=131072.0GB
+[0000.47] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.47] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.49] Log: SystemSettings based on: SystemSettings
+[0000.66] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.93] Log: 52516 objects as part of root set at end of initial load.
+[0001.93] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.97] Log: Supported Consoles:
+[0001.97] Log:   PC
+[0001.97] Log: Initializing Engine...
+[0002.14] Log: Encountered missing default brush - spawning new one
+[0002.56] Log: Initializing Engine Completed
+[0002.56] Log: >>>>>>>>>>>>>> Initial startup: 2.56s <<<<<<<<<<<<<<<
+[0002.66] Cmd: MODE MAPEXT=udk
+[0002.66] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.66] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0005.69] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.04] Log: Encountered missing default brush - spawning new one
+[0006.79] Log: -- Checking Building LODs
+[0006.80] Log: Finished looking for orphan Actors (0.003 secs)
+[0006.83] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0006.84] Log: TIMER ALL OF INIT : [5.847799]
+[0022.63] Exit: Preparing to exit.
+[0022.79] Exit: Editor shut down
+[0022.79] Exit: Transaction tracking system shut down
+[0022.94] Exit: Windows client shut down
+[0022.95] Exit: XAudio2 Device shut down.
+[0022.98] Exit: Object subsystem successfully closed.
+[0023.01] Exit: Exiting.
+[0023.01] Log: Log file closed, 08/31/26 07:05:50

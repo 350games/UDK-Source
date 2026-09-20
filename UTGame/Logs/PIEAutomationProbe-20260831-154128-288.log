@@ -1,0 +1,50 @@
+Log: Log file open, 08/31/26 15:41:28
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -usefastpie -log=PIEAutomationProbe-20260831-154128-288.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.48] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.52] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.52] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.52] Init: Object subsystem initialized
+[0000.54] Log: SystemSettings based on: SystemSettings
+[0000.73] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.38] Log: 52516 objects as part of root set at end of initial load.
+[0002.38] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.43] Log: Supported Consoles:
+[0002.43] Log:   PC
+[0002.43] Log: Initializing Engine...
+[0002.69] Log: Encountered missing default brush - spawning new one
+[0003.25] Log: Initializing Engine Completed
+[0003.25] Log: >>>>>>>>>>>>>> Initial startup: 3.25s <<<<<<<<<<<<<<<
+[0003.37] Cmd: MODE MAPEXT=udk
+[0003.37] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0003.37] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0006.87] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0007.29] Log: Encountered missing default brush - spawning new one
+[0008.06] Log: -- Checking Building LODs
+[0008.07] Log: Finished looking for orphan Actors (0.003 secs)
+[0008.11] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0008.12] Log: TIMER ALL OF INIT : [6.999324]
+[0008.70] Log: PIE: Copying PIE world level from template_midday.TheWorld to UEDPIEtemplate_midday.TheWorld
+[0008.70] Log: Game class is 'UTDeathmatch'
+[0008.70] Log: Bringing World UEDPIEtemplate_midday.TheWorld up for play (0) at 2026.08.31-15.41.37
+[0008.70] Log: Bringing up level for play took: 0.004278
+[0008.75] Log: PIE: play in editor start time for UEDPIEtemplate_midday 0.106
+[0009.21] Cmd: UpdateLandscapeSetup
+[0009.77] Exit: Preparing to exit.
+[0009.94] Exit: Editor shut down
+[0009.94] Exit: Transaction tracking system shut down
+[0010.09] Exit: Windows client shut down
+[0010.10] Exit: XAudio2 Device shut down.
+[0010.14] Exit: Object subsystem successfully closed.
+[0010.17] Exit: Exiting.
+[0010.17] Log: Log file closed, 08/31/26 15:41:38

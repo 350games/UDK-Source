@@ -1,0 +1,10 @@
+D:\UnrealEngine3-SC\Restore-LocalUTGameContent.ps1 : The term 'Get-FileHash' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At D:\UnrealEngine3-SC\Build-LocalUTGame.ps1:728 char:5
++     & $contentRestoreScript
++     ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-FileHash:String) [Restore-LocalUTGameContent.ps1], CommandNotFoundE 
+   xception
+    + FullyQualifiedErrorId : CommandNotFoundException,Restore-LocalUTGameContent.ps1
+ 

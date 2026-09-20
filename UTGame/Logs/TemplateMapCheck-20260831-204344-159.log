@@ -1,0 +1,32 @@
+Log: Log file open, 08/31/26 20:43:44
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: PerformMapCheck ..\..\Engine\Content\Maps\Templates\*.umap -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -log=TemplateMapCheck-20260831-204344-159.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.46] Init: Computer: CHEATS
+[0000.47] Init: User: vande
+[0000.47] Init: CPU Page size=4096, Processors=8
+[0000.47] Init: High frequency timer resolution =10.000000 MHz
+[0000.47] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.50] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.50] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.50] Init: Object subsystem initialized
+[0000.52] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.99] Log: Executing Class UnrealEd.PerformMapCheckCommandlet
+[0001.74] Log: Initializing Editor Engine...
+[0002.49] Log: Encountered missing default brush - spawning new one
+[0002.49] Log: Initializing Editor Engine Completed
+[0002.54] Log: Found 0 maps
+[0002.54] Log: 
+[0002.54] Log: Success - 0 error(s), 0 warning(s)
+[0002.54] Log: 
+Execution of commandlet took:  0.01 seconds
+[0002.54] Exit: Preparing to exit.
+[0002.61] Exit: Editor shut down
+[0002.64] Exit: Object subsystem successfully closed.
+[0002.64] Exit: Exiting.
+[0002.65] Log: Log file closed, 08/31/26 20:43:46

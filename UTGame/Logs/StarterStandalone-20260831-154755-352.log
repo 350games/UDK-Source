@@ -1,0 +1,40 @@
+Log: Log file open, 08/31/26 15:47:55
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:45:11
+Init: Changelist: 1532151
+Init: Command line: ExampleEntry.udk -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=StarterStandalone-20260831-154755-352.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.41] Init: Computer: CHEATS
+[0000.41] Init: User: vande
+[0000.41] Init: CPU Page size=4096, Processors=8
+[0000.41] Init: High frequency timer resolution =10.000000 MHz
+[0000.41] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.41] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.41] Init: Object subsystem initialized
+[0000.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.58] Log: 45824 objects as part of root set at end of initial load.
+[0001.58] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.58] Log: Initializing Engine...
+[0002.55] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.55] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.56] Log: LoadMap: ExampleEntry.udk?Name=Player?Team=255
+[0002.59] Log: 
+[0002.61] Log: Game class is 'UDKStarterGameInfo'
+[0002.62] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2026.08.31-15.47.58
+[0002.63] Log: Bringing up level for play took: 0.010716
+[0002.63] Log: ########### Finished loading level: 0.070396 seconds
+[0002.66] Log: Initializing Engine Completed
+[0002.66] Log: >>>>>>>>>>>>>> Initial startup: 2.66s <<<<<<<<<<<<<<<
+[0002.68] Error: Can't start an online game that hasn't been created
+[0005.91] Log: All Windows Closed
+[0005.91] Log: appRequestExit(0)
+[0005.91] Exit: Preparing to exit.
+[0005.97] Exit: Game engine shut down
+[0005.98] Exit: Windows client shut down
+[0005.98] Exit: XAudio2 Device shut down.
+[0006.01] Exit: Object subsystem successfully closed.
+[0006.03] Exit: Exiting.
+[0006.03] Log: Log file closed, 08/31/26 15:48:01

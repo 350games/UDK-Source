@@ -1,0 +1,66 @@
+Log: Log file open, 09/01/26 06:37:01
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: PkgInfo MapTemplateIndex -exports -simple -forcelogflush -log=MapTemplateIndexProbe.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.53] Init: Computer: CHEATS
+[0000.53] Init: User: vande
+[0000.53] Init: CPU Page size=4096, Processors=8
+[0000.53] Init: High frequency timer resolution =10.000000 MHz
+[0000.53] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.0GB Virtual=131072.0GB
+[0000.57] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.57] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.57] Init: Object subsystem initialized
+[0000.74] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.20] Log: Executing Class UnrealEd.PkgInfoCommandlet
+[0001.83] Log: Initializing Editor Engine...
+[0002.46] Log: Encountered missing default brush - spawning new one
+[0002.47] Log: Initializing Editor Engine Completed
+Log: ********************************************
+Log: Package 'maptemplateindex' Summary
+Log: --------------------------------------------
+Log: 	         Filename: ..\..\Engine\Content\MapTemplateIndex.upk
+Log: 	     File Version: 852
+Log: 	   Engine Version: 9205
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20000001
+Log: 	        NameCount: 40
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 6
+Log: 	     ImportOffset: 1080
+Log: 	      ExportCount: 9
+Log: 	     ExportOffset: 1248
+Log: 	Compression Flags: 0
+Log: 	             Guid: BC89A7C74B91D7EAF3C15F8A33E55C7C
+Log: 	      Generations:
+Log: 			0) ExportCount=9, NameCount=40, NetObjectCount=9
+Log: --------------------------------------------
+Log: 	Packages referenced by maptemplateindex:
+Log: 		0) Core
+Log: 		1) Engine
+Log: 		2) UnrealEd
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0         12                          Package Thumbnails
+Log:          1         40              TemplateMapMetadata template_afternoon
+Log:          2         40              TemplateMapMetadata template_midday
+Log:          3         40              TemplateMapMetadata template_morning
+Log:          4         40              TemplateMapMetadata template_night
+Log:          5      55802                        Texture2D Afternoon
+Log:          6      68161                        Texture2D Midday
+Log:          7      61548                        Texture2D Morning
+Log:          8      61419                        Texture2D Night
+[0002.55] Log: 
+[0002.56] Log: Success - 0 error(s), 0 warning(s)
+[0002.56] Log: 
+Execution of commandlet took:  0.05 seconds
+[0002.56] Exit: Preparing to exit.
+[0002.62] Exit: Editor shut down
+[0002.64] Exit: Object subsystem successfully closed.
+[0002.65] Exit: Exiting.
+[0002.65] Log: Log file closed, 09/01/26 06:37:03

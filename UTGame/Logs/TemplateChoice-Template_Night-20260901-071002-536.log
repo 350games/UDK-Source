@@ -1,0 +1,51 @@
+Log: Log file open, 09/01/26 07:10:03
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=TemplateChoice-Template_Night-20260901-071002-536.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.49] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.1GB Virtual=131072.0GB
+[0000.52] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.52] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.52] Init: Object subsystem initialized
+[0000.53] Log: SystemSettings based on: SystemSettings
+[0000.70] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.82] Log: 52516 objects as part of root set at end of initial load.
+[0001.82] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.85] Log: Supported Consoles:
+[0001.85] Log:   PC
+[0001.85] Log: Initializing Engine...
+[0002.01] Log: Encountered missing default brush - spawning new one
+[0002.38] Log: Initializing Engine Completed
+[0002.38] Log: >>>>>>>>>>>>>> Initial startup: 2.38s <<<<<<<<<<<<<<<
+[0002.46] Cmd: MODE MAPEXT=udk
+[0002.46] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.46] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0005.78] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.10] Log: Encountered missing default brush - spawning new one
+[0006.79] Log: -- Checking Building LODs
+[0006.79] Log: Finished looking for orphan Actors (0.001 secs)
+[0006.84] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0006.84] Warning: Skipping saving the shader cache as another instance of the game is running.
+[0006.85] Log: TIMER ALL OF INIT : [5.840388]
+[0007.21] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\template_night.umap" TEMPLATE=1
+[0007.26] Log: Encountered missing default brush - spawning new one
+[0007.37] Log: New File, Existing Package (Package Untitled_3, Package template_night)
+[0007.48] Log: -- Checking Building LODs
+[0007.49] Log: Finished looking for orphan Actors (0.001 secs)
+[0007.51] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0008.30] Exit: Preparing to exit.
+[0008.40] Exit: Editor shut down
+[0008.40] Exit: Transaction tracking system shut down
+[0008.54] Exit: Windows client shut down
+[0008.54] Exit: XAudio2 Device shut down.
+[0008.58] Exit: Object subsystem successfully closed.
+[0008.60] Exit: Exiting.
+[0008.61] Log: Log file closed, 09/01/26 07:10:11

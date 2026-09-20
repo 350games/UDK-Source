@@ -1,0 +1,87 @@
+Log: Log file open, 09/01/26 15:58:52
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor  -nopause -forcelogflush -nosplash -windowed -ResX=1100 -ResY=760 -log=BlankViewModeProbe-20260901-155851-910.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.41] Init: Computer: CHEATS
+[0000.41] Init: User: vande
+[0000.41] Init: CPU Page size=4096, Processors=8
+[0000.41] Init: High frequency timer resolution =10.000000 MHz
+[0000.41] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=17.3GB Virtual=131072.0GB
+[0000.45] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.45] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.45] Init: Object subsystem initialized
+[0000.47] Log: SystemSettings based on: SystemSettings
+[0000.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.62] Log: 52516 objects as part of root set at end of initial load.
+[0002.62] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.68] Log: Supported Consoles:
+[0002.68] Log:   PC
+[0002.68] Log: Initializing Engine...
+[0002.90] Log: Encountered missing default brush - spawning new one
+[0003.49] Log: Initializing Engine Completed
+[0003.49] Log: >>>>>>>>>>>>>> Initial startup: 3.49s <<<<<<<<<<<<<<<
+[0003.62] Cmd: MODE MAPEXT=udk
+[0003.62] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0003.62] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0007.29] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0007.70] Log: Encountered missing default brush - spawning new one
+[0008.66] Log: -- Checking Building LODs
+[0008.67] Log: Finished looking for orphan Actors (0.002 secs)
+[0008.74] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0008.74] Log: TIMER ALL OF INIT : [7.665464]
+[0008.87] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0009.25] Log: Encountered missing default brush - spawning new one
+[0009.34] Log: Encountered missing default brush - spawning new one
+[0009.87] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0010.87] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0011.87] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0012.88] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0013.88] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0014.88] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0015.89] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0016.89] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0017.89] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0018.89] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0019.79] Cmd: SHOW POSTPROCESS
+[0019.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0020.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0021.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0022.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0023.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0024.17] Cmd: SHOW POSTPROCESS
+[0024.90] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0025.91] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0026.30] Cmd: SHOW AMBIENTOCCLUSION
+[0026.91] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0027.91] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0028.91] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0029.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0030.85] Cmd: VIS 4 SAT UV1
+[0030.85] Log: VisualizeTexture 4
+[0030.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0031.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0032.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0033.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0034.92] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0035.28] Cmd: VIS 30 SAT UV1
+[0035.28] Log: VisualizeTexture 30
+[0035.93] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0036.93] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0037.93] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0038.93] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0039.58] Cmd: VIS 0
+[0039.59] Log: VisualizeTexture 0
+[0039.93] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0041.31] Exit: Preparing to exit.
+[0041.44] Exit: Editor shut down
+[0041.44] Exit: Transaction tracking system shut down
+[0041.59] Exit: Windows client shut down
+[0041.59] Exit: XAudio2 Device shut down.
+[0041.64] Exit: Object subsystem successfully closed.
+[0041.67] Exit: Exiting.
+[0041.67] Log: Log file closed, 09/01/26 15:59:33

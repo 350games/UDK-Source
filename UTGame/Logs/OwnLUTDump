@@ -1,0 +1,34 @@
+Log: Log file open, 09/01/26 20:52:16
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: DumpShaders platform=pc_sm3 globalshader=LUTBlender -unattended -nopause -nosplash -log=OwnLUTDump .log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.52] Init: Computer: CHEATS
+[0000.52] Init: User: vande
+[0000.52] Init: CPU Page size=4096, Processors=8
+[0000.52] Init: High frequency timer resolution =10.000000 MHz
+[0000.52] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.7GB Virtual=131072.0GB
+[0000.56] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.56] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.56] Init: Object subsystem initialized
+[0000.79] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.32] Log: Executing Class UnrealEd.DumpShadersCommandlet
+[0002.24] Log: Initializing Editor Engine...
+[0003.14] Log: Encountered missing default brush - spawning new one
+[0003.14] Log: Initializing Editor Engine Completed
+[0003.20] Log: Compiling shaders for PC-D3D-SM3
+[0003.41] Log: Preprocessed all global shaders matching: LUTBlender.
+Done.
+[0003.41] Log: 
+[0003.41] Log: Success - 0 error(s), 0 warning(s)
+[0003.41] Log: 
+Execution of commandlet took:  0.20 seconds
+[0003.41] Exit: Preparing to exit.
+[0003.50] Exit: Editor shut down
+[0003.53] Exit: Object subsystem successfully closed.
+[0003.54] Exit: Exiting.
+[0003.54] Log: Log file closed, 09/01/26 20:52:19

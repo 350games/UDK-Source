@@ -1,0 +1,25 @@
+Log: Log file open, 08/22/26 10:57:41
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 10:40:27
+Init: Changelist: 1532151
+Init: Command line: Core.HelpCommandlet -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -log=UTGameCommandletSmoke1 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.46] Init: Computer: CHEATS
+[0000.46] Init: User: vande
+[0000.46] Init: CPU Page size=4096, Processors=8
+[0000.46] Init: High frequency timer resolution =10.000000 MHz
+[0000.46] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.47] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.47] Init: Object subsystem initialized
+[0000.48] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.62] Log: Executing Class Core.HelpCommandlet
+[0000.88] Log: Missing cached shader map for material FogVolumeMaterial, quality 0, compiling.
+[0001.20] Log: Missing cached shader map for material M_StreamingPause, quality 0, compiling.
+[0001.40] Log: Missing cached shader map for material NodeBuddy_Target, quality 0, compiling.
+[0002.29] Log: Missing cached shader map for material NodeBuddy_Red1, quality 0, compiling.
+[0003.17] Log: Missing cached shader map for material NodeBuddy_Text1, quality 0, compiling.
+[0004.03] Log: Missing cached shader map for material NodeBuddy_Text2, quality 0, compiling.
+[0004.36] Log: Missing cached shader map for material NodeBuddy_White1, quality 0, compiling.
+[0005.24] Log: Missing cached shader map for material DefaultMaterial, quality 0, compiling.

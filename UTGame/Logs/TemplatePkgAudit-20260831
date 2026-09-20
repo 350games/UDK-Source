@@ -1,0 +1,119 @@
+Log: Log file open, 08/31/26 20:46:53
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: PkgInfo .\Engine\Content\Maps\Templates\Template_*.umap .\Engine\Content\MapTemplateIndex.upk -imports -exports -simple -HideOffsets -unattended -nopause -forcelogflush -log=TemplatePkgAudit-20260831 .log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.48] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.51] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.51] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.51] Init: Object subsystem initialized
+[0000.69] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.11] Log: Executing Class UnrealEd.PkgInfoCommandlet
+[0001.77] Log: Initializing Editor Engine...
+[0002.36] Log: Encountered missing default brush - spawning new one
+[0002.36] Log: Initializing Editor Engine Completed
+Log: No packages found using '.\Engine\Content\Maps\Templates\Template_*.umap'!
+Log: No packages found using '.log'!
+Log: ********************************************
+Log: Package 'maptemplateindex' Summary
+Log: --------------------------------------------
+Log: 	         Filename: ..\..\Engine\Content\MapTemplateIndex.upk
+Log: 	     File Version: 852
+Log: 	   Engine Version: 9205
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20000001
+Log: 	        NameCount: 40
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 6
+Log: 	     ImportOffset: 1080
+Log: 	      ExportCount: 9
+Log: 	     ExportOffset: 1248
+Log: 	Compression Flags: 0
+Log: 	             Guid: BC89A7C74B91D7EAF3C15F8A33E55C7C
+Log: 	      Generations:
+Log: 			0) ExportCount=9, NameCount=40, NetObjectCount=9
+Log: --------------------------------------------
+Log: Import Map
+Log: ==========
+Log: 	*************************
+Log: 	Import 0: 'Package'
+Log: 		       Outer: 'Core' (-4)
+Log: 		     Package: 'Core'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 1: 'Texture2D'
+Log: 		       Outer: 'Engine' (-5)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 2: 'TemplateMapMetadata'
+Log: 		       Outer: 'UnrealEd' (-6)
+Log: 		     Package: 'UnrealEd'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 3: 'Core'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 4: 'Engine'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 5: 'UnrealEd'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: --------------------------------------------
+Log: 	Packages referenced by maptemplateindex:
+Log: 		0) Core
+Log: 		1) Engine
+Log: 		2) UnrealEd
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0         12                          Package Thumbnails
+Log:          1         40              TemplateMapMetadata template_afternoon
+Log:          2         40              TemplateMapMetadata template_midday
+Log:          3         40              TemplateMapMetadata template_morning
+Log:          4         40              TemplateMapMetadata template_night
+Log:          5      55802                        Texture2D Afternoon
+Log:          6      68161                        Texture2D Midday
+Log:          7      61548                        Texture2D Morning
+Log:          8      61419                        Texture2D Night
+[0002.47] Log: 
+[0002.47] Log: Success - 0 error(s), 0 warning(s)
+[0002.47] Log: 
+Execution of commandlet took:  0.07 seconds
+[0002.47] Exit: Preparing to exit.
+[0002.54] Exit: Editor shut down
+[0002.57] Exit: Object subsystem successfully closed.
+[0002.57] Exit: Exiting.
+[0002.58] Log: Log file closed, 08/31/26 20:46:55

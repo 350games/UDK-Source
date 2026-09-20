@@ -1,0 +1,236 @@
+Log: Log file open, 08/22/26 17:06:14
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 16:54:28
+Init: Changelist: 1532151
+Init: Command line: Core.HelpCommandlet -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -PreserveShaderWorkerOutputs -log=UDKCommandletParallelFixed-20260822-170650 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.47] Init: Computer: CHEATS
+[0000.47] Init: User: vande
+[0000.47] Init: CPU Page size=4096, Processors=8
+[0000.47] Init: High frequency timer resolution =10.000000 MHz
+[0000.47] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.50] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.50] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.50] Init: Object subsystem initialized
+[0000.51] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.83] Log: Executing Class Core.HelpCommandlet
+[0001.27] Log: Missing cached shader map for material LandscapeGizmo_Mat, quality 0, compiling.
+[0001.43] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2974 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0001.51] Log: Preserved shader-worker output: thread=4 batchId=4 bytes=9730 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-4.out
+[0001.51] Log: Preserved shader-worker output: thread=1 batchId=3 bytes=13353 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-3.out
+[0001.51] Log: Preserved shader-worker output: thread=3 batchId=1 bytes=12842 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-1.out
+[0001.51] Log: Preserved shader-worker output: thread=2 batchId=2 bytes=14230 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-2.out
+[0001.51] Log: Missing cached shader map for material LandscapeGizmoHeight_Mat, quality 0, compiling.
+[0001.58] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=4494 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0001.69] Log: Preserved shader-worker output: thread=1 batchId=4 bytes=10883 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-4.out
+[0001.69] Log: Preserved shader-worker output: thread=3 batchId=1 bytes=14426 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-1.out
+[0001.69] Log: Preserved shader-worker output: thread=4 batchId=3 bytes=13915 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-3.out
+[0001.69] Log: Preserved shader-worker output: thread=6 batchId=2 bytes=15299 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-2.out
+[0001.69] Log: Missing cached shader map for material LandscapeGizmoHeight_UnderMat, quality 0, compiling.
+[0001.77] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=6802 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0001.92] Log: Preserved shader-worker output: thread=3 batchId=4 bytes=10883 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-4.out
+[0001.92] Log: Preserved shader-worker output: thread=2 batchId=3 bytes=13915 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-3.out
+[0001.92] Log: Preserved shader-worker output: thread=4 batchId=1 bytes=14426 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-1.out
+[0001.92] Log: Preserved shader-worker output: thread=5 batchId=2 bytes=15299 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-2.out
+[0001.92] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2975 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0002.02] Log: Preserved shader-worker output: thread=6 batchId=4 bytes=9730 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-4.out
+[0002.02] Log: Preserved shader-worker output: thread=3 batchId=2 bytes=12842 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-2.out
+[0002.02] Log: Preserved shader-worker output: thread=1 batchId=1 bytes=13353 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-1.out
+[0002.02] Log: Preserved shader-worker output: thread=2 batchId=3 bytes=14230 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-3.out
+[0002.02] Log: Initializing Editor Engine...
+[0002.05] Log: Missing cached shader map for material Tick_Mat, quality 0, compiling.
+[0002.12] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2672 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0002.19] Log: Preserved shader-worker output: thread=1 batchId=5 bytes=1056 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-5.out
+[0002.19] Log: Preserved shader-worker output: thread=5 batchId=1 bytes=4019 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-1.out
+[0002.19] Log: Preserved shader-worker output: thread=2 batchId=4 bytes=1924 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-4.out
+[0002.19] Log: Preserved shader-worker output: thread=6 batchId=3 bytes=2469 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-3.out
+[0002.19] Log: Preserved shader-worker output: thread=3 batchId=6 bytes=3405 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-6.out
+[0002.19] Log: Preserved shader-worker output: thread=0 batchId=7 bytes=3473 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-7.out
+[0002.27] Log: Preserved shader-worker output: thread=1 batchId=8 bytes=2620 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-8.out
+[0002.27] Log: Preserved shader-worker output: thread=5 batchId=9 bytes=1392 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-9.out
+[0002.27] Log: Preserved shader-worker output: thread=2 batchId=10 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-10.out
+[0002.27] Log: Preserved shader-worker output: thread=6 batchId=11 bytes=3021 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-11.out
+[0002.27] Log: Preserved shader-worker output: thread=3 batchId=12 bytes=1021 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-12.out
+[0002.27] Log: Preserved shader-worker output: thread=1 batchId=14 bytes=2021 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-14.out
+[0002.27] Log: Preserved shader-worker output: thread=0 batchId=13 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-13.out
+[0002.39] Log: Preserved shader-worker output: thread=5 batchId=15 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-15.out
+[0002.39] Log: Preserved shader-worker output: thread=2 batchId=16 bytes=2986 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-16.out
+[0002.39] Log: Preserved shader-worker output: thread=6 batchId=17 bytes=2466 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-17.out
+[0002.39] Log: Preserved shader-worker output: thread=3 batchId=18 bytes=5102 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-18.out
+[0002.39] Log: Preserved shader-worker output: thread=1 batchId=19 bytes=2469 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-19.out
+[0002.39] Log: Preserved shader-worker output: thread=4 batchId=2 bytes=10745 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-2.out
+[0002.39] Log: Missing cached shader map for material Cross_Mat, quality 0, compiling.
+[0002.45] Log: Preserved shader-worker output: thread=1 batchId=5 bytes=1056 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-5.out
+[0002.45] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2672 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0002.54] Log: Preserved shader-worker output: thread=5 batchId=4 bytes=1924 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-4.out
+[0002.54] Log: Preserved shader-worker output: thread=3 batchId=1 bytes=4019 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-1.out
+[0002.54] Log: Preserved shader-worker output: thread=6 batchId=6 bytes=3405 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-6.out
+[0002.54] Log: Preserved shader-worker output: thread=4 batchId=3 bytes=2469 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-3.out
+[0002.54] Log: Preserved shader-worker output: thread=5 batchId=9 bytes=1392 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-9.out
+[0002.54] Log: Preserved shader-worker output: thread=0 batchId=8 bytes=2620 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-8.out
+[0002.60] Log: Preserved shader-worker output: thread=1 batchId=7 bytes=3473 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-7.out
+[0002.60] Log: Preserved shader-worker output: thread=3 batchId=10 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-10.out
+[0002.60] Log: Preserved shader-worker output: thread=6 batchId=11 bytes=3021 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-11.out
+[0002.60] Log: Preserved shader-worker output: thread=4 batchId=12 bytes=1021 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-12.out
+[0002.60] Log: Preserved shader-worker output: thread=5 batchId=13 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-13.out
+[0002.60] Log: Preserved shader-worker output: thread=0 batchId=14 bytes=2013 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-14.out
+[0002.81] Log: Preserved shader-worker output: thread=3 batchId=16 bytes=2986 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-16.out
+[0002.81] Log: Preserved shader-worker output: thread=1 batchId=15 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-15.out
+[0002.81] Log: Preserved shader-worker output: thread=6 batchId=17 bytes=2466 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-17.out
+[0002.81] Log: Preserved shader-worker output: thread=4 batchId=18 bytes=5102 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-18.out
+[0002.81] Log: Preserved shader-worker output: thread=5 batchId=19 bytes=2469 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-19.out
+[0002.81] Log: Preserved shader-worker output: thread=2 batchId=2 bytes=10745 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-2.out
+[0002.81] Log: Missing cached shader map for material MobileMasterMaterial, quality 0, compiling.
+[0004.95] Log: Preserved shader-worker output: thread=5 batchId=5 bytes=92314 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-5.out
+[0004.95] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=73605 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0008.54] Log: Preserved shader-worker output: thread=4 batchId=2 bytes=170949 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-2.out
+[0008.54] Log: Preserved shader-worker output: thread=3 batchId=4 bytes=227070 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-4.out
+[0008.54] Log: Preserved shader-worker output: thread=1 batchId=3 bytes=203669 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-3.out
+[0008.54] Log: Preserved shader-worker output: thread=3 batchId=10 bytes=80683 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-10.out
+[0008.54] Log: Preserved shader-worker output: thread=4 batchId=9 bytes=203484 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-9.out
+[0008.54] Log: Preserved shader-worker output: thread=6 batchId=6 bytes=328828 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-6.out
+[0008.54] Log: Preserved shader-worker output: thread=2 batchId=1 bytes=307884 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-1.out
+[0008.54] Log: Preserved shader-worker output: thread=0 batchId=8 bytes=305464 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-8.out
+[0014.06] Log: Preserved shader-worker output: thread=5 batchId=7 bytes=318764 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-7.out
+[0014.06] Log: Preserved shader-worker output: thread=2 batchId=15 bytes=171531 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-15.out
+[0014.06] Log: Preserved shader-worker output: thread=6 batchId=14 bytes=248666 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-14.out
+[0014.06] Log: Preserved shader-worker output: thread=4 batchId=13 bytes=260624 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-13.out
+[0014.06] Log: Preserved shader-worker output: thread=1 batchId=11 bytes=372718 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-11.out
+[0014.06] Log: Preserved shader-worker output: thread=3 batchId=12 bytes=347648 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-12.out
+[0014.06] Log: Preserved shader-worker output: thread=5 batchId=17 bytes=316966 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-17.out
+[0014.06] Log: Preserved shader-worker output: thread=2 batchId=18 bytes=193686 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-18.out
+[0014.06] Log: Preserved shader-worker output: thread=6 batchId=19 bytes=228927 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-19.out
+[0014.06] Log: Preserved shader-worker output: thread=2 batchId=24 bytes=72718 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-24.out
+[0014.06] Log: Preserved shader-worker output: thread=4 batchId=20 bytes=222397 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-20.out
+[0014.06] Log: Preserved shader-worker output: thread=0 batchId=16 bytes=398290 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-16.out
+[0016.38] Log: Preserved shader-worker output: thread=5 batchId=23 bytes=261354 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-23.out
+[0016.38] Log: Preserved shader-worker output: thread=3 batchId=22 bytes=366561 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-22.out
+[0016.38] Log: Preserved shader-worker output: thread=1 batchId=21 bytes=368097 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-21.out
+[0016.38] Log: Preserved shader-worker output: thread=5 batchId=29 bytes=74381 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-29.out
+[0016.38] Log: Preserved shader-worker output: thread=0 batchId=28 bytes=228784 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-28.out
+[0019.10] Log: Preserved shader-worker output: thread=4 batchId=27 bytes=324530 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-27.out
+[0019.10] Log: Preserved shader-worker output: thread=6 batchId=25 bytes=346664 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-25.out
+[0019.10] Log: Preserved shader-worker output: thread=2 batchId=26 bytes=334415 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-26.out
+[0019.10] Log: Preserved shader-worker output: thread=5 batchId=32 bytes=217885 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-32.out
+[0019.10] Log: Preserved shader-worker output: thread=0 batchId=33 bytes=226288 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-33.out
+[0021.86] Log: Preserved shader-worker output: thread=1 batchId=31 bytes=337063 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-31.out
+[0021.86] Log: Preserved shader-worker output: thread=4 batchId=34 bytes=195935 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-34.out
+[0021.86] Log: Preserved shader-worker output: thread=0 batchId=38 bytes=185739 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-38.out
+[0026.15] Log: Preserved shader-worker output: thread=5 batchId=37 bytes=211505 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-37.out
+[0026.15] Log: Preserved shader-worker output: thread=2 batchId=36 bytes=276541 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-36.out
+[0026.15] Log: Preserved shader-worker output: thread=3 batchId=30 bytes=385939 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-30.out
+[0026.15] Log: Preserved shader-worker output: thread=6 batchId=35 bytes=384669 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-35.out
+[0026.15] Log: Preserved shader-worker output: thread=5 batchId=42 bytes=217826 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-42.out
+[0026.15] Log: Preserved shader-worker output: thread=1 batchId=39 bytes=240351 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-39.out
+[0026.15] Log: Preserved shader-worker output: thread=2 batchId=43 bytes=207201 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-43.out
+[0026.15] Log: Preserved shader-worker output: thread=3 batchId=44 bytes=265192 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-44.out
+[0026.15] Log: Preserved shader-worker output: thread=0 batchId=41 bytes=353516 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-41.out
+[0030.67] Log: Preserved shader-worker output: thread=2 batchId=48 bytes=143193 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-48.out
+[0030.67] Log: Preserved shader-worker output: thread=1 batchId=47 bytes=244687 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-47.out
+[0030.67] Log: Preserved shader-worker output: thread=4 batchId=40 bytes=431934 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-40.out
+[0030.67] Log: Preserved shader-worker output: thread=5 batchId=46 bytes=354165 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-46.out
+[0030.67] Log: Preserved shader-worker output: thread=4 batchId=53 bytes=88674 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-53.out
+[0030.67] Log: Preserved shader-worker output: thread=1 batchId=52 bytes=174186 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-52.out
+[0030.67] Log: Preserved shader-worker output: thread=6 batchId=45 bytes=381532 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-45.out
+[0030.67] Log: Preserved shader-worker output: thread=3 batchId=49 bytes=298209 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-49.out
+[0030.67] Log: Preserved shader-worker output: thread=0 batchId=50 bytes=318944 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-50.out
+[0033.82] Log: Preserved shader-worker output: thread=2 batchId=51 bytes=343148 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-51.out
+[0033.82] Log: Preserved shader-worker output: thread=3 batchId=58 bytes=58390 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-58.out
+[0033.82] Log: Preserved shader-worker output: thread=6 batchId=57 bytes=204371 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-57.out
+[0033.82] Log: Preserved shader-worker output: thread=2 batchId=60 bytes=82359 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-60.out
+[0033.82] Log: Preserved shader-worker output: thread=1 batchId=56 bytes=274154 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-56.out
+[0033.82] Log: Preserved shader-worker output: thread=4 batchId=55 bytes=326491 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-55.out
+[0033.82] Log: Preserved shader-worker output: thread=0 batchId=59 bytes=261086 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-59.out
+[0038.29] Log: Preserved shader-worker output: thread=5 batchId=54 bytes=363377 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-54.out
+[0038.29] Log: Preserved shader-worker output: thread=6 batchId=62 bytes=199924 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-62.out
+[0038.29] Log: Preserved shader-worker output: thread=4 batchId=65 bytes=122056 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-65.out
+[0038.29] Log: Preserved shader-worker output: thread=2 batchId=63 bytes=194680 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-63.out
+[0038.29] Log: Preserved shader-worker output: thread=3 batchId=61 bytes=326307 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-61.out
+[0038.29] Log: Preserved shader-worker output: thread=6 batchId=68 bytes=159853 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-68.out
+[0038.29] Log: Preserved shader-worker output: thread=1 batchId=64 bytes=293084 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-64.out
+[0038.29] Log: Preserved shader-worker output: thread=2 batchId=70 bytes=126830 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-70.out
+[0038.29] Log: Preserved shader-worker output: thread=5 batchId=67 bytes=242481 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-67.out
+[0038.29] Log: Preserved shader-worker output: thread=0 batchId=66 bytes=292339 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-66.out
+[0042.04] Log: Preserved shader-worker output: thread=1 batchId=73 bytes=117430 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-73.out
+[0042.04] Log: Preserved shader-worker output: thread=5 batchId=75 bytes=92445 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-75.out
+[0042.04] Log: Preserved shader-worker output: thread=4 batchId=69 bytes=324040 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-69.out
+[0042.04] Log: Preserved shader-worker output: thread=6 batchId=72 bytes=233262 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-72.out
+[0042.04] Log: Preserved shader-worker output: thread=5 batchId=78 bytes=81324 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-78.out
+[0042.04] Log: Preserved shader-worker output: thread=3 batchId=71 bytes=295231 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-71.out
+[0042.04] Log: Preserved shader-worker output: thread=2 batchId=74 bytes=290471 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-74.out
+[0042.04] Log: Preserved shader-worker output: thread=1 batchId=77 bytes=211059 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-77.out
+[0042.04] Log: Preserved shader-worker output: thread=6 batchId=80 bytes=132968 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-80.out
+[0042.04] Log: Preserved shader-worker output: thread=0 batchId=76 bytes=266703 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-76.out
+[0045.61] Log: Preserved shader-worker output: thread=6 batchId=85 bytes=159251 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-85.out
+[0045.61] Log: Preserved shader-worker output: thread=4 batchId=79 bytes=332178 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-79.out
+[0045.61] Log: Preserved shader-worker output: thread=5 batchId=81 bytes=285575 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-81.out
+[0045.61] Log: Preserved shader-worker output: thread=1 batchId=84 bytes=262916 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-84.out
+[0045.61] Log: Preserved shader-worker output: thread=2 batchId=83 bytes=376634 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-83.out
+[0045.61] Log: Preserved shader-worker output: thread=0 batchId=86 bytes=223622 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-86.out
+[0050.59] Log: Preserved shader-worker output: thread=3 batchId=82 bytes=393005 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-82.out
+[0050.59] Log: Preserved shader-worker output: thread=1 batchId=90 bytes=136180 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-90.out
+[0050.59] Log: Preserved shader-worker output: thread=5 batchId=89 bytes=201190 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-89.out
+[0050.59] Log: Preserved shader-worker output: thread=4 batchId=88 bytes=305362 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-88.out
+[0050.59] Log: Preserved shader-worker output: thread=1 batchId=94 bytes=183859 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-94.out
+[0050.59] Log: Preserved shader-worker output: thread=5 batchId=95 bytes=141689 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-95.out
+[0050.59] Log: Preserved shader-worker output: thread=6 batchId=87 bytes=348496 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-87.out
+[0050.59] Log: Preserved shader-worker output: thread=2 batchId=91 bytes=262227 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-91.out
+[0050.59] Log: Preserved shader-worker output: thread=0 batchId=92 bytes=329827 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-92.out
+[0054.58] Log: Preserved shader-worker output: thread=3 batchId=93 bytes=354787 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-93.out
+[0054.58] Log: Preserved shader-worker output: thread=2 batchId=100 bytes=98336 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-100.out
+[0054.58] Log: Preserved shader-worker output: thread=6 batchId=99 bytes=217811 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-99.out
+[0054.58] Log: Preserved shader-worker output: thread=4 batchId=96 bytes=270489 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-96.out
+[0054.58] Log: Preserved shader-worker output: thread=5 batchId=98 bytes=326739 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-98.out
+[0054.58] Log: Preserved shader-worker output: thread=1 batchId=97 bytes=362520 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-97.out
+[0054.58] Log: Preserved shader-worker output: thread=2 batchId=103 bytes=241470 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-103.out
+[0054.58] Log: Preserved shader-worker output: thread=4 batchId=105 bytes=99301 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-105.out
+[0054.58] Log: Preserved shader-worker output: thread=6 batchId=104 bytes=224647 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-104.out
+[0054.58] Log: Preserved shader-worker output: thread=0 batchId=101 bytes=262956 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-101.out
+[0058.67] Log: Preserved shader-worker output: thread=3 batchId=102 bytes=339068 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-102.out
+[0058.67] Log: Preserved shader-worker output: thread=1 batchId=107 bytes=121847 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-107.out
+[0058.67] Log: Preserved shader-worker output: thread=6 batchId=110 bytes=68919 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-110.out
+[0058.67] Log: Preserved shader-worker output: thread=4 batchId=109 bytes=225762 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-109.out
+[0058.67] Log: Preserved shader-worker output: thread=4 batchId=115 bytes=5335 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-115.out
+[0058.67] Log: Preserved shader-worker output: thread=3 batchId=112 bytes=145566 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-112.out
+[0058.67] Log: Preserved shader-worker output: thread=5 batchId=106 bytes=347192 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-106.out
+[0058.67] Log: Preserved shader-worker output: thread=2 batchId=108 bytes=272624 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-108.out
+[0058.67] Log: Preserved shader-worker output: thread=1 batchId=113 bytes=176219 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\1\WorkerOutputConsumed-113.out
+[0058.67] Log: Preserved shader-worker output: thread=0 batchId=111 bytes=339351 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-111.out
+[0058.91] Log: Preserved shader-worker output: thread=6 batchId=114 bytes=298145 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-114.out
+[0058.91] Log: Missing cached shader map for material ProcBuildingSimpleMaterial, quality 0, compiling.
+[0058.97] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=4061 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0059.15] Log: Preserved shader-worker output: thread=2 batchId=2 bytes=4171 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-2.out
+[0059.15] Log: Preserved shader-worker output: thread=5 batchId=1 bytes=5632 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-1.out
+[0059.15] Log: Preserved shader-worker output: thread=6 batchId=3 bytes=9873 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\6\WorkerOutputConsumed-3.out
+[0059.34] Log: Missing cached shader map for material ThumbnailBack, quality 0, compiling.
+[0059.39] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2076 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0059.40] Log: Preserved shader-worker output: thread=2 batchId=2 bytes=1929 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-2.out
+[0059.40] Log: Preserved shader-worker output: thread=3 batchId=3 bytes=4092 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\3\WorkerOutputConsumed-3.out
+[0059.40] Log: Preserved shader-worker output: thread=4 batchId=1 bytes=4019 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-1.out
+[0059.40] Log: Missing cached shader map for material ThumbnailSolid, quality 0, compiling.
+[0059.44] Log: Preserved shader-worker output: thread=0 batchId=0 bytes=2076 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\0\WorkerOutputConsumed-0.out
+[0059.53] Log: Preserved shader-worker output: thread=5 batchId=2 bytes=1825 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\5\WorkerOutputConsumed-2.out
+[0059.53] Log: Preserved shader-worker output: thread=2 batchId=1 bytes=3758 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\2\WorkerOutputConsumed-1.out
+[0059.53] Log: Preserved shader-worker output: thread=4 batchId=3 bytes=3937 file=..\..\Engine\Shaders\WorkingDirectory\UT\1672\4\WorkerOutputConsumed-3.out
+[0059.62] Log: Encountered missing default brush - spawning new one
+[0059.62] Log: Initializing Editor Engine Completed
+[0059.70] Log: 
+Usage:
+
+gamename.exe help <list | commandletname | webhelp commandletname>
+[0059.70] Log: 
+[0059.70] Log: Success - 0 error(s), 0 warning(s)
+[0059.70] Log: 
+Execution of commandlet took:  0.00 seconds
+[0059.98] Log: Save=279.822200
+[0059.98] Log: Compressing '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0060.14] Exit: Preparing to exit.
+[0060.20] Exit: Editor shut down
+[0060.22] Exit: Object subsystem successfully closed.
+[0060.23] Exit: Exiting.
+[0060.23] Log: Log file closed, 08/22/26 17:07:13

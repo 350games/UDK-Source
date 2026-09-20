@@ -1,0 +1,256 @@
+Log: Log file open, 08/22/26 11:31:55
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 11:18:29
+Init: Changelist: 1532151
+Init: Command line: "ExampleEntry?game=UTGame.UTDeathmatch" -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -windowed -ResX=640 -ResY=480 -benchmark -seconds=8 -log=UTGameRuntimeSmoke2 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.49] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.49] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.49] Init: Object subsystem initialized
+[0000.50] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.91] Log: Missing cached shader map for material FogVolumeMaterial, quality 0, compiling.
+[0001.44] Log: Missing cached shader map for material M_StreamingPause, quality 0, compiling.
+[0001.68] Log: Missing cached shader map for material ImageReflectionPreview, quality 0, compiling.
+[0001.94] Log: Missing cached shader map for material NodeBuddy_Text1, quality 0, compiling.
+[0003.24] Log: Missing cached shader map for material NodeBuddy_Target, quality 0, compiling.
+[0004.35] Log: Missing cached shader map for material NodeBuddy_White1, quality 0, compiling.
+[0005.57] Log: Missing cached shader map for material NodeBuddy_Text2, quality 0, compiling.
+[0006.15] Log: Missing cached shader map for material NodeBuddy_Red1, quality 0, compiling.
+[0007.46] Log: Missing cached shader map for material DefaultMaterial, quality 0, compiling.
+[0041.96] Warning: Warning, Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_RocketLauncher.Materials.M_WP_RocketLauncher' ('Engine.Material:PhysMaterial').
+[0041.96] Warning: Warning, Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0041.96] Warning: Warning, CreateImport: Failed to load Outer for resource 'Metal': Package PhysicalMaterials.Default
+[0041.96] Warning: Warning, CreateImport: Failed to load Outer for resource 'PM_Metal': Package PhysicalMaterials.Default.Metal
+[0042.00] Warning: Warning, Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase' ('Engine.Material:PhysMaterial').
+[0042.00] Warning: Warning, Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0042.00] Warning: Warning, CreateImport: Failed to load Outer for resource 'Metal': Package PhysicalMaterials.Default
+[0042.00] Warning: Warning, CreateImport: Failed to load Outer for resource 'PM_Metal': Package PhysicalMaterials.Default.Metal
+[0042.04] Log: Missing cached shader map for material M_Lightning_Curve, quality 0, compiling.
+[0042.89] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_Z2, quality 0, compiling.
+[0043.92] Log: Missing cached shader map for material M_EFX_Smoke_Distort, quality 0, compiling.
+[0044.69] Log: Missing cached shader map for material M_WP_ShockRifle_Impact, quality 0, compiling.
+[0045.39] Log: Missing cached shader map for material M_Shock_colorball_mesh, quality 0, compiling.
+[0046.19] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_2, quality 0, compiling.
+[0046.93] Log: Missing cached shader map for material M_Distortion_fire, quality 0, compiling.
+[0047.79] Log: Missing cached shader map for material M_WP_Rocketlauncher_Impact, quality 0, compiling.
+[0048.73] Log: Missing cached shader map for material M_Lens_Flair_hard_rocket, quality 0, compiling.
+[0049.56] Log: Missing cached shader map for material M_FireTrail, quality 0, compiling.
+[0050.27] Log: Missing cached shader map for material M_Soft_Flair_rocket, quality 0, compiling.
+[0050.71] Log: Missing cached shader map for material M_WP_RocketLauncher_Explosion_SubUV_Z_Dark, quality 0, compiling.
+[0051.28] Log: Missing cached shader map for material M_EFX_Explo_PaintOver, quality 0, compiling.
+[0051.98] Log: Missing cached shader map for material M_EFX_Explo_Frames03, quality 0, compiling.
+[0052.71] Log: Missing cached shader map for material M_Trail_spark, quality 0, compiling.
+[0053.24] Log: Missing cached shader map for material M_WP_RocketLauncher_Rocket_flake_lit, quality 0, compiling.
+[0053.44] Log: Missing cached shader map for material M_WP_RocketLauncher_ExhaustCone, quality 0, compiling.
+[0054.15] Log: Missing cached shader map for material M_WP_RocketLauncher_Smoke_Distort, quality 0, compiling.
+[0054.84] Log: Missing cached shader map for material M_shock_Ring_Band, quality 0, compiling.
+[0055.54] Log: Missing cached shader map for material M_WP_ShockRifle_Ring, quality 0, compiling.
+[0056.60] Log: Missing cached shader map for material M_Shock_Flair_Multi_Color, quality 0, compiling.
+[0057.69] Log: Missing cached shader map for material M_WP_ShockRifle_EnergyBall_SubUV2, quality 0, compiling.
+[0058.40] Log: Missing cached shader map for material M_WP_ShockRifle_EnergyBall_SubUV, quality 0, compiling.
+[0059.21] Log: Missing cached shader map for material M_WP_ShockRifle_1P, quality 0, compiling.
+[0061.73] Log: Missing cached shader map for material WP_RocketLauncher_Mat, quality 0, compiling.
+[0062.99] Log: Missing cached shader map for material M_Instagib_DebrisChunk01, quality 0, compiling.
+[0063.91] Log: Missing cached shader map for material M_WP_Stinger, quality 0, compiling.
+[0065.18] Log: Missing cached shader map for material M_CH_All_Base_02, quality 0, compiling.
+[0068.18] Log: Missing cached shader map for material M_CH_All_Base_02, quality 0, compiling.
+[0070.87] Log: Missing cached shader map for material M_WP_RocketLauncher, quality 0, compiling.
+[0072.72] Log: Missing cached shader map for material M_Pickups_WeaponBase, quality 0, compiling.
+[0073.88] Log: Missing cached shader map for material BlinkingCaret, quality 0, compiling.
+[0074.12] Log: Missing cached shader map for material CubeMaterial, quality 0, compiling.
+[0074.30] Log: Missing cached shader map for material DefaultDecalMaterial, quality 0, compiling.
+[0080.44] Log: Missing cached shader map for material DefaultParticle, quality 0, compiling.
+[0083.16] Log: Missing cached shader map for material EditorBrushMaterial, quality 0, compiling.
+[0083.38] Log: Missing cached shader map for material EmissiveTexturedMaterial, quality 0, compiling.
+[0083.45] Log: Missing cached shader map for material PPVolumeMaterial, quality 0, compiling.
+[0083.65] Log: Missing cached shader map for material RemoveSurfaceMaterial, quality 0, compiling.
+[0083.72] Log: Missing cached shader map for material ScreenMaterial, quality 0, compiling.
+[0083.80] Log: Missing cached shader map for material BlackUnlitMaterial, quality 0, compiling.
+[0083.86] Log: Missing cached shader map for material BoneWeightMaterial, quality 0, compiling.
+[0084.79] Log: Missing cached shader map for material GeomMaterial, quality 0, compiling.
+[0084.98] Log: Missing cached shader map for material HeatmapMaterial, quality 0, compiling.
+[0085.19] Log: Missing cached shader map for material LevelColorationLitMaterial, quality 0, compiling.
+[0110.52] Log: Missing cached shader map for material LevelColorationUnlitMaterial, quality 0, compiling.
+[0287.18] Log: Missing cached shader map for material M_TextureDefinedSpecularReflection, quality 0, compiling.
+[0331.51] Log: Missing cached shader map for material LightmapResolutionMaterial, quality 0, compiling.
+[0393.23] Log: Missing cached shader map for material MAT_LevelColorationLitLightmapUVs, quality 0, compiling.
+[0417.69] Log: Missing cached shader map for material MaterialError_Mat, quality 0, compiling.
+[0445.63] Log: Missing cached shader map for material ShadedLevelColorationLitMaterial, quality 0, compiling.
+[0471.62] Log: Missing cached shader map for material ShadedLevelColorationUnlitMaterial, quality 0, compiling.
+[0479.10] Log: Missing cached shader map for material TangentColorMaterial, quality 0, compiling.
+[0480.03] Log: Missing cached shader map for material TerrainCollisionMaterial, quality 0, compiling.
+[0491.24] Log: Missing cached shader map for material M_Sand_Master_VertPaint, quality 0, compiling.
+[0491.72] Log: Missing cached shader map for material TexturePaint_2Tex_Color, quality 0, compiling.
+[0493.54] Log: Missing cached shader map for material VertexColorMaterial, quality 0, compiling.
+[0494.13] Log: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, quality 0, compiling.
+[0494.34] Log: Missing cached shader map for material VertexColorViewMode_BlueOnly, quality 0, compiling.
+[0494.53] Log: Missing cached shader map for material VertexColorViewMode_ColorOnly, quality 0, compiling.
+[0494.75] Log: Missing cached shader map for material VertexColorViewMode_GreenOnly, quality 0, compiling.
+[0494.91] Log: Missing cached shader map for material VertexColorViewMode_RedOnly, quality 0, compiling.
+[0495.07] Log: Missing cached shader map for material VertexPaint_2Tex_Color, quality 0, compiling.
+[0497.05] Log: Missing cached shader map for material VertexPaint_4Tex, quality 0, compiling.
+[0499.17] Log: Missing cached shader map for material WireframeMaterial, quality 0, compiling.
+[0506.78] Log: 45077 objects as part of root set at end of initial load.
+[0506.78] Log: 0 out of 0 bytes used by permanent object pool.
+[0506.78] Log: Initializing Engine...
+[0507.15] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0507.15] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0507.15] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0507.15] Warning: Warning, Failed to find object 'Class None.'
+[0507.16] Log: LoadMap: ExampleEntry?Name=Player?Team=255?game=UTGame.UTDeathmatch
+[0507.19] Log: 
+[0507.20] Warning: Warning, Failed to load 'ExampleEntry': Can't find file 'ExampleEntry'
+[0507.20] Log: The map specified on the commandline 'ExampleEntry' could not be found. Would you like to load the default map instead?
+[0507.20] Log: LoadMap: Entry?Name=Player?Team=255
+[0507.23] Log: 
+[0507.25] Log: Game class is 'UTDeathmatch'
+[0507.27] Log: Bringing World Entry.TheWorld up for play (0) at 2026.08.22-11.40.22
+[0507.27] Log: Bringing up level for play took: 0.012492
+[0507.28] ScriptWarning: Could not find Flawless_victory_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.28] ScriptWarning: Could not find Humiliating_defeat_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.28] ScriptWarning: Could not find You_Have_Won_the_Match_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.28] ScriptWarning: Could not find You_Have_Lost_the_Match_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.28] ScriptWarning: Could not find Last_Second_Save_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.28] ScriptWarning: Could not find Play_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.29] ScriptWarning: Could not find Headshot_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.29] ScriptWarning: Could not find Headhunter_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.29] ScriptWarning: Could not find Berzerk_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.29] ScriptWarning: Could not find Booster_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.29] ScriptWarning: Could not find FlackMonkey_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find Combowhore_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find Invisible_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find Speed_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find Camouflaged_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find Pint_sized_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.30] ScriptWarning: Could not find first_blood_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find adrenalin_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find Double_Kill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find MultiKill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find MegaKill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find UltraKill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find MonsterKill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.31] ScriptWarning: Could not find LudicrousKill_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.32] ScriptWarning: Could not find HolyShit_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.32] ScriptWarning: Could not find Killing_Spree_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.32] ScriptWarning: Could not find Rampage_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.32] ScriptWarning: Could not find Dominating_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.33] ScriptWarning: Could not find Unstoppable_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.33] ScriptWarning: Could not find GodLike_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.33] ScriptWarning: Could not find WhickedSick_Cue in UTAnnouncerMale nor in fallback package UTAnnouncerMale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheRewardSound:00F3
+[0507.33] ScriptWarning: Could not find one_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.33] ScriptWarning: Could not find two_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.33] ScriptWarning: Could not find three_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.33] ScriptWarning: Could not find four_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find five_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find six_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find seven_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find eight_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find nine_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] ScriptWarning: Could not find ten_Cue in UTAnnouncerFemale nor in fallback package UTAnnouncerFemale
+	UTAnnouncer Entry.TheWorld:PersistentLevel.UTAnnouncer_0
+	Function UTGame.UTAnnouncer:PrecacheStatusSound:00F3
+[0507.34] Log: ########### Finished loading level: 0.142469 seconds
+[0507.35] Log: Initializing Engine Completed
+[0507.35] Log: >>>>>>>>>>>>>> Initial startup: 507.35s <<<<<<<<<<<<<<<
+[0507.74] Log: Save=0.000000
+[0507.74] Log: Compressing '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0512.34] Log: appRequestExit(0)
+[0512.34] Exit: Preparing to exit.
+[0512.43] Exit: Game engine shut down
+[0512.47] Exit: Windows client shut down
+[0512.50] Exit: Object subsystem successfully closed.
+[0512.52] Exit: Exiting.
+[0512.53] Log: Log file closed, 08/22/26 11:40:27

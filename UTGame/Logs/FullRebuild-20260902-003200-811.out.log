@@ -1,0 +1,661 @@
+
+Restoring and verifying the required supplied content closure
+Required content closure verified: 39 packages, 198,872,121 bytes, 0 copied.
+
+Rebuilding and deploying the wxWidgets Win64 dependency graph
+Verified current wxWidgets x64 setup header: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_amd64_dll_ue3v143\mswu\wx\setup.h
+Using Visual Studio 17.0 x64 tools from C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvars64.bat
+
+Building the complete wxWidgets x64 Unicode Release DLL graph
+Verified current wxWidgets DLL wxbase28u_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_vc_custom_64.dll
+Verified current wxWidgets symbols wxbase28u_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_vc_custom_64.pdb
+Verified current wxWidgets DLL wxbase28u_net_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_net_vc_custom_64.dll
+Verified current wxWidgets symbols wxbase28u_net_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_net_vc_custom_64.pdb
+Verified current wxWidgets DLL wxbase28u_xml_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_xml_vc_custom_64.dll
+Verified current wxWidgets symbols wxbase28u_xml_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_xml_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_core_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_core_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_adv_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_adv_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_adv_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_adv_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_aui_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_aui_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_aui_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_aui_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_html_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_html_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_html_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_html_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_media_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_media_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_media_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_media_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_qa_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_qa_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_qa_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_qa_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_richtext_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_richtext_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.pdb
+Verified current wxWidgets DLL wxmsw28u_xrc_vc_custom_64.dll: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_xrc_vc_custom_64.dll
+Verified current wxWidgets symbols wxmsw28u_xrc_vc_custom_64.pdb: D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_xrc_vc_custom_64.pdb
+Verified current wxWidgets import library wxmsw28u_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_64.lib
+Verified current wxWidgets import library wxmsw28u_net_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_net_64.lib
+Verified current wxWidgets import library wxmsw28u_xml_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_xml_64.lib
+Verified current wxWidgets import library wxmsw28u_core_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_core_64.lib
+Verified current wxWidgets import library wxmsw28u_adv_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_adv_64.lib
+Verified current wxWidgets import library wxmsw28u_aui_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_aui_64.lib
+Verified current wxWidgets import library wxmsw28u_html_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_html_64.lib
+Verified current wxWidgets import library wxmsw28u_media_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_media_64.lib
+Verified current wxWidgets import library wxmsw28u_qa_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_qa_64.lib
+Verified current wxWidgets import library wxmsw28u_richtext_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_richtext_64.lib
+Verified current wxWidgets import library wxmsw28u_xrc_64.lib: D:\UnrealEngine3-SC\Development\External\wxWidgets\lib\vc_dll\x64\wxmsw28u_xrc_64.lib
+
+wxWidgets x64 build and deployment completed successfully. All 11 DLLs, PDBs, and UBT import libraries passed verification.
+Invalidated previous UE3ShaderCompileWorker Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UE3ShaderCompileWorker.exe
+
+Building UE3ShaderCompileWorker Win64 Release
+Build started 9/2/2026 12:32:13 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\ShaderCompileWorker.Local.vcxproj" on node 1 (Rebuild target(s)).
+_PrepareForClean:
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCo.1B518AA6.tlog\ShaderCompileWorker.Local.lastbuildstate".
+PrepareForBuild:
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+InitializeBuildStatus:
+  Creating "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCo.1B518AA6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCo.1B518AA6.tlog\unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um" /Zi /nologo /W3 /WX /diagnostics:column /O2 /GL /D WIN32 /D _WIN64 /D NDEBUG /D _CONSOLE /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WITH_LOCAL_UTGAME_WORKER=1 /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive /Fo"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\\" /Fd"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue ShaderCompileWorker.cpp D3D9Shader.cpp
+  ShaderCompileWorker.cpp
+  D3D9Shader.cpp
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe /D _UNICODE /D UNICODE /D _WIN64 /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\Resource.res" Resource.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\..\Binaries\Win64\UE3ShaderCompileWorker.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\um\x64" d3dcompiler.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\..\Binaries\Win64\UE3ShaderCompileWorker.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\UE3ShaderCompileWorker.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\..\Binaries\Win64\UE3ShaderCompileWorker.lib" /MACHINE:X64 "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\Resource.res"
+  "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCompileWorker.obj"
+  "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\D3D9Shader.obj"
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 453 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ShaderCompileWorker.Local.vcxproj -> D:\UnrealEngine3-SC\Binaries\Win64\UE3ShaderCompileWorker.exe
+FinalizeBuildStatus:
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCo.1B518AA6.tlog\unsuccessfulbuild".
+  Touching "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\..\..\Intermediate\Tools\ShaderCompileWorker\LocalRelease\Win64\ShaderCo.1B518AA6.tlog\ShaderCompileWorker.Local.lastbuildstate".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\ShaderCompileWorker\ShaderCompileWorker.Local.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.74
+Verified UE3ShaderCompileWorker Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UE3ShaderCompileWorker.exe (221,696 bytes)
+Invalidated previous AutoReporter output: D:\UnrealEngine3-SC\Binaries\AutoReporter.exe
+Invalidated previous AutoReporter runtime configuration output: D:\UnrealEngine3-SC\Binaries\AutoReporter.exe.config
+Invalidated previous AutoReporter XML serializers output: D:\UnrealEngine3-SC\Binaries\AutoReporter.XmlSerializers.dll
+Invalidated previous UnrealControls output: D:\UnrealEngine3-SC\Binaries\UnrealControls.dll
+Invalidated previous Swarm Agent interface output: D:\UnrealEngine3-SC\Binaries\AgentInterface.dll
+Invalidated previous Win64 Swarm Agent interface output: D:\UnrealEngine3-SC\Binaries\Win64\AgentInterface.dll
+Invalidated previous Swarm Coordinator interface output: D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.dll
+Invalidated previous Swarm Agent output: D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe
+Invalidated previous Swarm Agent runtime configuration output: D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe.config
+Invalidated previous Swarm Coordinator output: D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe
+Invalidated previous Swarm Coordinator runtime configuration output: D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe.config
+Invalidated previous UnrealLightmass Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UnrealLightmass.exe
+
+Building AutoReporter (.NET Framework 4.8, AnyCPU)
+Build started 9/2/2026 12:32:18 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\AutoReporter.csproj" on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Binaries\AutoReporter.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.CrashURLDlg.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.Form1.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.Properties.Resources.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.csproj.GenerateResource.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.exe".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.XmlSerializers.dll".
+CoreResGen:
+  Task assembly was loaded from 'C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.Build.dll' while the desired location was 'C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll'.
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.EnterpriseServices.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Services.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /compile CrashURLDlg.resx,obj\Release\AutoReporter.CrashURLDlg.resources Form1.resx,obj\Release\AutoReporter.Form1.resources Properties\Resources.resx,obj\Release\AutoReporter.Properties.Resources.resources
+  Processing resource file "CrashURLDlg.resx" into "obj\Release\AutoReporter.CrashURLDlg.resources".
+  Processing resource file "Form1.resx" into "obj\Release\AutoReporter.Form1.resources".
+  Processing resource file "Properties\Resources.resx" into "obj\Release\AutoReporter.Properties.Resources.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.EnterpriseServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Services.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\AutoReporter.exe /subsystemversion:6.00 /resource:obj\Release\AutoReporter.CrashURLDlg.resources /resource:obj\Release\AutoReporter.Form1.resources /resource:obj\Release\AutoReporter.Properties.Resources.resources /resource:Resources\BalloonTrayIcon.ico,AutoReporter.Resources.BalloonTrayIcon.ico /target:winexe /utf8output /win32manifest:Properties\app.manifest /langversion:7.3 ..\..\Common\MetaData.cs CrashURLDlg.cs CrashURLDlg.Designer.cs Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs ReportFile.cs UploadReportFiles.cs "Web References\ReportService\Reference.cs" "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - AutoReporter
+GenerateSerializationAssemblies:
+  Task assembly was loaded from 'C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.Build.dll' while the desired location was 'C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll'.
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\sgen.exe /assembly:D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.exe /proxytypes /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.EnterpriseServices.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Services.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" 
+_CopyAppConfigFile:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\app.config" to "D:\UnrealEngine3-SC\Binaries\AutoReporter.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.exe" to "D:\UnrealEngine3-SC\Binaries\AutoReporter.exe".
+  AutoReporter -> D:\UnrealEngine3-SC\Binaries\AutoReporter.exe
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.XmlSerializers.dll" to "D:\UnrealEngine3-SC\Binaries\AutoReporter.XmlSerializers.dll".
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\obj\Release\AutoReporter.pdb" to "D:\UnrealEngine3-SC\Binaries\AutoReporter.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\CrashReport\AutoReporter\AutoReporter.csproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.57
+
+Building Swarm Agent and its managed interfaces (.NET Framework 4.8, AnyCPU)
+Build started 9/2/2026 12:32:22 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Binaries\SwarmAgent.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.SwarmAgentWindow.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.Properties.Resources.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.GenerateResource.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.Up2Date".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.exe".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.pdb".
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\UnrealControls.csproj" (2:2) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Binaries\UnrealControls.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.OutputWindowView.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.Properties.Resources.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.UnrealAboutBox.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.GenerateResource.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\UnrealControls.csproj" (Clean target(s)).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\AgentInterface.csproj" (3:2) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Binaries\AgentInterface.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\AgentInterface.csproj" (Clean target(s)).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (4:2) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (Clean target(s)).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\UnrealControls.csproj" (2:3) on node 1 (default targets).
+CoreResGen:
+  Processing resource file "OutputWindowView.resx" into "obj\Release\UnrealControls.OutputWindowView.resources".
+  Processing resource file "Properties\Resources.resx" into "obj\Release\UnrealControls.Properties.Resources.resources".
+  Processing resource file "UnrealAboutBox.resx" into "obj\Release\UnrealControls.UnrealAboutBox.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /unsafe+ /nowarn:1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\UnrealControls.dll /subsystemversion:6.00 /resource:obj\Release\UnrealControls.OutputWindowView.resources /resource:obj\Release\UnrealControls.Properties.Resources.resources /resource:obj\Release\UnrealControls.UnrealAboutBox.resources /resource:Resources\XButton.bmp,UnrealControls.Resources.XButton.bmp /resource:Resources\ArrowDown.bmp,UnrealControls.Resources.ArrowDown.bmp /resource:Resources\ArrowUp.bmp,UnrealControls.Resources.ArrowUp.bmp /target:library /utf8output /langversion:7.3 ..\Common\MetaData.cs BugDataHandler.cs ColoredDocumentLineSegment.cs ColoredTextRange.cs ColorPair.cs DynamicTabControl.cs DynamicTabControl.designer.cs DynamicTabControlMenuItem.cs DynamicTabPage.cs EngineVersioning.cs FindResult.cs GameLocator.cs OutputWindowDocumentLineAddedEventArgs.cs MenuArrow.cs MenuArrow.designer.cs OutputWindowDocument.cs OutputWindowView.cs OutputWindowView.designer.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs SerializableDictionary.cs TextLocation.cs UnrealAboutBox.cs UnrealAboutBox.Designer.cs UnrealToolStripItemRenderer.cs Utilities.cs XButton.cs XButton.designer.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - UnrealControls
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.dll" to "D:\UnrealEngine3-SC\Binaries\UnrealControls.dll".
+  UnrealControls -> D:\UnrealEngine3-SC\Binaries\UnrealControls.dll
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\obj\Release\UnrealControls.pdb" to "D:\UnrealEngine3-SC\Binaries\UnrealControls.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealControls\UnrealControls.csproj" (default targets).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\AgentInterface.csproj" (3:3) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\AgentInterface.dll /subsystemversion:6.00 /target:library /utf8output /deterministic+ /langversion:7.3 AgentInterface.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - AgentInterface
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.dll" to "D:\UnrealEngine3-SC\Binaries\AgentInterface.dll".
+  AgentInterface -> D:\UnrealEngine3-SC\Binaries\AgentInterface.dll
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\obj\Release\AgentInterface.pdb" to "D:\UnrealEngine3-SC\Binaries\AgentInterface.pdb".
+CopyPlatformOutputs:
+  Copying file from "D:\UnrealEngine3-SC\Binaries\AgentInterface.dll" to "D:\UnrealEngine3-SC\Binaries\Win32\AgentInterface.dll".
+  Copying file from "D:\UnrealEngine3-SC\Binaries\AgentInterface.dll" to "D:\UnrealEngine3-SC\Binaries\Win64\AgentInterface.dll".
+  Copying file from "D:\UnrealEngine3-SC\Binaries\AgentInterface.pdb" to "D:\UnrealEngine3-SC\Binaries\Win32\AgentInterface.pdb".
+  Copying file from "D:\UnrealEngine3-SC\Binaries\AgentInterface.pdb" to "D:\UnrealEngine3-SC\Binaries\Win64\AgentInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\AgentInterface\AgentInterface.csproj" (default targets).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (4:3) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\SwarmCoordinatorInterface.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.3 ..\..\Common\MetaData.cs SwarmCoordinatorInterface.cs Properties\AssemblyInfo.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - SwarmCoordinatorInterface
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.dll" to "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll".
+  SwarmCoordinatorInterface -> D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.pdb" to "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (default targets).
+CoreResGen:
+  Processing resource file "Display.resx" into "obj\Release\Agent.SwarmAgentWindow.resources".
+  Processing resource file "Properties\Resources.resx" into "obj\Release\Agent.Properties.Resources.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:TRACE;SPECIFIC_VERSION /highentropyva+ /reference:D:\UnrealEngine3-SC\Binaries\AgentInterface.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.Entity.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.Remoting.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.Serialization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ServiceModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ServiceProcess.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /reference:D:\UnrealEngine3-SC\Binaries\UnrealControls.dll /debug:pdbonly /optimize+ /out:obj\Release\SwarmAgent.exe /subsystemversion:6.00 /resource:obj\Release\Agent.SwarmAgentWindow.resources /resource:obj\Release\Agent.Properties.Resources.resources /target:winexe /utf8output /langversion:7.3 ..\..\Common\MetaData.cs Channels.cs Connections.cs Interface.cs Jobs.cs Messaging.cs Progression.cs SettableOptions.cs Utils.cs Display.cs Display.Designer.cs Agent.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - Agent
+_CopyFilesMarkedCopyLocal:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.dll".
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.pdb".
+  Creating "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.Up2Date" because "AlwaysCreate" was specified.
+  Touching "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\Agent.csproj.Up2Date".
+_CopyAppConfigFile:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\app.config" to "D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.exe" to "D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe".
+  Agent -> D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\obj\Release\SwarmAgent.pdb" to "D:\UnrealEngine3-SC\Binaries\SwarmAgent.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\Agent\Agent.csproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.00
+
+Building Swarm Coordinator (.NET Framework 4.8, AnyCPU)
+Build started 9/2/2026 12:32:24 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\SwarmCoordinator.csproj" on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.Properties.Resources.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.SwarmCoordinator.resources".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.GenerateResource.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoo.9C5859EF.Up2Date".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.exe".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.pdb".
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\SwarmCoordinator.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (2:2) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.dll".
+  Deleting file "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (Clean target(s)).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\SwarmCoordinator.csproj" (1) is building "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (2:3) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\SwarmCoordinatorInterface.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.3 ..\..\Common\MetaData.cs SwarmCoordinatorInterface.cs Properties\AssemblyInfo.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - SwarmCoordinatorInterface
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.dll" to "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll".
+  SwarmCoordinatorInterface -> D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\obj\Release\SwarmCoordinatorInterface.pdb" to "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\SwarmCoordinatorInterface.csproj" (default targets).
+CoreResGen:
+  Processing resource file "Properties\Resources.resx" into "obj\Release\SwarmCoordinator.Properties.Resources.resources".
+  Processing resource file "SwarmCoordinator.resx" into "obj\Release\SwarmCoordinator.SwarmCoordinator.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.Remoting.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\SwarmCoordinator.exe /subsystemversion:6.00 /resource:obj\Release\SwarmCoordinator.Properties.Resources.resources /resource:obj\Release\SwarmCoordinator.SwarmCoordinator.resources /target:winexe /utf8output /langversion:7.3 ..\..\Common\MetaData.cs Coordinator.cs SwarmCoordinator.cs SwarmCoordinator.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - SwarmCoordinator
+_CopyFilesMarkedCopyLocal:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.dll" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.dll".
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinatorInterface\bin\Release\SwarmCoordinatorInterface.pdb" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.pdb".
+  Creating "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoo.9C5859EF.Up2Date" because "AlwaysCreate" was specified.
+  Touching "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoo.9C5859EF.Up2Date".
+_CopyAppConfigFile:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\app.config" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.exe" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe".
+  SwarmCoordinator -> D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe
+  Copying file from "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\obj\Release\SwarmCoordinator.pdb" to "D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealSwarm\SwarmCoordinator\SwarmCoordinator.csproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+Building UnrealLightmass Win64 Release
+Build started 9/2/2026 12:32:26 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealLightmass\UnrealLightmass.vcxproj" on node 1 (Rebuild target(s)).
+_PrepareForClean:
+  Deleting file "..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.tlog\UnrealLightmass.lastbuildstate".
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealLightmass\UnrealLightmass.vcxproj" (1) is building "D:\UnrealEngine3-SC\Development\Src\UnrealSwarm\SwarmInterface.vcxproj" (2) on node 1 (Clean target(s)).
+_PrepareForClean:
+  Deleting file "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.tlog\SwarmInterface.lastbuildstate".
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.vcxproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.lib".
+Done Building Project "D:\UnrealEngine3-SC\Development\Src\UnrealSwarm\SwarmInterface.vcxproj" (Clean target(s)).
+Project "D:\UnrealEngine3-SC\Development\Tools\UnrealLightmass\UnrealLightmass.vcxproj" (1) is building "D:\UnrealEngine3-SC\Development\Src\UnrealSwarm\SwarmInterface.vcxproj" (2:2) on node 1 (default targets).
+PrepareForBuild:
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+InitializeBuildStatus:
+  Creating "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.tlog\unsuccessfulbuild".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /IInc /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\\" /AI"C:\Program Files (x86)\Windows Kits\10\References" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\\" /Zi /clr /nologo /W4 /WX- /diagnostics:column /O2 /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\\" /Fd"..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.pdb" /external:W4 /TP /FU"D:\UnrealEngine3-SC\Binaries\AgentInterface.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /FC /errorReport:queue /clr:nostdlib Src\SwarmInterface.cpp
+  SwarmInterface.cpp
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /IInc /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\\" /AI"C:\Program Files (x86)\Windows Kits\10\References" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\\" /Zi /clr /nologo /W4 /WX- /diagnostics:column /O2 /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\\" /Fd"..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.pdb" /external:W4 /TP /FU"D:\UnrealEngine3-SC\Binaries\AgentInterface.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll" /FC /errorReport:queue /clr:nostdlib "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\.NETFramework,Version=v4.8.AssemblyAttributes.cpp"
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+Lib:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\Lib.exe /OUT:"..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.lib" /NOLOGO /MACHINE:X64 /LTCG ..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.obj
+  "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\.NETFramework,Version=v4.8.AssemblyAttributes.obj"
+  SwarmInterface.vcxproj -> D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.lib
+FinalizeBuildStatus:
+  Deleting file "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.tlog\unsuccessfulbuild".
+  Touching "..\..\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.tlog\SwarmInterface.lastbuildstate".
+Done Building Project "D:\UnrealEngine3-SC\Development\Src\UnrealSwarm\SwarmInterface.vcxproj" (default targets).
+PrepareForBuild:
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+InitializeBuildStatus:
+  Creating "..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.tlog\unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /IPublic /IInc /ILightmassCore/Inc /ILighting/Inc /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\um" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\winrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\cppwinrt" /I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\ucrt" /I..\..\External\DirectX9\Include /I..\..\External\zlib\Inc /I.. /I../../Src/UnrealSwarm/Inc /Zi /nologo /W4 /WX /diagnostics:column /Ox /Ob2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS- /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.pch" /Fo"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\\" /Fd"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\vc143.pdb" /external:W4 /Gd /TP /wd4456 /wd4457 /wd4458 /wd4595 /FC /errorReport:queue Src\stdafx.cpp
+  stdafx.cpp
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /IPublic /IInc /ILightmassCore/Inc /ILighting/Inc /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\um" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\winrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\cppwinrt" /I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.28000.0\ucrt" /I..\..\External\DirectX9\Include /I..\..\External\zlib\Inc /I.. /I../../Src/UnrealSwarm/Inc /Zi /nologo /W4 /WX /diagnostics:column /Ox /Ob2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS- /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.pch" /Fo"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\\" /Fd"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\vc143.pdb" /external:W4 /Gd /TP /wd4456 /wd4457 /wd4458 /wd4595 /FC /errorReport:queue Src\UnitTest.cpp Src\UnrealLightmass.cpp Src\CPUSolver.cpp Src\3DVisualizer.cpp Src\Exporter.cpp Src\Importer.cpp Src\LightmassSwarm.cpp Src\Material.cpp Src\Mesh.cpp Src\Scene.cpp Src\Terrain.cpp LightmassCore\Src\LMCore.cpp LightmassCore\Src\LMDebug.cpp LightmassCore\Src\LMMallocProfiler.cpp LightmassCore\Src\LMMath.cpp LightmassCore\Src\LMMemory.cpp LightmassCore\Src\LMSHMath.cpp LightmassCore\Src\LMTemplates.cpp LightmassCore\Src\LMThreading.cpp LightmassCore\Src\SFMT.cpp Lighting\Src\BSP.cpp Lighting\Src\Cache.cpp Lighting\Src\Collision.cpp Lighting\Src\FluidSurface.cpp Lighting\Src\Landscape.cpp Lighting\Src\LightingMesh.cpp Lighting\Src\LightingSystem.cpp Lighting\Src\LightmapData.cpp Lighting\Src\Mappings.cpp Lighting\Src\MonteCarlo.cpp Lighting\Src\PhotonMapping.cpp Lighting\Src\PrecomputedVisibility.cpp Lighting\Src\SampleVolume.cpp Lighting\Src\SpeedTree.cpp Lighting\Src\StaticMesh.cpp Lighting\Src\TerrainLighting.cpp Lighting\Src\TextureMapping.cpp Lighting\Src\VertexMapping.cpp Lighting\Src\VolumeDistanceField.cpp
+  UnitTest.cpp
+  UnrealLightmass.cpp
+  CPUSolver.cpp
+  3DVisualizer.cpp
+  Exporter.cpp
+  Importer.cpp
+  LightmassSwarm.cpp
+  Material.cpp
+  Mesh.cpp
+  Scene.cpp
+  Terrain.cpp
+  LMCore.cpp
+  LMDebug.cpp
+  LMMallocProfiler.cpp
+  LMMath.cpp
+  LMMemory.cpp
+  LMSHMath.cpp
+  LMTemplates.cpp
+  LMThreading.cpp
+  SFMT.cpp
+  Compiling...
+  BSP.cpp
+  Cache.cpp
+  Collision.cpp
+  FluidSurface.cpp
+  Landscape.cpp
+  LightingMesh.cpp
+  LightingSystem.cpp
+  LightmapData.cpp
+  Mappings.cpp
+  MonteCarlo.cpp
+  PhotonMapping.cpp
+  PrecomputedVisibility.cpp
+  SampleVolume.cpp
+  SpeedTree.cpp
+  StaticMesh.cpp
+  TerrainLighting.cpp
+  TextureMapping.cpp
+  VertexMapping.cpp
+  VolumeDistanceField.cpp
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.28000.0\x64\rc.exe /D _UNICODE /D UNICODE /D _WIN64 /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Resource.res" Resource.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"..\..\..\Binaries\Win64\UnrealLightmass.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\UnrealSwarm\Binaries\Release /LIBPATH:..\..\External\DirectX9\Lib\x64 d3d9.lib d3dx9.lib dbghelp.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:d3d9.dll /DELAYLOAD:d3dx9_39.dll /DELAYLOAD:dbghelp.dll /MANIFEST:NO /DEBUG /PDB:"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /LTCGOUT:"..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.iobj" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\..\Binaries\Win64\UnrealLightmass.lib" /MACHINE:X64 ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Resource.res
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\stdafx.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnitTest.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\CPUSolver.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\3DVisualizer.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Exporter.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Importer.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LightmassSwarm.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Material.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Mesh.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Scene.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Terrain.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMCore.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMDebug.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMMallocProfiler.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMMath.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMMemory.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMSHMath.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMTemplates.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LMThreading.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\SFMT.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\BSP.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Cache.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Collision.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\FluidSurface.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Landscape.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LightingMesh.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LightingSystem.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\LightmapData.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\Mappings.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\MonteCarlo.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\PhotonMapping.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\PrecomputedVisibility.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\SampleVolume.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\SpeedTree.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\StaticMesh.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\TerrainLighting.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\TextureMapping.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\VertexMapping.obj
+  ..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\VolumeDistanceField.obj
+  "D:\UnrealEngine3-SC\Development\Intermediate\Shared\Tools\Win64\Release\SwarmInterface\SwarmInterface.lib"
+  Generating code
+  Finished generating code
+  UnrealLightmass.vcxproj -> D:\UnrealEngine3-SC\Binaries\Win64\UnrealLightmass.exe
+FinalizeBuildStatus:
+  Deleting file "..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.tlog\unsuccessfulbuild".
+  Touching "..\..\Intermediate\Shared\Tools\Win64\Release\UnrealLightmass\UnrealLightmass.tlog\UnrealLightmass.lastbuildstate".
+Done Building Project "D:\UnrealEngine3-SC\Development\Tools\UnrealLightmass\UnrealLightmass.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:25.34
+Verified AutoReporter: D:\UnrealEngine3-SC\Binaries\AutoReporter.exe (54,784 bytes)
+Verified managed assembly identity: AutoReporter, Version=1.0.9741.970, Culture=neutral, PublicKeyToken=null
+Verified AutoReporter runtime configuration: D:\UnrealEngine3-SC\Binaries\AutoReporter.exe.config (1,630 bytes)
+Verified AutoReporter XML serializers: D:\UnrealEngine3-SC\Binaries\AutoReporter.XmlSerializers.dll (14,336 bytes)
+Verified managed assembly identity: AutoReporter.XmlSerializers, Version=1.0.9741.970, Culture=neutral, PublicKeyToken=null
+Verified UnrealControls: D:\UnrealEngine3-SC\Binaries\UnrealControls.dll (75,776 bytes)
+Verified managed assembly identity: UnrealControls, Version=1.0.9741.971, Culture=neutral, PublicKeyToken=null
+Verified Swarm Agent interface: D:\UnrealEngine3-SC\Binaries\AgentInterface.dll (10,240 bytes)
+Verified managed assembly identity: AgentInterface, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Verified Win64 Swarm Agent interface: D:\UnrealEngine3-SC\Binaries\Win64\AgentInterface.dll (10,240 bytes)
+Verified managed assembly identity: AgentInterface, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Verified Swarm Coordinator interface: D:\UnrealEngine3-SC\Binaries\SwarmCoordinatorInterface.dll (5,632 bytes)
+Verified managed assembly identity: SwarmCoordinatorInterface, Version=1.0.9741.972, Culture=neutral, PublicKeyToken=null
+Verified Swarm Agent: D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe (349,184 bytes)
+Verified managed assembly identity: SwarmAgent, Version=1.7.4623.0, Culture=neutral, PublicKeyToken=null
+Verified Swarm Agent runtime configuration: D:\UnrealEngine3-SC\Binaries\SwarmAgent.exe.config (1,044 bytes)
+Verified Swarm Coordinator: D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe (22,016 bytes)
+Verified managed assembly identity: SwarmCoordinator, Version=1.0.9741.972, Culture=neutral, PublicKeyToken=null
+Verified Swarm Coordinator runtime configuration: D:\UnrealEngine3-SC\Binaries\SwarmCoordinator.exe.config (887 bytes)
+Verified UnrealLightmass Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UnrealLightmass.exe (967,680 bytes)
+Verified DirectX 9 D3DX runtime required by UnrealLightmass Win64: Win64 PE, C:\WINDOWS\System32\d3dx9_39.dll (4,992,520 bytes)
+Verified fresh unsigned local Swarm Agent startup in standalone mode with an app-local cache and no logged failures.
+Invalidated previous UnrealBuildTool Release output: D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe
+Building UnrealBuildTool with C:\Program Files\Microsoft Visual Studio\2022\Professional\\MSBuild\Current\Bin\amd64\MSBuild.exe
+Build started 9/2/2026 12:32:56 AM.
+
+Project "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\UnrealBuildTool.csproj" on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe.config".
+  Deleting file "D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.pdb".
+  Deleting file "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.csproj.AssemblyReference.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.exe".
+  Deleting file "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.pdb".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:D:\UnrealEngine3-SC\Binaries\RPCUtility.exe /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.Remoting.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\UnrealBuildTool.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 ..\IPhone\UnrealBuildTool\Scripts\UE3BuildIPhone.cs ..\IPhone\UnrealBuildTool\System\IPhoneToolChain.cs ..\IPhone\UnrealBuildTool\System\XcodeToolChain.cs ..\Android\UnrealBuildTool\Scripts\UE3BuildAndroid.cs ..\Android\UnrealBuildTool\System\AndroidToolChain.cs Configuration\UE3BuildFlashStub.cs ToolChain\FlashToolChainStub.cs ..\Launch\Resources\MetaData.cs ..\..\..\Deprecated\Duke\Source\UnrealBuildTool\UE3BuildDukeGame.cs Configuration\UE3BuildExoGame.cs Configuration\UE3BuildMac.cs Configuration\UE3BuildSwordGame.cs Properties\AssemblyInfo.cs Configuration\DebugInfoHeuristic.cs Configuration\UE3BuildConfiguration.cs Configuration\UE3BuildExampleGame.cs Configuration\UE3BuildExternal.cs Configuration\UE3BuildLocalUTGame.cs Configuration\UE3BuildTarget.cs Configuration\UE3BuildUTGame.cs Configuration\UE3BuildWin32.cs System\ActionGraph.cs System\BuildException.cs Configuration\BuildConfiguration.cs System\CPPEnvironment.cs System\CPPHeaders.cs System\DependencyCache.cs System\DataBase.cs System\FileItem.cs System\RPCUtilHelper.cs ToolChain\IntelToolChain.cs System\LinkEnvironment.cs System\LocalExecutor.cs System\ResponseFile.cs System\Unity.cs System\UnrealBuildTool.cs System\Utils.cs System\VCProject.cs ToolChain\MacToolChain.cs ToolChain\VCToolChain.cs System\XGE.cs ToolChain\XcodeMacToolChain.cs "obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - UnrealBuildTool
+_CopyAppConfigFile:
+  Copying file from "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\app.config" to "D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.exe" to "D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe".
+  UnrealBuildTool -> D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe
+  Copying file from "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\obj\Release\UnrealBuildTool.pdb" to "D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.pdb".
+Done Building Project "D:\UnrealEngine3-SC\Development\Src\UnrealBuildTool\UnrealBuildTool.csproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+Verified UnrealBuildTool Release: D:\UnrealEngine3-SC\Development\Intermediate\UnrealBuildTool\Release\UnrealBuildTool.exe (209,920 bytes)
+Verified managed assembly identity: UnrealBuildTool, Version=1.0.9741.988, Culture=neutral, PublicKeyToken=null
+Invalidated previous UTGameScriptCompiler Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UTGameScriptCompiler.exe
+
+Building UTGameScriptCompiler Win64 Release
+Verified UTGameScriptCompiler Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UTGameScriptCompiler.exe (51,964,928 bytes)
+
+Generating native UnrealScript headers
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\Core\Inc\CoreClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\Core\Inc\CoreNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\Engine\Inc\EngineClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\Engine\Inc\EngineNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GFxUI\Inc\GFxUIClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GFxUI\Inc\GFxUINames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GFxUI\Inc\GFxUIUIPrivateClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GFxUI\Inc\GFxUIUISequenceClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\IpDrv\Inc\IpDrvClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\IpDrv\Inc\IpDrvNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GameFramework\Inc\GameFrameworkClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\GameFramework\Inc\GameFrameworkNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\UnrealEd\Inc\UnrealEdClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\UnrealEd\Inc\UnrealEdNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\WinDrv\Inc\WinDrvClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\WinDrv\Inc\WinDrvNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\OnlineSubsystemPC\Inc\OnlineSubsystemPCClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\OnlineSubsystemPC\Inc\OnlineSubsystemPCNames.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\UTGame\Inc\UTGameClasses.h
+Verified generated header: D:\UnrealEngine3-SC\Development\Src\UTGame\Inc\UTGameNames.h
+Invalidated previous UTGameScriptCompiler Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UTGameScriptCompiler.exe
+
+Building UTGameScriptCompiler Win64 Release
+Verified UTGameScriptCompiler Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UTGameScriptCompiler.exe (51,964,928 bytes)
+
+Compiling the complete UnrealScript package set
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\Core.u (329,191 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\Engine.u (11,734,124 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\GFxUI.u (199,462 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\IpDrv.u (1,239,041 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\GameFramework.u (1,345,355 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\UnrealEd.u (767,440 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\WinDrv.u (32,767 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\OnlineSubsystemPC.u (164,315 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\UTGame.u (593,454 bytes)
+Verified source-built script package: D:\UnrealEngine3-SC\UTGame\Script\UDKStarter.u (5,912 bytes)
+Invalidated previous UTGame Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe
+
+Building UTGame Win64 Release
+Verified UTGame Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe (28,196,352 bytes)
+Invalidated previous UDK Win64 Release output: D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe
+
+Building UDK Win64 Release
+Verified UDK Win64 Release: Win64 PE, D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe (51,964,928 bytes)
+
+Running final native and script-package preflight
+Local UTGame runtime preflight (read-only; no launch or copy operations).
+Supported local package header: tag=0x9E2A83C1, package version 491..867, licensee version <= 0 (engine 10897).
+
+Native outputs:
+[PASS] Binaries\Win64\UTGame.exe: x64 PE (28,196,352 bytes)
+[PASS] Binaries\Win64\UDK.exe: x64 PE (51,964,928 bytes)
+[PASS] Binaries\Win64\UTGameScriptCompiler.exe: x64 PE (51,964,928 bytes)
+[PASS] Binaries\Win64\UE3ShaderCompileWorker.exe: x64 PE (221,696 bytes)
+[PASS] Binaries\Win64\UnrealLightmass.exe: x64 PE (967,680 bytes)
+
+Required Win64 app-local native DLLs:
+[PASS] Binaries\Win64\dbghelp.dll: x64 PE (1,355,280 bytes)
+[PASS] Binaries\Win64\EasyHook64.dll: x64 PE (99,608 bytes)
+[PASS] Binaries\Win64\nvtt_64.dll: x64 PE (139,032 bytes)
+[PASS] Binaries\Win64\wxbase28u_vc_custom_64.dll: x64 PE (2,142,208 bytes)
+[PASS] Binaries\Win64\wxbase28u_net_vc_custom_64.dll: x64 PE (233,472 bytes)
+[PASS] Binaries\Win64\wxbase28u_xml_vc_custom_64.dll: x64 PE (248,832 bytes)
+[PASS] Binaries\Win64\wxmsw28u_adv_vc_custom_64.dll: x64 PE (1,100,288 bytes)
+[PASS] Binaries\Win64\wxmsw28u_aui_vc_custom_64.dll: x64 PE (517,120 bytes)
+[PASS] Binaries\Win64\wxmsw28u_core_vc_custom_64.dll: x64 PE (4,737,024 bytes)
+[PASS] Binaries\Win64\wxmsw28u_html_vc_custom_64.dll: x64 PE (776,192 bytes)
+[PASS] Binaries\Win64\wxmsw28u_media_vc_custom_64.dll: x64 PE (196,096 bytes)
+[PASS] Binaries\Win64\wxmsw28u_qa_vc_custom_64.dll: x64 PE (167,424 bytes)
+[PASS] Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll: x64 PE (1,184,768 bytes)
+[PASS] Binaries\Win64\wxmsw28u_xrc_vc_custom_64.dll: x64 PE (878,592 bytes)
+
+Required managed Swarm outputs:
+[PASS] Binaries\AgentInterface.dll: managed assembly AgentInterface, version 0.0.0.0 (10,240 bytes)
+[PASS] Binaries\SwarmAgent.exe: managed assembly SwarmAgent, version 1.7.4623.0 (349,184 bytes)
+[PASS] Binaries\SwarmCoordinatorInterface.dll: managed assembly SwarmCoordinatorInterface, version 1.0.9741.972 (5,632 bytes)
+[PASS] Binaries\UnrealControls.dll: managed assembly UnrealControls, version 1.0.9741.971 (75,776 bytes)
+[PASS] Binaries\Win64\AgentInterface.dll: managed assembly AgentInterface, version 0.0.0.0 (10,240 bytes)
+[PASS] Binaries\SwarmAgent.exe.config: present and nonempty
+
+Required retained binary content packages:
+[PASS] Engine\Content\Engine_MI_Shaders.upk: tag=0x9E2A83C1, package=813, licensee=0
+[PASS] UTGame\Content\SoundClassesAndModes.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\PhysicalMaterials.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Characters\CH_IronGuard_Headshot.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\Envy_Effects2.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\Envy_Effects_UT3_Original.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\Envy_Level_Effects_2.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\FX_VehicleExplosions.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\T_FX.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Effects\VH_Weapons.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\ASC_Base.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\ASC_Light.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\HU_Base.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\HU_Deco.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\HU_Supports.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\HU_Walls.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Base.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Bridge.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Deco.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Floors.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Mech.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\LT_Walls.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_DetailTex.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_Misc.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_Rock.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_Rock2.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_Shaders.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Environments\UN_Terrain.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Sounds\A_Interface.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Sounds\Weapon\A_Weapon_Enforcer.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_All.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Cicada.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Fury.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Manta.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Nemesis.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Paladin.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Raptor.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Vehicles\VH_Scorpion.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Weapons\WP_BioRifle.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Weapons\WP_Enforcers.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Weapons\WP_LinkGun.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Weapons\WP_Translocator.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Sounds\A_Announcer_Reward_Cue.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Sounds\INT\A_Announcer_Reward.upk: tag=0x9E2A83C1, package=820, licensee=0
+[PASS] UTGame\Content\Sounds\INT\A_Announcer_Status.upk: tag=0x9E2A83C1, package=820, licensee=0
+
+Required source-built script packages:
+Core.u, Engine.u, GFxUI.u, IpDrv.u, GameFramework.u, UnrealEd.u, WinDrv.u, OnlineSubsystemPC.u, UTGame.u, UDKStarter.u (all must be present under UTGame\Script and pass the header check).
+[PASS] UTGame\Script\Core.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\Engine.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\GFxUI.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\IpDrv.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\GameFramework.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\UnrealEd.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\WinDrv.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\OnlineSubsystemPC.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\UTGame.u: tag=0x9E2A83C1, package=867, licensee=0
+[PASS] UTGame\Script\UDKStarter.u: tag=0x9E2A83C1, package=867, licensee=0
+
+Supplied UDK template checks (reference only):
+[INCOMPATIBLE] UDK Game is reference-only and will not be copied. Core.u: package version 868 is outside 491..867 | Engine.u: package version 868 is outside 491..867 | GFxUI.u: package version 868 is outside 491..867 | IpDrv.u: package version 868 is outside 491..867 | GameFramework.u: package version 868 is outside 491..867 | UnrealEd.u: package version 868 is outside 491..867 | WinDrv.u: package version 868 is outside 491..867 | OnlineSubsystemPC.u: package version 868 is outside 491..867 | UTGame.u is absent | UDKStarter.u is absent
+[INCOMPATIBLE] UDK Ultimate is reference-only and will not be copied. WinDrv.u is absent | UDKStarter.u is absent
+
+Preflight passed. Header checks are necessary but do not replace full runtime compatibility testing.
+
+Full Win64 source build completed successfully. The wxWidgets, shader worker, AutoReporter, UnrealLightmass, Swarm tools, UTGame, UDK, and all ten script packages passed verification.

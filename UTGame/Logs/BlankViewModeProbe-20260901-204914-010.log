@@ -1,0 +1,133 @@
+Log: Log file open, 09/01/26 20:49:15
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor   -nopause -forcelogflush -nosplash -windowed -ResX=1100 -ResY=760 -log=BlankViewModeProbe-20260901-204914-010.log  
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.65] Init: Computer: CHEATS
+[0000.66] Init: User: vande
+[0000.66] Init: CPU Page size=4096, Processors=8
+[0000.66] Init: High frequency timer resolution =10.000000 MHz
+[0000.66] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.7GB Virtual=131072.0GB
+[0000.73] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.73] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.74] Init: Object subsystem initialized
+[0000.79] Log: SystemSettings based on: SystemSettings
+[0001.43] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.24] Log: 52516 objects as part of root set at end of initial load.
+[0019.24] Log: 0 out of 0 bytes used by permanent object pool.
+[0019.32] Log: Supported Consoles:
+[0019.32] Log:   PC
+[0019.32] Log: Initializing Engine...
+[0019.76] Log: Encountered missing default brush - spawning new one
+[0020.63] Log: Initializing Engine Completed
+[0020.63] Log: >>>>>>>>>>>>>> Initial startup: 20.63s <<<<<<<<<<<<<<<
+[0020.85] Cmd: MODE MAPEXT=udk
+[0020.86] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0020.86] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0025.61] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0026.12] Log: Encountered missing default brush - spawning new one
+[0027.07] Log: -- Checking Building LODs
+[0027.08] Log: Finished looking for orphan Actors (0.002 secs)
+[0027.15] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0027.16] Log: TIMER ALL OF INIT : [24.443703]
+[0027.28] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0027.63] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0027.63] Log: StarterFinish: skipped final copy
+[0027.63] Log: Encountered missing default brush - spawning new one
+[0027.74] Log: Encountered missing default brush - spawning new one
+[0028.28] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0028.40] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0028.40] Log: StarterFinish: skipped final copy
+[0029.28] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0029.40] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0029.40] Log: StarterFinish: skipped final copy
+[0030.29] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0030.40] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0030.40] Log: StarterFinish: skipped final copy
+[0031.29] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0031.41] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0031.41] Log: StarterFinish: skipped final copy
+[0032.30] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0032.44] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0032.44] Log: StarterFinish: skipped final copy
+[0033.30] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0033.43] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0033.43] Log: StarterFinish: skipped final copy
+[0034.31] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0034.43] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0034.44] Log: StarterFinish: skipped final copy
+[0035.31] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0035.44] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0035.44] Log: StarterFinish: skipped final copy
+[0035.95] Cmd: SHOW POSTPROCESS
+[0036.31] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0036.44] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0036.44] Log: StarterFinish: skipped final copy
+[0037.32] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0037.46] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0037.46] Log: StarterFinish: skipped final copy
+[0038.33] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0038.46] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0038.46] Log: StarterFinish: skipped final copy
+[0039.30] Cmd: SHOW POSTPROCESS
+[0039.33] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0039.46] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0039.46] Log: StarterFinish: skipped final copy
+[0040.34] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0040.47] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0040.47] Log: StarterFinish: skipped final copy
+[0041.34] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0041.45] Cmd: SHOW AMBIENTOCCLUSION
+[0041.48] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0041.48] Log: StarterFinish: skipped final copy
+[0042.34] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0042.48] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0042.48] Log: StarterFinish: skipped final copy
+[0043.35] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0043.49] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0043.49] Log: StarterFinish: skipped final copy
+[0044.36] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0044.49] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0044.49] Log: StarterFinish: skipped final copy
+[0044.82] Cmd: VIS 4 SAT UV1
+[0044.82] Log: VisualizeTexture 4
+[0045.36] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0045.49] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0045.49] Log: StarterFinish: skipped final copy
+[0046.37] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0046.50] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0046.50] Log: StarterFinish: skipped final copy
+[0047.37] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0047.50] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0047.50] Log: StarterFinish: skipped final copy
+[0048.18] Cmd: VIS 30 SAT UV1
+[0048.18] Log: VisualizeTexture 30
+[0048.37] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0048.50] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0048.50] Log: StarterFinish: skipped final copy
+[0049.38] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0049.50] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0049.50] Log: StarterFinish: skipped final copy
+[0050.39] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0050.50] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0050.50] Log: StarterFinish: skipped final copy
+[0051.40] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0051.51] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0051.51] Log: StarterFinish: skipped final copy
+[0051.65] Cmd: VIS 0
+[0051.65] Log: VisualizeTexture 0
+[0052.40] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0052.51] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0052.51] Log: StarterFinish: skipped final copy
+[0053.54] Exit: Preparing to exit.
+[0053.65] Exit: Editor shut down
+[0053.66] Exit: Transaction tracking system shut down
+[0053.78] Exit: Windows client shut down
+[0053.79] Exit: XAudio2 Device shut down.
+[0053.82] Exit: Object subsystem successfully closed.
+[0053.85] Exit: Exiting.
+[0053.86] Log: Log file closed, 09/01/26 20:50:08

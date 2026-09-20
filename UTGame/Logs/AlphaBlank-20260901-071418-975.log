@@ -1,0 +1,46 @@
+Log: Log file open, 09/01/26 07:14:19
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor -nopause -forcelogflush -nosplash -windowed -ResX=1280 -ResY=720 -EXEC="..\..\Development\Tools\UDKLift\BlankBackgroundAlphaProbe.txt" -log=AlphaBlank-20260901-071418-975.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.49] Init: Computer: CHEATS
+[0000.49] Init: User: vande
+[0000.49] Init: CPU Page size=4096, Processors=8
+[0000.49] Init: High frequency timer resolution =10.000000 MHz
+[0000.49] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.1GB Virtual=131072.0GB
+[0000.53] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.53] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.53] Init: Object subsystem initialized
+[0000.54] Log: SystemSettings based on: SystemSettings
+[0000.71] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.92] Log: 52516 objects as part of root set at end of initial load.
+[0001.92] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.96] Log: Supported Consoles:
+[0001.96] Log:   PC
+[0001.96] Log: Initializing Engine...
+[0002.12] Log: Encountered missing default brush - spawning new one
+[0002.51] Log: Initializing Engine Completed
+[0002.51] Log: >>>>>>>>>>>>>> Initial startup: 2.51s <<<<<<<<<<<<<<<
+[0002.60] Cmd: MODE MAPEXT=udk
+[0002.61] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.61] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0006.06] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.36] Log: Encountered missing default brush - spawning new one
+[0007.09] Log: -- Checking Building LODs
+[0007.10] Log: Finished looking for orphan Actors (0.002 secs)
+[0007.15] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0007.16] Log: TIMER ALL OF INIT : [6.108777]
+[0007.53] Log: Encountered missing default brush - spawning new one
+[0007.64] Log: Encountered missing default brush - spawning new one
+[0012.74] Exit: Preparing to exit.
+[0012.84] Exit: Editor shut down
+[0012.84] Exit: Transaction tracking system shut down
+[0012.96] Exit: Windows client shut down
+[0012.97] Exit: XAudio2 Device shut down.
+[0013.00] Exit: Object subsystem successfully closed.
+[0013.02] Exit: Exiting.
+[0013.03] Log: Log file closed, 09/01/26 07:14:32

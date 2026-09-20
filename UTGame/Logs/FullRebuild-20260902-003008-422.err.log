@@ -1,0 +1,9 @@
+Copy-VerifiedFile : The term 'Get-FileHash' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At D:\UnrealEngine3-SC\Build-WxWidgets.ps1:296 char:5
++     Copy-VerifiedFile -Source $setupSource -Destination $setupDestina ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-FileHash:String) [Copy-VerifiedFile], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException,Copy-VerifiedFile
+ 

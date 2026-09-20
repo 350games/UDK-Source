@@ -1,0 +1,65 @@
+Log: Log file open, 09/04/26 17:02:06
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  2 2026 00:51:11
+Init: Changelist: 1532151
+Init: Command line: editor 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.69] Log: Deleting old log file Launch-backup-2026.08.31-06.41.19.log
+[0000.70] Log: Deleting old log file Launch-backup-2026.08.31-06.41.45.log
+[0000.70] Log: Deleting old log file Launch-backup-2026.08.31-15.33.24.log
+[0000.71] Log: Deleting old log file Launch-backup-2026.08.31-15.46.41.log
+[0000.72] Log: Deleting old log file Launch-backup-2026.08.31-15.48.34.log
+[0000.73] Log: Deleting old log file Launch-backup-2026.08.31-15.51.39.log
+[0000.74] Log: Deleting old log file Launch-backup-2026.08.31-16.04.44.log
+[0000.75] Log: Deleting old log file Launch-backup-2026.08.31-16.20.14.log
+[0000.76] Log: Deleting old log file Launch-backup-2026.08.31-20.42.42.log
+[0000.76] Log: Deleting old log file Launch-backup-2026.08.31-20.42.51.log
+[0000.77] Log: Deleting old log file Launch-backup-2026.08.31-20.43.07.log
+[0000.78] Log: Deleting old log file Launch-backup-2026.08.31-20.43.52.log
+[0000.79] Log: Deleting old log file Launch-backup-2026.08.31-20.44.22.log
+[0000.79] Log: Deleting old log file Launch-backup-2026.08.31-20.45.28.log
+[0000.80] Log: Deleting old log file Launch-backup-2026.08.31-20.45.43.log
+[0000.81] Log: Deleting old log file Launch-backup-2026.08.31-20.48.11.log
+[0000.82] Log: Deleting old log file Launch-backup-2026.08.31-20.48.33.log
+[0000.83] Log: Deleting old log file Launch-backup-2026.08.31-23.17.58.log
+[0000.84] Log: Deleting old log file Launch-backup-2026.09.01-16.30.32.log
+[0000.84] Log: Deleting old log file Launch-backup-2026.09.01-18.49.26.log
+[0000.92] Log: Deleting old log file Launch_2-backup-2026.09.02-23.24.45.log
+[0000.92] Init: Computer: CHEATS
+[0000.92] Init: User: vande
+[0000.92] Init: CPU Page size=4096, Processors=8
+[0000.92] Init: High frequency timer resolution =10.000000 MHz
+[0000.92] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.8GB Virtual=131072.0GB
+[0000.95] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.95] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.95] Init: Object subsystem initialized
+[0000.97] Log: SystemSettings based on: SystemSettings
+[0001.14] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.97] Log: 52516 objects as part of root set at end of initial load.
+[0005.97] Log: 0 out of 0 bytes used by permanent object pool.
+[0006.02] Log: Supported Consoles:
+[0006.02] Log:   PC
+[0006.02] Log: Initializing Engine...
+[0006.25] Log: Encountered missing default brush - spawning new one
+[0006.69] Log: Initializing Engine Completed
+[0006.69] Log: >>>>>>>>>>>>>> Initial startup: 6.69s <<<<<<<<<<<<<<<
+[0006.88] Cmd: MODE MAPEXT=udk
+[0006.88] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0006.88] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0010.59] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0010.98] Log: Encountered missing default brush - spawning new one
+[0011.79] Log: -- Checking Building LODs
+[0011.79] Log: Finished looking for orphan Actors (0.001 secs)
+[0011.84] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0011.84] Log: TIMER ALL OF INIT : [7.797573]
+[0037.39] Exit: Preparing to exit.
+[0037.47] Exit: Editor shut down
+[0037.47] Exit: Transaction tracking system shut down
+[0037.62] Exit: Windows client shut down
+[0037.62] Exit: XAudio2 Device shut down.
+[0037.66] Exit: Object subsystem successfully closed.
+[0037.69] Exit: Exiting.
+[0037.69] Log: Log file closed, 09/04/26 17:02:43

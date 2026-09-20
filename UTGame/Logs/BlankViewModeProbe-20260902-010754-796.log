@@ -1,0 +1,55 @@
+Log: Log file open, 09/02/26 01:07:55
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  2 2026 00:51:11
+Init: Changelist: 1532151
+Init: Command line: editor   -nopause -forcelogflush -nosplash -windowed -ResX=1100 -ResY=760 -log=BlankViewModeProbe-20260902-010754-796.log  
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.44] Init: Computer: CHEATS
+[0000.44] Init: User: vande
+[0000.44] Init: CPU Page size=4096, Processors=8
+[0000.44] Init: High frequency timer resolution =10.000000 MHz
+[0000.45] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=20.0GB Virtual=131072.0GB
+[0000.48] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.48] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.49] Log: SystemSettings based on: SystemSettings
+[0000.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.81] Log: 52516 objects as part of root set at end of initial load.
+[0001.81] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.85] Log: Supported Consoles:
+[0001.85] Log:   PC
+[0001.85] Log: Initializing Engine...
+[0002.01] Log: Encountered missing default brush - spawning new one
+[0002.40] Log: Initializing Engine Completed
+[0002.40] Log: >>>>>>>>>>>>>> Initial startup: 2.40s <<<<<<<<<<<<<<<
+[0002.48] Cmd: MODE MAPEXT=udk
+[0002.48] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.48] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0005.41] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0005.73] Log: Encountered missing default brush - spawning new one
+[0006.48] Log: -- Checking Building LODs
+[0006.48] Log: Finished looking for orphan Actors (0.002 secs)
+[0006.54] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0006.55] Log: TIMER ALL OF INIT : [5.574128]
+[0007.01] Log: Encountered missing default brush - spawning new one
+[0007.11] Log: Encountered missing default brush - spawning new one
+[0015.25] Cmd: SHOW POSTPROCESS
+[0018.60] Cmd: SHOW POSTPROCESS
+[0020.75] Cmd: SHOW AMBIENTOCCLUSION
+[0024.09] Cmd: VIS 4 SAT UV1
+[0024.09] Log: VisualizeTexture 4
+[0027.42] Cmd: VIS 30 SAT UV1
+[0027.42] Log: VisualizeTexture 30
+[0030.78] Cmd: VIS 0
+[0030.78] Log: VisualizeTexture 0
+[0032.44] Exit: Preparing to exit.
+[0032.53] Exit: Editor shut down
+[0032.53] Exit: Transaction tracking system shut down
+[0032.67] Exit: Windows client shut down
+[0032.68] Exit: XAudio2 Device shut down.
+[0032.72] Exit: Object subsystem successfully closed.
+[0032.74] Exit: Exiting.
+[0032.75] Log: Log file closed, 09/02/26 01:08:27

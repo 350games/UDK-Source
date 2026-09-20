@@ -1,0 +1,211 @@
+Log: Log file open, 09/01/26 23:48:43
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor   -nopause -forcelogflush -nosplash -windowed -ResX=1100 -ResY=760 -log=BlankViewModeProbe-20260901-234842-765.log  
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.49] Init: Computer: CHEATS
+[0000.50] Init: User: vande
+[0000.50] Init: CPU Page size=4096, Processors=8
+[0000.50] Init: High frequency timer resolution =10.000000 MHz
+[0000.50] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=19.4GB Virtual=131072.0GB
+[0000.53] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.53] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.53] Init: Object subsystem initialized
+[0000.54] Log: SystemSettings based on: SystemSettings
+[0000.72] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.28] Log: 52516 objects as part of root set at end of initial load.
+[0002.28] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.32] Log: Supported Consoles:
+[0002.32] Log:   PC
+[0002.32] Log: Initializing Engine...
+[0002.52] Log: Encountered missing default brush - spawning new one
+[0002.95] Log: Initializing Engine Completed
+[0002.95] Log: >>>>>>>>>>>>>> Initial startup: 2.95s <<<<<<<<<<<<<<<
+[0003.06] Cmd: MODE MAPEXT=udk
+[0003.06] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0003.06] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0006.30] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.68] Log: Encountered missing default brush - spawning new one
+[0007.40] Log: -- Checking Building LODs
+[0007.41] Log: Finished looking for orphan Actors (0.002 secs)
+[0007.46] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0007.46] Log: TIMER ALL OF INIT : [6.411207]
+[0007.58] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0007.90] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0007.90] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0007.90] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0007.90] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0007.90] Log: StarterFinish: skipped final copy
+[0007.90] Log: Encountered missing default brush - spawning new one
+[0008.00] Log: Encountered missing default brush - spawning new one
+[0008.18] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0008.18] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0008.58] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0008.65] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0008.67] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0008.67] Log: StarterFinish: skipped final copy
+[0009.08] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0009.08] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0009.58] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0009.66] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0009.67] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0009.67] Log: StarterFinish: skipped final copy
+[0010.09] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0010.09] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0010.58] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0010.66] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0010.67] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0010.67] Log: StarterFinish: skipped final copy
+[0011.09] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0011.09] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0011.59] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0011.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0011.67] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0011.67] Log: StarterFinish: skipped final copy
+[0012.10] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0012.10] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0012.61] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0012.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0012.67] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0012.67] Log: StarterFinish: skipped final copy
+[0013.10] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0013.10] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0013.62] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0013.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0013.68] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0013.68] Log: StarterFinish: skipped final copy
+[0014.10] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0014.10] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0014.62] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0014.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0014.68] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0014.68] Log: StarterFinish: skipped final copy
+[0015.10] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0015.10] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0015.62] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0015.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0015.68] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0015.68] Log: StarterFinish: skipped final copy
+[0016.10] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0016.10] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0016.18] Cmd: SHOW POSTPROCESS
+[0016.63] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0016.67] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0016.68] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0016.68] Log: StarterFinish: skipped final copy
+[0017.11] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0017.11] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0017.63] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0017.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0017.69] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0017.69] Log: StarterFinish: skipped final copy
+[0018.11] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0018.11] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0018.64] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0018.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0018.69] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0018.69] Log: StarterFinish: skipped final copy
+[0019.11] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0019.11] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0019.54] Cmd: SHOW POSTPROCESS
+[0019.64] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0019.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0019.70] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0019.70] Log: StarterFinish: skipped final copy
+[0020.12] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0020.12] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0020.64] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0020.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0020.71] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0020.71] Log: StarterFinish: skipped final copy
+[0021.12] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0021.12] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0021.64] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0021.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0021.69] Cmd: SHOW AMBIENTOCCLUSION
+[0021.71] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0021.71] Log: StarterFinish: skipped final copy
+[0022.12] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0022.12] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0022.65] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0022.68] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0022.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0022.72] Log: StarterFinish: skipped final copy
+[0023.12] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0023.12] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0023.65] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0023.69] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0023.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0023.72] Log: StarterFinish: skipped final copy
+[0024.13] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0024.13] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0024.65] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0024.69] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0024.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0024.72] Log: StarterFinish: skipped final copy
+[0025.07] Cmd: VIS 4 SAT UV1
+[0025.08] Log: VisualizeTexture 4
+[0025.13] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0025.13] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0025.66] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0025.70] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0025.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0025.72] Log: StarterFinish: skipped final copy
+[0026.13] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0026.13] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0026.66] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0026.70] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0026.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0026.72] Log: StarterFinish: skipped final copy
+[0027.13] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0027.13] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0027.66] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0027.70] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0027.72] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0027.72] Log: StarterFinish: skipped final copy
+[0028.13] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0028.13] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0028.42] Cmd: VIS 30 SAT UV1
+[0028.42] Log: VisualizeTexture 30
+[0028.67] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0028.70] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0028.73] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0028.73] Log: StarterFinish: skipped final copy
+[0029.14] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0029.14] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0029.68] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0029.71] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0029.73] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0029.73] Log: StarterFinish: skipped final copy
+[0030.14] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0030.14] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0030.68] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0030.71] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0030.73] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0030.73] Log: StarterFinish: skipped final copy
+[0031.14] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0031.14] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0031.68] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0031.71] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0031.73] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0031.73] Log: StarterFinish: skipped final copy
+[0031.78] Cmd: VIS 0
+[0031.78] Log: VisualizeTexture 0
+[0032.14] Log: StarterLUTParams: BlendCount=1 Weight0=1 WeightReg=47/0 Gamma=2.2 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0032.14] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0032.68] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0032.72] Log: StarterLUTSurface: First=(64,127,191,255) Middle=(64,127,191,255) Last=(64,127,191,255) Bytes=16384
+[0032.73] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0032.73] Log: StarterFinish: skipped final copy
+[0033.48] Exit: Preparing to exit.
+[0033.62] Exit: Editor shut down
+[0033.62] Exit: Transaction tracking system shut down
+[0033.76] Exit: Windows client shut down
+[0033.77] Exit: XAudio2 Device shut down.
+[0033.81] Exit: Object subsystem successfully closed.
+[0033.83] Exit: Exiting.
+[0033.84] Log: Log file closed, 09/01/26 23:49:16

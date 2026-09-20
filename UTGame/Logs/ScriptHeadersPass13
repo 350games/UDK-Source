@@ -1,0 +1,136 @@
+Log: Log file open, 08/22/26 10:38:58
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 10:25:27
+Init: Changelist: 1532151
+Init: Command line: make -full -headers -auto -unattended -nopause -forcelogflush -nullrhi -warningsaserrors -log=ScriptHeadersPass13 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.31] Init: Computer: CHEATS
+[0000.31] Init: User: vande
+[0000.31] Init: CPU Page size=4096, Processors=8
+[0000.31] Init: High frequency timer resolution =10.000000 MHz
+[0000.31] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.34] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.34] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.34] Init: Object subsystem initialized
+[0000.36] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.08] Log: Executing Class UnrealEd.MakeCommandlet
+[0004.09] Heading: --------------------Core - Release--------------------
+[0004.09] Log: Analyzing...
+[0004.09] Log: Loading global macros for Core
+[0004.14] Log: Exporting native class declarations for Core
+[0004.14] Log: Autogenerating C++ header: 
+[0004.14] Log: Autogenerating C++ header: CoreNames.h
+[0004.14] Log: Success: Compiled 3350 line(s), 499 statement(s).
+
+[0004.15] Heading: --------------------Engine - Release--------------------
+[0004.16] Log: Analyzing...
+[0004.16] Log: Loading global macros for Engine
+[0004.36] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 11
+[0006.99] Log: Exporting native class declarations for Engine
+[0007.00] Log: Autogenerating C++ header: 
+[0007.45] Log: Autogenerating C++ header: Mesh
+[0007.46] Log: Autogenerating C++ header: ForceField
+[0007.47] Log: Autogenerating C++ header: ProcBuilding
+[0007.48] Log: Autogenerating C++ header: Camera
+[0007.48] Log: Autogenerating C++ header: Controller
+[0007.49] Log: Autogenerating C++ header: Particle
+[0007.60] Log: Autogenerating C++ header: Fluid
+[0007.61] Log: Autogenerating C++ header: FogVolume
+[0007.62] Log: Autogenerating C++ header: ReplicationInfo
+[0007.62] Log: Autogenerating C++ header: GameEngine
+[0007.63] Log: Autogenerating C++ header: Foliage
+[0007.63] Log: Autogenerating C++ header: Sound
+[0007.64] Log: Autogenerating C++ header: LensFlare
+[0007.64] Log: Autogenerating C++ header: Light
+[0007.65] Log: Autogenerating C++ header: Pawn
+[0007.66] Log: Autogenerating C++ header: Prefab
+[0007.66] Log: Autogenerating C++ header: Anim
+[0007.69] Log: Autogenerating C++ header: SpeedTree
+[0007.69] Log: Autogenerating C++ header: Spline
+[0007.70] Log: Autogenerating C++ header: AudioDevice
+[0007.70] Log: Autogenerating C++ header: PlatformInterface
+[0007.71] Log: Autogenerating C++ header: Base
+[0007.71] Log: Autogenerating C++ header: Interpolation
+[0007.72] Log: Autogenerating C++ header: Material
+[0007.76] Log: Autogenerating C++ header: Scene
+[0007.77] Log: Autogenerating C++ header: Sequence
+[0007.80] Log: Autogenerating C++ header: SkeletalMesh
+[0007.81] Log: Autogenerating C++ header: Texture
+[0007.81] Log: Autogenerating C++ header: UserInterface
+[0007.81] Log: Autogenerating C++ header: AI
+[0007.83] Log: Autogenerating C++ header: Decal
+[0007.83] Log: Autogenerating C++ header: Physics
+[0007.85] Log: Autogenerating C++ header: Terrain
+[0007.85] Log: Autogenerating C++ header: UIPrivate
+[0007.86] Log: Autogenerating C++ header: EngineNames.h
+[0007.86] Log: Success: Compiled 174157 line(s), 19464 statement(s).
+
+[0007.86] Heading: --------------------IpDrv - Release--------------------
+[0007.87] Log: Analyzing...
+[0007.87] Log: Loading global macros for IpDrv
+[0008.25] Log: Exporting native class declarations for IpDrv
+[0008.25] Log: Autogenerating C++ header: 
+[0008.26] Log: Autogenerating C++ header: UIPrivate
+[0008.27] Log: Autogenerating C++ header: IpDrvNames.h
+[0008.27] Log: Success: Compiled 22426 line(s), 1995 statement(s).
+
+[0008.27] Heading: --------------------GameFramework - Release--------------------
+[0008.27] Log: Analyzing...
+[0008.27] Log: Loading global macros for GameFramework
+[0008.63] Log: Exporting native class declarations for GameFramework
+[0008.63] Log: Autogenerating C++ header: 
+[0008.67] Log: Autogenerating C++ header: Camera
+[0008.68] Log: Autogenerating C++ header: Anim
+[0008.68] Log: Autogenerating C++ header: SpecialMoves
+[0008.68] Log: Autogenerating C++ header: GameStats
+[0008.68] Log: Autogenerating C++ header: GameFrameworkNames.h
+[0008.68] Log: Success: Compiled 23901 line(s), 2529 statement(s).
+
+[0008.68] Heading: --------------------UnrealEd - Release--------------------
+[0008.68] Log: Analyzing...
+[0008.68] Log: Loading global macros for UnrealEd
+[0009.21] Log: Exporting native class declarations for UnrealEd
+[0009.21] Log: Autogenerating C++ header: 
+[0009.32] Log: Autogenerating C++ header: Cascade
+[0009.33] Log: Autogenerating C++ header: Private
+[0009.33] Log: Autogenerating C++ header: GameStats
+[0009.34] Log: Autogenerating C++ header: UnrealEdNames.h
+[0009.34] Log: Success: Compiled 10589 line(s), 1113 statement(s).
+
+[0009.34] Heading: --------------------WinDrv - Release--------------------
+[0009.35] Log: Analyzing...
+[0009.35] Log: Loading global macros for WinDrv
+[0009.37] Log: Exporting native class declarations for WinDrv
+[0009.37] Log: Autogenerating C++ header: 
+[0009.38] Log: Autogenerating C++ header: WinDrvNames.h
+[0009.38] Log: Success: Compiled 407 line(s), 66 statement(s).
+
+[0009.38] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0009.38] Log: Analyzing...
+[0009.38] Log: Loading global macros for OnlineSubsystemPC
+[0009.41] Log: Exporting native class declarations for OnlineSubsystemPC
+[0009.41] Log: Autogenerating C++ header: 
+[0009.42] Log: Autogenerating C++ header: OnlineSubsystemPCNames.h
+[0009.42] Log: Success: Compiled 2013 line(s), 228 statement(s).
+
+[0009.42] Heading: --------------------UTGame - Release--------------------
+[0009.42] Log: Analyzing...
+[0009.42] Log: Loading global macros for UTGame
+[0009.70] Log: Exporting native class declarations for UTGame
+[0009.71] Log: Autogenerating C++ header: 
+[0009.71] Log: Autogenerating C++ header: UTGameNames.h
+[0009.71] Log: Success: Compiled 12226 line(s), 1208 statement(s).
+
+[0009.77] Log: 
+[0009.77] Log: Success - 0 error(s), 0 warning(s)
+[0009.77] Log: 
+Execution of commandlet took:  5.69 seconds
+[0009.78] Exit: Preparing to exit.
+[0009.87] Exit: Object subsystem successfully closed.
+[0009.88] Exit: Exiting.
+[0009.88] Log: Log file closed, 08/22/26 10:39:07

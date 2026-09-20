@@ -1,0 +1,1938 @@
+Log: Log file open, 08/31/26 20:47:25
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: PkgInfo D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Afternoon.umap D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_MidDay.umap D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Morning.umap D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Night.umap -imports -exports -simple -HideOffsets -unattended -nopause -forcelogflush -log=TemplateMapPkgInfoAll 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.52] Init: Computer: CHEATS
+[0000.52] Init: User: vande
+[0000.52] Init: CPU Page size=4096, Processors=8
+[0000.52] Init: High frequency timer resolution =10.000000 MHz
+[0000.52] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.56] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.56] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.56] Init: Object subsystem initialized
+[0001.00] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.20] Log: Executing Class UnrealEd.PkgInfoCommandlet
+[0003.71] Log: Initializing Editor Engine...
+[0005.16] Log: Encountered missing default brush - spawning new one
+[0005.17] Log: Initializing Editor Engine Completed
+Log: ********************************************
+Log: Package 'template_afternoon' Summary
+Log: --------------------------------------------
+Log: 	         Filename: D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Afternoon.umap
+Log: 	     File Version: 845
+Log: 	   Engine Version: 8883
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20020001
+Log: 	        NameCount: 188
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 51
+Log: 	     ImportOffset: 5368
+Log: 	      ExportCount: 36
+Log: 	     ExportOffset: 6796
+Log: 	Compression Flags: 0
+Log: 	             Guid: 2F7657324CD9F7A3E1DD7083DFBBE8D7
+Log: 	      Generations:
+Log: 			0) ExportCount=36, NameCount=188, NetObjectCount=36
+Log: --------------------------------------------
+Log: Import Map
+Log: ==========
+Log: 	*************************
+Log: 	Import 0: 'Default__Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Brush'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 1: 'BrushComponent0'
+Log: 		       Outer: 'Default__Brush' (-1)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 2: 'BrushComponent0'
+Log: 		       Outer: 'Default__LightmassImportanceVolume' (-31)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 3: 'BookMark'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 4: 'Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 5: 'BrushComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 6: 'CylinderComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 7: 'DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 8: 'DominantDirectionalLightComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 9: 'ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 10: 'ExponentialHeightFogComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 11: 'InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 12: 'Level'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 13: 'LightMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 14: 'LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 15: 'Model'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 16: 'PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 17: 'Polys'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 18: 'ShadowMap2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 19: 'ShadowMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 20: 'StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 21: 'StaticMeshComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 22: 'World'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 23: 'WorldInfo'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 24: 'CollisionCylinder'
+Log: 		       Outer: 'Default__PlayerStart' (-42)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'CylinderComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 25: 'Default__DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLight'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 26: 'DominantDirectionalLightComponent0'
+Log: 		       Outer: 'Default__DominantDirectionalLight' (-26)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLightComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 27: 'Default__ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFog'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 28: 'HeightFogComponent0'
+Log: 		       Outer: 'Default__ExponentialHeightFog' (-28)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFogComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 29: 'Default__InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'InterpActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 30: 'Default__LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'LightmassImportanceVolume'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 31: 'M_ES_Phong_Opaque_Master_01'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 32: 'DefaultMaterial'
+Log: 		       Outer: 'EngineMaterials' (-38)
+Log: 		     Package: 'EngineMaterials'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 33: 'M_Procedural_Sky_Afternoon'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'MaterialInstanceConstant'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 34: 'EditorMeshes'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 35: 'Engine'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 36: 'Engine_MI_Shaders'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 37: 'EngineMaterials'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 38: 'MapTemplates'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 39: 'lut'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 40: 'Sky'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 41: 'Default__PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'PlayerStart'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 42: 'TexPropCube'
+Log: 		       Outer: 'EditorMeshes' (-35)
+Log: 		     Package: 'EditorMeshes'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 43: 'SM_SkySphere'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 44: 'SM_Template_Map_Floor'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 45: 'Default__StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 46: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__InterpActor' (-30)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 47: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__StaticMeshActor' (-46)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 48: 'T_Normal'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 49: 'T_Reflection'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 50: 'LUT_Afternoon'
+Log: 		       Outer: 'lut' (-40)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: --------------------------------------------
+Log: 	Packages referenced by template_afternoon:
+Log: 		0) Engine
+Log: 		1) Core
+Log: 		2) Engine_MI_Shaders
+Log: 		3) EngineMaterials
+Log: 		4) MapTemplates
+Log: 		5) EditorMeshes
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0        100                         BookMark BookMark_1
+Log:          1        251                            Brush Brush_0
+Log:          2        166                   BrushComponent BrushComponent_0
+Log:          3        881                   BrushComponent BrushComponent_15
+Log:          4        134                CylinderComponent CylinderComponent_18
+Log:          5        182         DominantDirectionalLight DominantDirectionalLight_0
+Log:          6       6554 DominantDirectionalLightComponent DominantDirectionalLightComponent_0
+Log:          7        138             ExponentialHeightFog ExponentialHeightFog_0
+Log:          8        256    ExponentialHeightFogComponent ExponentialHeightFogComponent_0
+Log:          9        194                      InterpActor InterpActor_5
+Log:         10       3904                            Level PersistentLevel
+Log:         11     699508                LightMapTexture2D DirectionalMaxComponent1_1
+Log:         12      44100                LightMapTexture2D DirectionalMaxComponent1_2
+Log:         13     699508                LightMapTexture2D NormalizedAverageColor1_1
+Log:         14      44100                LightMapTexture2D NormalizedAverageColor1_2
+Log:         15     699508                LightMapTexture2D SimpleLightmap_0_1
+Log:         16      44100                LightMapTexture2D SimpleLightmap_0_2
+Log:         17        194        LightmassImportanceVolume LightmassImportanceVolume_0
+Log:         18        156                            Model Brush
+Log:         19       2596                            Model Model_7
+Log:         20        156                            Model Model_0
+Log:         21        314                      PlayerStart PlayerStart_0
+Log:         22       1104                            Polys Polys_1
+Log:         23       1104                            Polys Polys_18
+Log:         24         24                            Polys Polys_12
+Log:         25        193                      ShadowMap2D ShadowMap2D_2
+Log:         26        193                      ShadowMap2D ShadowMap2D_3
+Log:         27    1398594               ShadowMapTexture2D ShadowMapTexture2D_2
+Log:         28      87826               ShadowMapTexture2D ShadowMapTexture2D_3
+Log:         29        166                  StaticMeshActor StaticMeshActor_3
+Log:         30        166                  StaticMeshActor StaticMeshActor_6
+Log:         31        223              StaticMeshComponent StaticMeshComponent_6
+Log:         32        429              StaticMeshComponent StaticMeshComponent_8
+Log:         33        426              StaticMeshComponent StaticMeshComponent_15
+Log:         34        140                            World TheWorld
+Log:         35        892                        WorldInfo WorldInfo_0
+Log: 
+Log: ********************************************
+Log: Package 'template_midday' Summary
+Log: --------------------------------------------
+Log: 	         Filename: D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_MidDay.umap
+Log: 	     File Version: 864
+Log: 	   Engine Version: 10408
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20020001
+Log: 	        NameCount: 182
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 51
+Log: 	     ImportOffset: 5119
+Log: 	      ExportCount: 36
+Log: 	     ExportOffset: 6547
+Log: 	Compression Flags: 0
+Log: 	             Guid: 2F4B925A49D4943A78BFC8BB8A0C3DED
+Log: 	      Generations:
+Log: 			0) ExportCount=36, NameCount=182, NetObjectCount=36
+Log: --------------------------------------------
+Log: Import Map
+Log: ==========
+Log: 	*************************
+Log: 	Import 0: 'Default__Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Brush'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 1: 'BrushComponent0'
+Log: 		       Outer: 'Default__Brush' (-1)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 2: 'BrushComponent0'
+Log: 		       Outer: 'Default__LightmassImportanceVolume' (-31)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 3: 'BookMark'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 4: 'Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 5: 'BrushComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 6: 'CylinderComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 7: 'DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 8: 'DominantDirectionalLightComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 9: 'ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 10: 'ExponentialHeightFogComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 11: 'InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 12: 'Level'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 13: 'LightMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 14: 'LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 15: 'Model'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 16: 'PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 17: 'Polys'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 18: 'ShadowMap2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 19: 'ShadowMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 20: 'StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 21: 'StaticMeshComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 22: 'World'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 23: 'WorldInfo'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 24: 'CollisionCylinder'
+Log: 		       Outer: 'Default__PlayerStart' (-42)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'CylinderComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 25: 'Default__DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLight'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 26: 'DominantDirectionalLightComponent0'
+Log: 		       Outer: 'Default__DominantDirectionalLight' (-26)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLightComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 27: 'Default__ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFog'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 28: 'HeightFogComponent0'
+Log: 		       Outer: 'Default__ExponentialHeightFog' (-28)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFogComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 29: 'Default__InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'InterpActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 30: 'Default__LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'LightmassImportanceVolume'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 31: 'M_ES_Phong_Opaque_Master_01'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 32: 'DefaultMaterial'
+Log: 		       Outer: 'EngineMaterials' (-38)
+Log: 		     Package: 'EngineMaterials'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 33: 'M_Procedural_Sky_Daytime'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'MaterialInstanceConstant'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 34: 'EditorMeshes'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 35: 'Engine'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 36: 'Engine_MI_Shaders'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 37: 'EngineMaterials'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 38: 'MapTemplates'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 39: 'lut'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 40: 'Sky'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 41: 'Default__PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'PlayerStart'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 42: 'TexPropCube'
+Log: 		       Outer: 'EditorMeshes' (-35)
+Log: 		     Package: 'EditorMeshes'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 43: 'SM_SkySphere'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 44: 'SM_Template_Map_Floor'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 45: 'Default__StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 46: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__InterpActor' (-30)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 47: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__StaticMeshActor' (-46)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 48: 'T_Normal'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 49: 'T_Reflection'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 50: 'LUT_Daytime'
+Log: 		       Outer: 'lut' (-40)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: --------------------------------------------
+Log: 	Packages referenced by template_midday:
+Log: 		0) Engine
+Log: 		1) Core
+Log: 		2) Engine_MI_Shaders
+Log: 		3) EngineMaterials
+Log: 		4) MapTemplates
+Log: 		5) EditorMeshes
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0        100                         BookMark BookMark_2
+Log:          1        251                            Brush Brush_0
+Log:          2        166                   BrushComponent BrushComponent_0
+Log:          3        881                   BrushComponent BrushComponent_15
+Log:          4        134                CylinderComponent CylinderComponent_6
+Log:          5        138         DominantDirectionalLight DominantDirectionalLight_0
+Log:          6       7950 DominantDirectionalLightComponent DominantDirectionalLightComponent_0
+Log:          7        138             ExponentialHeightFog ExponentialHeightFog_0
+Log:          8        228    ExponentialHeightFogComponent ExponentialHeightFogComponent_0
+Log:          9        194                      InterpActor InterpActor_3
+Log:         10       3792                            Level PersistentLevel
+Log:         11     874572                LightMapTexture2D DirectionalMaxComponent1_1
+Log:         12      55274                LightMapTexture2D DirectionalMaxComponent1_2
+Log:         13     874572                LightMapTexture2D NormalizedAverageColor1_1
+Log:         14      55274                LightMapTexture2D NormalizedAverageColor1_2
+Log:         15    1748760                LightMapTexture2D SimpleLightmap_0_1
+Log:         16     110216                LightMapTexture2D SimpleLightmap_0_2
+Log:         17        194        LightmassImportanceVolume LightmassImportanceVolume_0
+Log:         18        156                            Model Brush
+Log:         19       2596                            Model Model_7
+Log:         20        156                            Model Model_0
+Log:         21        314                      PlayerStart PlayerStart_0
+Log:         22       1104                            Polys Polys_1
+Log:         23       1104                            Polys Polys_22
+Log:         24         24                            Polys Polys_20
+Log:         25        193                      ShadowMap2D ShadowMap2D_6
+Log:         26        193                      ShadowMap2D ShadowMap2D_7
+Log:         27    1398622               ShadowMapTexture2D ShadowMapTexture2D_8
+Log:         28      87854               ShadowMapTexture2D ShadowMapTexture2D_9
+Log:         29        166                  StaticMeshActor StaticMeshActor_3
+Log:         30        166                  StaticMeshActor StaticMeshActor_5
+Log:         31        223              StaticMeshComponent StaticMeshComponent_4
+Log:         32        429              StaticMeshComponent StaticMeshComponent_8
+Log:         33        426              StaticMeshComponent StaticMeshComponent_14
+Log:         34        140                            World TheWorld
+Log:         35        800                        WorldInfo WorldInfo_0
+Log: 
+Log: ********************************************
+Log: Package 'template_morning' Summary
+Log: --------------------------------------------
+Log: 	         Filename: D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Morning.umap
+Log: 	     File Version: 845
+Log: 	   Engine Version: 8883
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20020001
+Log: 	        NameCount: 189
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 51
+Log: 	     ImportOffset: 5354
+Log: 	      ExportCount: 36
+Log: 	     ExportOffset: 6782
+Log: 	Compression Flags: 0
+Log: 	             Guid: 062BF5A744D971BF1B536A8DF13BA513
+Log: 	      Generations:
+Log: 			0) ExportCount=36, NameCount=189, NetObjectCount=36
+Log: --------------------------------------------
+Log: Import Map
+Log: ==========
+Log: 	*************************
+Log: 	Import 0: 'Default__Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Brush'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 1: 'BrushComponent0'
+Log: 		       Outer: 'Default__Brush' (-1)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 2: 'BrushComponent0'
+Log: 		       Outer: 'Default__LightmassImportanceVolume' (-31)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 3: 'BookMark'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 4: 'Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 5: 'BrushComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 6: 'CylinderComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 7: 'DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 8: 'DominantDirectionalLightComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 9: 'ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 10: 'ExponentialHeightFogComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 11: 'InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 12: 'Level'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 13: 'LightMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 14: 'LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 15: 'Model'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 16: 'PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 17: 'Polys'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 18: 'ShadowMap2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 19: 'ShadowMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 20: 'StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 21: 'StaticMeshComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 22: 'World'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 23: 'WorldInfo'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 24: 'CollisionCylinder'
+Log: 		       Outer: 'Default__PlayerStart' (-42)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'CylinderComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 25: 'Default__DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLight'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 26: 'DominantDirectionalLightComponent0'
+Log: 		       Outer: 'Default__DominantDirectionalLight' (-26)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLightComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 27: 'Default__ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFog'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 28: 'HeightFogComponent0'
+Log: 		       Outer: 'Default__ExponentialHeightFog' (-28)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFogComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 29: 'Default__InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'InterpActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 30: 'Default__LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'LightmassImportanceVolume'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 31: 'M_ES_Phong_Opaque_Master_01'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 32: 'DefaultMaterial'
+Log: 		       Outer: 'EngineMaterials' (-38)
+Log: 		     Package: 'EngineMaterials'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 33: 'M_Procedural_Sky_Morning'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'MaterialInstanceConstant'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 34: 'EditorMeshes'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 35: 'Engine'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 36: 'Engine_MI_Shaders'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 37: 'EngineMaterials'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 38: 'MapTemplates'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 39: 'lut'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 40: 'Sky'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 41: 'Default__PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'PlayerStart'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 42: 'TexPropCube'
+Log: 		       Outer: 'EditorMeshes' (-35)
+Log: 		     Package: 'EditorMeshes'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 43: 'SM_SkySphere'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 44: 'SM_Template_Map_Floor'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 45: 'Default__StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 46: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__InterpActor' (-30)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 47: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__StaticMeshActor' (-46)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 48: 'T_Normal'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 49: 'T_Reflection'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 50: 'LUT_Morning'
+Log: 		       Outer: 'lut' (-40)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: --------------------------------------------
+Log: 	Packages referenced by template_morning:
+Log: 		0) Engine
+Log: 		1) Core
+Log: 		2) Engine_MI_Shaders
+Log: 		3) EngineMaterials
+Log: 		4) MapTemplates
+Log: 		5) EditorMeshes
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0        100                         BookMark BookMark_3
+Log:          1        251                            Brush Brush_0
+Log:          2        166                   BrushComponent BrushComponent_0
+Log:          3        881                   BrushComponent BrushComponent_15
+Log:          4        134                CylinderComponent CylinderComponent_22
+Log:          5        182         DominantDirectionalLight DominantDirectionalLight_0
+Log:          6       6522 DominantDirectionalLightComponent DominantDirectionalLightComponent_0
+Log:          7        138             ExponentialHeightFog ExponentialHeightFog_0
+Log:          8        256    ExponentialHeightFogComponent ExponentialHeightFogComponent_0
+Log:          9        194                      InterpActor InterpActor_4
+Log:         10       3904                            Level PersistentLevel
+Log:         11     699508                LightMapTexture2D DirectionalMaxComponent0_1
+Log:         12      44100                LightMapTexture2D DirectionalMaxComponent1_2
+Log:         13     699508                LightMapTexture2D NormalizedAverageColor0_1
+Log:         14      44100                LightMapTexture2D NormalizedAverageColor1_2
+Log:         15     699508                LightMapTexture2D SimpleLightmap_0_1
+Log:         16      44100                LightMapTexture2D SimpleLightmap_0_2
+Log:         17        194        LightmassImportanceVolume LightmassImportanceVolume_0
+Log:         18        156                            Model Brush
+Log:         19       2596                            Model Model_7
+Log:         20        156                            Model Model_0
+Log:         21        314                      PlayerStart PlayerStart_1
+Log:         22       1104                            Polys Polys_1
+Log:         23       1104                            Polys Polys_26
+Log:         24         24                            Polys Polys_15
+Log:         25        193                      ShadowMap2D ShadowMap2D_4
+Log:         26        193                      ShadowMap2D ShadowMap2D_5
+Log:         27    1398594               ShadowMapTexture2D ShadowMapTexture2D_4
+Log:         28      87826               ShadowMapTexture2D ShadowMapTexture2D_5
+Log:         29        166                  StaticMeshActor StaticMeshActor_3
+Log:         30        166                  StaticMeshActor StaticMeshActor_4
+Log:         31        223              StaticMeshComponent StaticMeshComponent_5
+Log:         32        429              StaticMeshComponent StaticMeshComponent_8
+Log:         33        426              StaticMeshComponent StaticMeshComponent_12
+Log:         34        140                            World TheWorld
+Log:         35        892                        WorldInfo WorldInfo_0
+Log: 
+Log: ********************************************
+Log: Package 'template_night' Summary
+Log: --------------------------------------------
+Log: 	         Filename: D:\UnrealEngine3-SC\Engine\Content\Maps\Templates\Template_Night.umap
+Log: 	     File Version: 845
+Log: 	   Engine Version: 8883
+Log: 	   Cooker Version: 0
+Log: 	     PackageFlags: 20020001
+Log: 	        NameCount: 188
+Log: 	       NameOffset: 129
+Log: 	      ImportCount: 51
+Log: 	     ImportOffset: 5332
+Log: 	      ExportCount: 36
+Log: 	     ExportOffset: 6760
+Log: 	Compression Flags: 0
+Log: 	             Guid: A831DB3C42773A3E997B4ABD219455CE
+Log: 	      Generations:
+Log: 			0) ExportCount=36, NameCount=188, NetObjectCount=36
+Log: --------------------------------------------
+Log: Import Map
+Log: ==========
+Log: 	*************************
+Log: 	Import 0: 'Default__Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Brush'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 1: 'BrushComponent0'
+Log: 		       Outer: 'Default__Brush' (-1)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 2: 'BrushComponent0'
+Log: 		       Outer: 'Default__LightmassImportanceVolume' (-31)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'BrushComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 3: 'BookMark'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 4: 'Brush'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 5: 'BrushComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 6: 'CylinderComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 7: 'DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 8: 'DominantDirectionalLightComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 9: 'ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 10: 'ExponentialHeightFogComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 11: 'InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 12: 'Level'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 13: 'LightMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 14: 'LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 15: 'Model'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 16: 'PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 17: 'Polys'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 18: 'ShadowMap2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 19: 'ShadowMapTexture2D'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 20: 'StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 21: 'StaticMeshComponent'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 22: 'World'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 23: 'WorldInfo'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'Class'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 24: 'CollisionCylinder'
+Log: 		       Outer: 'Default__PlayerStart' (-42)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'CylinderComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 25: 'Default__DominantDirectionalLight'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLight'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 26: 'DominantDirectionalLightComponent0'
+Log: 		       Outer: 'Default__DominantDirectionalLight' (-26)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'DominantDirectionalLightComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 27: 'Default__ExponentialHeightFog'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFog'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 28: 'HeightFogComponent0'
+Log: 		       Outer: 'Default__ExponentialHeightFog' (-28)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'ExponentialHeightFogComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 29: 'Default__InterpActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'InterpActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 30: 'Default__LightmassImportanceVolume'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'LightmassImportanceVolume'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 31: 'M_ES_Phong_Opaque_Master_01'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 32: 'DefaultMaterial'
+Log: 		       Outer: 'EngineMaterials' (-38)
+Log: 		     Package: 'EngineMaterials'
+Log: 		       Class: 'Material'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 33: 'M_Procedural_Sky_Night'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'MaterialInstanceConstant'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 34: 'EditorMeshes'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 35: 'Engine'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 36: 'Engine_MI_Shaders'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 37: 'EngineMaterials'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 38: 'MapTemplates'
+Log: 		       Outer: 'None' (0)
+Log: 		     Package: 'None'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 39: 'lut'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 40: 'Sky'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Package'
+Log: 		ClassPackage: 'Core'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 41: 'Default__PlayerStart'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'PlayerStart'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 42: 'TexPropCube'
+Log: 		       Outer: 'EditorMeshes' (-35)
+Log: 		     Package: 'EditorMeshes'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 43: 'SM_SkySphere'
+Log: 		       Outer: 'Sky' (-41)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 44: 'SM_Template_Map_Floor'
+Log: 		       Outer: 'MapTemplates' (-39)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'StaticMesh'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 45: 'Default__StaticMeshActor'
+Log: 		       Outer: 'Engine' (-36)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshActor'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 46: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__InterpActor' (-30)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 47: 'StaticMeshComponent0'
+Log: 		       Outer: 'Default__StaticMeshActor' (-46)
+Log: 		     Package: 'Engine'
+Log: 		       Class: 'StaticMeshComponent'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 48: 'T_Normal'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 49: 'T_Reflection'
+Log: 		       Outer: 'Engine_MI_Shaders' (-37)
+Log: 		     Package: 'Engine_MI_Shaders'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: 	*************************
+Log: 	Import 50: 'LUT_Night'
+Log: 		       Outer: 'lut' (-40)
+Log: 		     Package: 'MapTemplates'
+Log: 		       Class: 'Texture2D'
+Log: 		ClassPackage: 'Engine'
+Log: 		     XObject: NULL
+Log: 		 SourceIndex: -1
+Log: --------------------------------------------
+Log: 	Packages referenced by template_night:
+Log: 		0) Engine
+Log: 		1) Core
+Log: 		2) Engine_MI_Shaders
+Log: 		3) EngineMaterials
+Log: 		4) MapTemplates
+Log: 		5) EditorMeshes
+Log: --------------------------------------------
+Log: Export Map
+Log: ==========
+Log:          0        100                         BookMark BookMark_4
+Log:          1        251                            Brush Brush_0
+Log:          2        166                   BrushComponent BrushComponent_0
+Log:          3        881                   BrushComponent BrushComponent_15
+Log:          4        134                CylinderComponent CylinderComponent_0
+Log:          5        182         DominantDirectionalLight DominantDirectionalLight_0
+Log:          6       7920 DominantDirectionalLightComponent DominantDirectionalLightComponent_0
+Log:          7        138             ExponentialHeightFog ExponentialHeightFog_0
+Log:          8        284    ExponentialHeightFogComponent ExponentialHeightFogComponent_0
+Log:          9        194                      InterpActor InterpActor_2
+Log:         10       3904                            Level PersistentLevel
+Log:         11     699508                LightMapTexture2D DirectionalMaxComponent0_1
+Log:         12      44100                LightMapTexture2D DirectionalMaxComponent1_2
+Log:         13     699508                LightMapTexture2D NormalizedAverageColor0_1
+Log:         14      44100                LightMapTexture2D NormalizedAverageColor1_2
+Log:         15     699508                LightMapTexture2D SimpleLightmap_0_1
+Log:         16      44100                LightMapTexture2D SimpleLightmap_0_2
+Log:         17        194        LightmassImportanceVolume LightmassImportanceVolume_0
+Log:         18        156                            Model Brush
+Log:         19       2596                            Model Model_7
+Log:         20        156                            Model Model_0
+Log:         21        314                      PlayerStart PlayerStart_0
+Log:         22       1104                            Polys Polys_1
+Log:         23       1104                            Polys Polys_30
+Log:         24         24                            Polys Polys_7
+Log:         25        193                      ShadowMap2D ShadowMap2D_1
+Log:         26        193                      ShadowMap2D ShadowMap2D_0
+Log:         27    1398594               ShadowMapTexture2D ShadowMapTexture2D_0
+Log:         28      87826               ShadowMapTexture2D ShadowMapTexture2D_1
+Log:         29        166                  StaticMeshActor StaticMeshActor_2
+Log:         30        166                  StaticMeshActor StaticMeshActor_3
+Log:         31        223              StaticMeshComponent StaticMeshComponent_2
+Log:         32        426              StaticMeshComponent StaticMeshComponent_5
+Log:         33        429              StaticMeshComponent StaticMeshComponent_8
+Log:         34        140                            World TheWorld
+Log:         35        800                        WorldInfo WorldInfo_0
+[0008.46] Log: 
+[0008.46] Log: Success - 0 error(s), 0 warning(s)
+[0008.46] Log: 
+Execution of commandlet took:  3.21 seconds
+[0008.47] Exit: Preparing to exit.
+[0008.67] Exit: Editor shut down
+[0008.76] Exit: Object subsystem successfully closed.
+[0008.84] Exit: Exiting.
+[0008.85] Log: Log file closed, 08/31/26 20:47:33

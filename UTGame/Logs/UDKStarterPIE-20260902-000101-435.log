@@ -1,0 +1,106 @@
+Log: Log file open, 09/02/26 00:01:02
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=UDKStarterPIE-20260902-000101-435.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.50] Init: Computer: CHEATS
+[0000.50] Init: User: vande
+[0000.50] Init: CPU Page size=4096, Processors=8
+[0000.50] Init: High frequency timer resolution =10.000000 MHz
+[0000.50] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=19.4GB Virtual=131072.0GB
+[0000.54] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.54] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.54] Init: Object subsystem initialized
+[0000.55] Log: SystemSettings based on: SystemSettings
+[0000.74] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.03] Log: 52516 objects as part of root set at end of initial load.
+[0002.03] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.07] Log: Supported Consoles:
+[0002.07] Log:   PC
+[0002.07] Log: Initializing Engine...
+[0002.23] Log: Encountered missing default brush - spawning new one
+[0002.67] Log: Initializing Engine Completed
+[0002.67] Log: >>>>>>>>>>>>>> Initial startup: 2.67s <<<<<<<<<<<<<<<
+[0002.78] Cmd: MODE MAPEXT=udk
+[0002.78] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.78] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0006.19] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.54] Log: Encountered missing default brush - spawning new one
+[0007.34] Log: -- Checking Building LODs
+[0007.35] Log: Finished looking for orphan Actors (0.002 secs)
+[0007.39] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0007.39] Log: TIMER ALL OF INIT : [6.292955]
+[0007.51] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0007.69] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0007.69] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0007.69] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0007.69] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1846x919 View=1846x919
+[0007.69] Log: StarterFinish: skipped final copy
+[0007.88] Log: 
+==== Worlds needing PIE Save:
+[0007.88] Log: template_midday
+[0007.88] Log: ==== 1 total
+[0007.98] Log: Built Phys StaticMesh Cache: 2.345 ms
+[0007.98] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0008.06] Log: Save=72.327100
+[0008.06] Log: Moving 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday_save.tmp' to 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk'
+[0008.08] Cmd: MAP LOAD PLAYWORLD=1 FILE="D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk"
+[0008.09] Log: Finished looking for orphan Actors (0.003 secs)
+[0008.09] Log: Game class is 'UDKStarterGameInfo'
+[0008.10] Log: Bringing World uedpietemplate_midday.TheWorld up for play (0) at 2026.09.02-00.01.10
+[0008.10] Log: Bringing up level for play took: 0.003476
+[0008.14] Log: PIE: play in editor start time for UEDPIEtemplate_midday 0.450
+[0008.59] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0008.59] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0008.59] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0008.60] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0008.60] Log: StarterFinish: skipped final copy
+[0009.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0009.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0009.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0009.61] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0009.61] Log: StarterFinish: skipped final copy
+[0010.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0010.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0010.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0010.61] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0010.61] Log: StarterFinish: skipped final copy
+[0011.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0011.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0011.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0011.61] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0011.61] Log: StarterFinish: skipped final copy
+[0012.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0012.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0012.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0012.62] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0012.62] Log: StarterFinish: skipped final copy
+[0013.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0013.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0013.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0013.62] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0013.62] Log: StarterFinish: skipped final copy
+[0014.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0014.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0014.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0014.62] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0014.62] Log: StarterFinish: skipped final copy
+[0015.60] Log: StarterLUTParams: BlendCount=2 Weight0=0 WeightReg=128/32 Gamma=2.2 PixelCenter=0.5 ColorScale=(1,1,1,1) Overlay=(0,0,0,0)
+[0015.60] Log: StarterLUTTransform: Shadows=(0,0,0) Highlights=(1,1,1) Midtones=(1,1,1) Desat=0 Colorize=(1,1,1)
+[0015.60] Log: StarterLUTSurface: First=(0,0,0,178) Middle=(17,127,127,0) Last=(255,255,255,0) Bytes=16384
+[0015.63] Log: StarterFinish: LDR=1 Resolve=1 ScreenCapture=0 IgnoreScaling=0 NeedsUpscale=0 PostProcess=1 ClearScene=1 DeferClear=0 Gamma=2.2 Size=1280x720 View=1280x720
+[0015.63] Log: StarterFinish: skipped final copy
+[0016.46] Log: StarterViewColor: FadeEnabled=0 FadeColor=(0,0,0,255) FadeAmount=0 ColorScaleEnabled=0 ColorScale=(1,1,1) Background=(0,0,0,1) Overlay=(0,0,0,0) ViewColorScale=(1,1,1,1)
+[0016.54] Cmd: UpdateLandscapeSetup
+[0017.13] Exit: Preparing to exit.
+[0017.24] Exit: Editor shut down
+[0017.24] Exit: Transaction tracking system shut down
+[0017.39] Exit: Windows client shut down
+[0017.40] Exit: XAudio2 Device shut down.
+[0017.43] Exit: Object subsystem successfully closed.
+[0017.46] Exit: Exiting.
+[0017.47] Log: Log file closed, 09/02/26 00:01:19

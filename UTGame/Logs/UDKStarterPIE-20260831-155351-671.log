@@ -1,0 +1,59 @@
+Log: Log file open, 08/31/26 15:53:52
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:53:05
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=UDKStarterPIE-20260831-155351-671.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.45] Init: Computer: CHEATS
+[0000.45] Init: User: vande
+[0000.45] Init: CPU Page size=4096, Processors=8
+[0000.45] Init: High frequency timer resolution =10.000000 MHz
+[0000.45] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.4GB Virtual=131072.0GB
+[0000.49] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.49] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.49] Init: Object subsystem initialized
+[0000.51] Log: SystemSettings based on: SystemSettings
+[0000.71] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.18] Log: 52516 objects as part of root set at end of initial load.
+[0002.18] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.22] Log: Supported Consoles:
+[0002.22] Log:   PC
+[0002.22] Log: Initializing Engine...
+[0002.42] Log: Encountered missing default brush - spawning new one
+[0002.88] Log: Initializing Engine Completed
+[0002.88] Log: >>>>>>>>>>>>>> Initial startup: 2.88s <<<<<<<<<<<<<<<
+[0002.98] Cmd: MODE MAPEXT=udk
+[0002.98] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0002.98] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0006.24] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0006.58] Log: Encountered missing default brush - spawning new one
+[0007.38] Log: -- Checking Building LODs
+[0007.39] Log: Finished looking for orphan Actors (0.002 secs)
+[0007.44] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0007.45] Log: TIMER ALL OF INIT : [6.359181]
+[0008.07] Log: 
+==== Worlds needing PIE Save:
+[0008.07] Log: template_midday
+[0008.07] Log: ==== 1 total
+[0008.14] Log: Built Phys StaticMesh Cache: 2.323 ms
+[0008.14] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0008.20] Log: Save=63.995500
+[0008.21] Log: Moving 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday_save.tmp' to 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk'
+[0008.22] Cmd: MAP LOAD PLAYWORLD=1 FILE="D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk"
+[0008.23] Log: Finished looking for orphan Actors (0.002 secs)
+[0008.23] Log: Game class is 'UDKStarterGameInfo'
+[0008.23] Log: Bringing World uedpietemplate_midday.TheWorld up for play (0) at 2026.08.31-15.54.00
+[0008.24] Log: Bringing up level for play took: 0.004466
+[0008.28] Log: PIE: play in editor start time for UEDPIEtemplate_midday 0.379
+[0018.66] Cmd: UpdateLandscapeSetup
+[0019.23] Exit: Preparing to exit.
+[0019.35] Exit: Editor shut down
+[0019.35] Exit: Transaction tracking system shut down
+[0019.50] Exit: Windows client shut down
+[0019.50] Exit: XAudio2 Device shut down.
+[0019.53] Exit: Object subsystem successfully closed.
+[0019.56] Exit: Exiting.
+[0019.56] Log: Log file closed, 08/31/26 15:54:11

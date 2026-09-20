@@ -1,0 +1,44 @@
+Log: Log file open, 09/02/26 06:22:22
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  2 2026 00:51:11
+Init: Changelist: 1532151
+Init: Command line: editor 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.54] Init: Computer: CHEATS
+[0000.54] Init: User: vande
+[0000.54] Init: CPU Page size=4096, Processors=8
+[0000.54] Init: High frequency timer resolution =10.000000 MHz
+[0000.54] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=19.7GB Virtual=131072.0GB
+[0000.58] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.58] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.58] Init: Object subsystem initialized
+[0000.59] Log: SystemSettings based on: SystemSettings
+[0000.77] Log: Shader platform (RHI): PC-D3D-SM3
+[0006.15] Log: 52516 objects as part of root set at end of initial load.
+[0006.15] Log: 0 out of 0 bytes used by permanent object pool.
+[0006.24] Log: Supported Consoles:
+[0006.24] Log:   PC
+[0006.24] Log: Initializing Engine...
+[0006.59] Log: Encountered missing default brush - spawning new one
+[0007.15] Log: Initializing Engine Completed
+[0007.15] Log: >>>>>>>>>>>>>> Initial startup: 7.15s <<<<<<<<<<<<<<<
+[0007.28] Cmd: MODE MAPEXT=udk
+[0007.28] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0007.28] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0011.27] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0011.64] Log: Encountered missing default brush - spawning new one
+[0012.47] Log: -- Checking Building LODs
+[0012.47] Log: Finished looking for orphan Actors (0.002 secs)
+[0012.54] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0012.54] Log: TIMER ALL OF INIT : [8.178578]
+[0058.09] Exit: Preparing to exit.
+[0058.21] Exit: Editor shut down
+[0058.21] Exit: Transaction tracking system shut down
+[0058.35] Exit: Windows client shut down
+[0058.36] Exit: XAudio2 Device shut down.
+[0058.41] Exit: Object subsystem successfully closed.
+[0058.44] Exit: Exiting.
+[0058.45] Log: Log file closed, 09/02/26 06:23:20

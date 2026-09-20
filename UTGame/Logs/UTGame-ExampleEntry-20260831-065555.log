@@ -1,0 +1,39 @@
+Log: Log file open, 08/31/26 06:55:56
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:45:11
+Init: Changelist: 1532151
+Init: Command line: ExampleEntry.udk?game=UTGame.UTDeathmatch -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=UTGame-ExampleEntry-20260831-065555.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.48] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=20.0GB Virtual=131072.0GB
+[0000.48] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.34] Log: 45815 objects as part of root set at end of initial load.
+[0001.34] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.34] Log: Initializing Engine...
+[0002.09] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.09] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.10] Log: LoadMap: ExampleEntry.udk?Name=Player?Team=255?game=UTGame.UTDeathmatch
+[0002.12] Log: 
+[0002.15] Log: Game class is 'UTDeathmatch'
+[0002.17] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2026.08.31-06.55.58
+[0002.17] Log: Bringing up level for play took: 0.008504
+[0002.17] Log: ########### Finished loading level: 0.068424 seconds
+[0002.20] Log: Initializing Engine Completed
+[0002.20] Log: >>>>>>>>>>>>>> Initial startup: 2.20s <<<<<<<<<<<<<<<
+[0061.82] Log: All Windows Closed
+[0061.82] Log: appRequestExit(0)
+[0061.82] Exit: Preparing to exit.
+[0061.91] Exit: Game engine shut down
+[0061.91] Exit: Windows client shut down
+[0061.91] Exit: XAudio2 Device shut down.
+[0061.94] Exit: Object subsystem successfully closed.
+[0061.95] Exit: Exiting.
+[0061.96] Log: Log file closed, 08/31/26 06:56:57

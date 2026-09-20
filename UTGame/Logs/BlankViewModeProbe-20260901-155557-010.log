@@ -1,0 +1,43 @@
+Log: Log file open, 09/01/26 15:55:58
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  1 2026 06:53:10
+Init: Changelist: 1532151
+Init: Command line: editor  -nopause -forcelogflush -nosplash -windowed -ResX=1100 -ResY=760 -log=BlankViewModeProbe-20260901-155557-010.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.68] Init: Computer: CHEATS
+[0000.68] Init: User: vande
+[0000.68] Init: CPU Page size=4096, Processors=8
+[0000.68] Init: High frequency timer resolution =10.000000 MHz
+[0000.68] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=17.3GB Virtual=131072.0GB
+[0000.74] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.74] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.74] Init: Object subsystem initialized
+[0000.77] Log: SystemSettings based on: SystemSettings
+[0001.59] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.81] Critical: appError called: Failure to bind non-optional shader resource parameter SceneColorTexture!  The parameter is either not present in the shader, or the shader compiler optimized it out.
+[0002.81] Critical: Windows GetLastError: Not enough memory resources are available to process this command. (8)
+[0005.24] Log: === Critical error: ===
+Failure to bind non-optional shader resource parameter SceneColorTexture!  The parameter is either not present in the shader, or the shader compiler optimized it out.
+
+Address = 0x12f9187a (filename not found) [in C:\WINDOWS\System32\KERNELBASE.dll]
+FOutputDeviceWindowsError::Serialize() Address = 0x2526d3ab (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FOutputDevice::Logf__VA() Address = 0x251fb6ee (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FGammaCorrectionPixelShader::ConstructCompiledInstance() Address = 0x260f428e (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+VerifyGlobalShaders() Address = 0x2540d82d (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GetGlobalShaderMap() Address = 0x253e69ce (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FEngineLoop::Init() Address = 0x271a2798 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxLaunchApp::OnInit() Address = 0x271a49f2 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxUnrealEdApp::OnInit() Address = 0x26da51fa (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+wxEntryReal() 0xad7afd75 + 13 bytes [File=D:\UnrealEngine3-SC\Development\External\wxWidgets\src\common\init.cpp:447] [in D:\UnrealEngine3-SC\Binaries\Win64\wxbase28u_vc_custom_64.dll]
+wxEntry() 0xaac0f1e4 + 14 bytes [File=D:\UnrealEngine3-SC\Development\External\wxWidgets\src\msw\main.cpp:386] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+GuardedMain() Address = 0x271a254c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GuardedMainWrapper() Address = 0x271a25ea (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WinMain() Address = 0x271aff0f (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+__scrt_common_main_seh() 0x272181b9 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0x140fccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+

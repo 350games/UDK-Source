@@ -1,0 +1,36 @@
+Log: Log file open, 08/29/26 13:04:48
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 16:54:28
+Init: Changelist: 1532151
+Init: Command line: PerformMapCheck ExampleEntry.udk -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -log=UDKMapCheckRelease-20260829-130448.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.56] Init: Computer: CHEATS
+[0000.57] Init: User: vande
+[0000.57] Init: CPU Page size=4096, Processors=8
+[0000.57] Init: High frequency timer resolution =10.000000 MHz
+[0000.57] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.8GB Virtual=131072.0GB
+[0000.64] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.64] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.65] Init: Object subsystem initialized
+[0000.68] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.09] Log: Executing Class UnrealEd.PerformMapCheckCommandlet
+[0003.69] Log: Initializing Editor Engine...
+[0005.74] Log: Encountered missing default brush - spawning new one
+[0005.75] Log: Initializing Editor Engine Completed
+[0005.90] Log: Found 1 maps
+[0005.90] Log: Loading  ..\..\UTGame\Content\Maps\ExampleEntry.udk...  (0 / 1)
+[0005.95] Log: Checking ..\..\UTGame\Content\Maps\ExampleEntry.udk...
+[0005.97] Log: 
+[0005.98] Log: Success - 0 error(s), 0 warning(s)
+[0005.98] Log: 
+Execution of commandlet took:  0.10 seconds
+[0005.98] Exit: Preparing to exit.
+[0006.24] Exit: Editor shut down
+[0006.35] Exit: Object subsystem successfully closed.
+[0006.37] Exit: Exiting.
+[0006.37] Log: Log file closed, 08/29/26 13:04:54

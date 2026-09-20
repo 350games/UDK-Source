@@ -1,0 +1,42 @@
+Log: Log file open, 09/02/26 23:24:45
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Sep  2 2026 00:51:11
+Init: Changelist: 1532151
+Init: Command line:  
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.52] Init: Computer: CHEATS
+[0000.52] Init: User: vande
+[0000.52] Init: CPU Page size=4096, Processors=8
+[0000.52] Init: High frequency timer resolution =10.000000 MHz
+[0000.52] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.8GB Virtual=131072.0GB
+[0000.56] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.56] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.56] Init: Object subsystem initialized
+[0000.77] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.11] Warning: Failed to bind listen socket in FDebugServer::Init
+[0001.96] Log: 48225 objects as part of root set at end of initial load.
+[0001.96] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.96] Log: Initializing Engine...
+[0002.94] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.94] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.95] Log: LoadMap: ExampleEntry?Name=Player?Team=255
+[0003.00] Log: 
+[0003.04] Log: Game class is 'UDKStarterGameInfo'
+[0003.06] Log: Bringing World exampleentry.TheWorld up for play (0) at 2026.09.02-23.24.47
+[0003.06] Log: Bringing up level for play took: 0.005278
+[0003.06] Log: ########### Finished loading level: 0.109298 seconds
+[0003.09] Log: Initializing Engine Completed
+[0003.09] Log: >>>>>>>>>>>>>> Initial startup: 3.09s <<<<<<<<<<<<<<<
+[0003.09] Warning: Skipping saving the shader cache as another instance of the game is running.
+[0010.32] Log: All Windows Closed
+[0010.32] Log: appRequestExit(0)
+[0010.33] Exit: Preparing to exit.
+[0010.47] Exit: Game engine shut down
+[0010.48] Exit: Windows client shut down
+[0010.49] Exit: XAudio2 Device shut down.
+[0010.54] Exit: Object subsystem successfully closed.
+[0010.58] Exit: Exiting.
+[0010.58] Log: Log file closed, 09/02/26 23:24:55

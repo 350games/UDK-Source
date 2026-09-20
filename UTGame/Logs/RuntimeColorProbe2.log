@@ -1,0 +1,49 @@
+Log: Log file open, 09/01/26 06:36:05
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:45:11
+Init: Changelist: 1532151
+Init: Command line: ExampleEntry -windowed -ResX=640 -ResY=480 -nosplash -nopause -forcelogflush -log=RuntimeColorProbe2.log EXEC="..\Development\Tools\UDKLift\RuntimeColorProbe.txt" 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.49] Init: User: vande
+[0000.49] Init: CPU Page size=4096, Processors=8
+[0000.49] Init: High frequency timer resolution =10.000000 MHz
+[0000.49] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.0GB Virtual=131072.0GB
+[0000.49] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.49] Init: Object subsystem initialized
+[0000.66] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.31] Log: 45815 objects as part of root set at end of initial load.
+[0001.31] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.31] Log: Initializing Engine...
+[0002.04] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.04] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0002.04] Log: LoadMap: ExampleEntry?Name=Player?Team=255
+[0002.06] Log: 
+[0002.07] Log: Game class is 'UDKStarterGameInfo'
+[0002.09] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2026.09.01-06.36.06
+[0002.09] Log: Bringing up level for play took: 0.007030
+[0002.09] Log: ########### Finished loading level: 0.051373 seconds
+[0002.12] Log: Initializing Engine Completed
+[0002.12] Log: Execing ..\..\Binaries\..\Development\Tools\UDKLift\RuntimeColorProbe.txt
+[0002.12] Log: 0) Engine Engine.Default__Engine.C_WireBackground = (B=0,G=0,R=0,A=255)
+[0002.12] Log: 1) GameEngine Engine.Default__GameEngine.C_WireBackground = (B=0,G=0,R=0,A=255)
+[0002.12] Log: 2) GameEngine Transient.GameEngine_0.C_WireBackground = (B=0,G=0,R=0,A=255)
+[0002.12] Log: 0) Engine Engine.Default__Engine.C_OrthoBackground = (B=163,G=163,R=163,A=255)
+[0002.12] Log: 1) GameEngine Engine.Default__GameEngine.C_OrthoBackground = (B=163,G=163,R=163,A=255)
+[0002.13] Log: 2) GameEngine Transient.GameEngine_0.C_OrthoBackground = (B=163,G=163,R=163,A=255)
+[0002.13] Log: 0) Engine Engine.Default__Engine.C_WorldBox = (B=40,G=0,R=0,A=255)
+[0002.13] Log: 1) GameEngine Engine.Default__GameEngine.C_WorldBox = (B=40,G=0,R=0,A=255)
+[0002.13] Log: 2) GameEngine Transient.GameEngine_0.C_WorldBox = (B=40,G=0,R=0,A=255)
+[0002.13] Log: Closing by request
+[0002.13] Log: appRequestExit(0)
+[0002.13] Log: >>>>>>>>>>>>>> Initial startup: 2.13s <<<<<<<<<<<<<<<
+[0002.16] Exit: Preparing to exit.
+[0002.23] Exit: Game engine shut down
+[0002.26] Exit: Windows client shut down
+[0002.27] Exit: XAudio2 Device shut down.
+[0002.29] Exit: Object subsystem successfully closed.
+[0002.30] Exit: Exiting.
+[0002.30] Log: Log file closed, 09/01/26 06:36:06

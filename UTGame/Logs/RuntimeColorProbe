@@ -1,0 +1,31 @@
+Log: Log file open, 09/01/26 06:34:23
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 31 2026 06:45:11
+Init: Changelist: 1532151
+Init: Command line: ExampleEntry -windowed -ResX=640 -ResY=480 -nosplash -nopause -forcelogflush -log=RuntimeColorProbe .log EXEC=D:\UnrealEngine3-SC\Development\Tools\UDKLift\RuntimeColorProbe.txt 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.86] Init: Computer: CHEATS
+[0000.87] Init: User: vande
+[0000.87] Init: CPU Page size=4096, Processors=8
+[0000.87] Init: High frequency timer resolution =10.000000 MHz
+[0000.87] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=18.0GB Virtual=131072.0GB
+[0000.87] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.87] Init: Object subsystem initialized
+[0001.06] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.56] Log: 45815 objects as part of root set at end of initial load.
+[0004.56] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.56] Log: Initializing Engine...
+[0005.41] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0005.41] ScriptLog: Loading McpServerBase McpConfigClass:IpDrv.McpServiceConfig
+[0005.43] Log: LoadMap: ExampleEntry?Name=Player?Team=255
+[0005.46] Log: 
+[0005.48] Log: Game class is 'UDKStarterGameInfo'
+[0005.50] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2026.09.01-06.34.28
+[0005.50] Log: Bringing up level for play took: 0.011100
+[0005.51] Log: ########### Finished loading level: 0.073903 seconds
+[0005.53] Log: Initializing Engine Completed
+[0005.54] ExecWarning: Can't find file '..\..\Binaries\D:\UnrealEngine3-SC\Development\Tools\UDKLift\RuntimeColorProbe.txt'
+[0005.54] Log: >>>>>>>>>>>>>> Initial startup: 5.54s <<<<<<<<<<<<<<<

@@ -1,0 +1,581 @@
+Log: Log file open, 08/22/26 10:00:13
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditor.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UTGame\Config\UTEditorUserSettings.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 03:17:52
+Init: Changelist: 1532151
+Init: Command line: MAKE -full -headers -auto -unattended -nopause -forcelogflush -nullrhi -log=ScriptHeadersPass6 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.47] Init: Computer: CHEATS
+[0000.47] Init: User: vande
+[0000.47] Init: CPU Page size=4096, Processors=8
+[0000.47] Init: High frequency timer resolution =10.000000 MHz
+[0000.47] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.51] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.51] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.51] Init: Object subsystem initialized
+[0000.52] Log: Startup token 'MAKE' (script make: 1, editor token: 0)
+[0000.53] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.53] Log: Initializing binary shader support
+[0000.61] Log: Binary shader support initialized
+[0000.61] Log: Initializing shader compilation manager
+[0000.61] Log: Shader compilation manager initialized
+[0000.61] Log: Registering native classes and names
+[0000.61] Log: Registering Core
+[0000.61] Log: Registering Engine
+[0000.62] Log: Registering GameFramework
+[0000.62] Log: Registering IpDrv
+[0000.62] Log: Registering XAudio2
+[0000.62] Log: Registering GFxUI
+[0000.62] Log: Registering UnrealEd
+[0000.62] Log: Registering UnrealEd public classes
+[0000.62] Log: Created UnrealEd static class ActorFactorySelection
+[0000.62] Log: Created UnrealEd static class AnalyzeContentCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeCookedContentCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeCookedPackagesCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeCookedTextureSingleUsageCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeCookedTextureUsageCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeKismetCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeReferencedContentCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeReferencedObjectCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeScriptCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeShaderCachesCommandlet
+[0000.62] Log: Created UnrealEd static class AnimNodeEditInfo
+[0000.62] Log: Created UnrealEd static class AnimNodeEditInfo_AimOffset
+[0000.62] Log: Created UnrealEd static class AnimSetFactoryNew
+[0000.62] Log: Created UnrealEd static class AnimTreeEdSkelComponent
+[0000.62] Log: Created UnrealEd static class AnimTreeFactoryNew
+[0000.62] Log: Created UnrealEd static class ApexDestructibleDamageParametersFactoryNew
+[0000.62] Log: Created UnrealEd static class ApexGenericAssetFactory
+[0000.62] Log: Created UnrealEd static class ReimportApexGenericAssetFactory
+[0000.62] Log: Created UnrealEd static class ReimportTextureFactory
+[0000.62] Log: Created UnrealEd static class TextureFactory
+[0000.62] Log: Created UnrealEd static class ReimportStaticMeshFactory
+[0000.62] Log: Created UnrealEd static class StaticMeshFactory
+[0000.62] Log: Created UnrealEd static class ReimportFbxStaticMeshFactory
+[0000.62] Log: Created UnrealEd static class FbxFactory
+[0000.62] Log: Created UnrealEd static class FbxImportUI
+[0000.62] Log: Created UnrealEd static class ReimportSkeletalMeshFactory
+[0000.62] Log: Created UnrealEd static class SkeletalMeshFactory
+[0000.62] Log: Created UnrealEd static class ReimportFbxSkeletalMeshFactory
+[0000.62] Log: Created UnrealEd static class ReimportSoundFactory
+[0000.62] Log: Created UnrealEd static class SoundFactory
+[0000.62] Log: Created UnrealEd static class ASVSkelComponent
+[0000.62] Log: Created UnrealEd static class BaseCollectionProcessingCommandlet
+[0000.62] Log: Created UnrealEd static class FindBadAnimNotifyCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDCinematicTexturesCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDPSysDynamicParameterCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDPSystemsCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDPSysWithCollisionEnabledCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDPSysWithMedDetailSpawnRateCommandlet
+[0000.62] Log: Created UnrealEd static class FindOnDVDPSysWithNoFixedBoundsCommandlet
+[0000.62] Log: Created UnrealEd static class BaseDatabaseCommandlet
+[0000.62] Log: Created UnrealEd static class AnalyzeDVDSpaceCommandlet
+[0000.62] Log: Created UnrealEd static class FindCinematicTexturesCommandlet
+[0000.62] Log: Created UnrealEd static class LensFlareAuditCommandlet
+[0000.62] Log: Created UnrealEd static class MaterialAuditCommandlet
+[0000.62] Log: Created UnrealEd static class ParticleSystemAuditCommandlet
+[0000.62] Log: Created UnrealEd static class PMapForceObjectCheckCommandlet
+[0000.62] Log: Created UnrealEd static class BaseObjectTagGeneratorCommandlet
+[0000.62] Log: Created UnrealEd static class FindPSysWithBadAutoActivateSettingCommandlet
+[0000.62] Log: Created UnrealEd static class FindPSysWithCollisionEnabledCommandlet
+[0000.62] Log: Created UnrealEd static class FindPSysWithZOrientTowardsCameraCommandlet
+[0000.62] Log: Created UnrealEd static class FindStaticMeshCleanIssuesCommandlet
+[0000.62] Log: Created UnrealEd static class FixupMobileMaterialFogCommandlet
+[0000.62] Log: Created UnrealEd static class ParticleModuleAuditCommandlet
+[0000.62] Log: Created UnrealEd static class BatchExportCommandlet
+[0000.62] Log: Created UnrealEd static class BreakApartPackagesCommandlet
+[0000.62] Log: Created UnrealEd static class BrowserManager
+[0000.62] Log: Created UnrealEd static class BrushBuilder
+[0000.62] Log: Created UnrealEd static class CubeBuilder
+[0000.62] Log: Created UnrealEd static class ByteCodeSerializer
+[0000.62] Log: Created UnrealEd static class CameraAnimFactory
+[0000.62] Log: Created UnrealEd static class CascadeConfiguration
+[0000.62] Log: Created UnrealEd static class CascadeOptions
+[0000.62] Log: Created UnrealEd static class CascadePreviewComponent
+[0000.62] Log: Created UnrealEd static class CheckForSimplifiedMeshesCommandlet
+[0000.62] Log: Created UnrealEd static class CheckLightMapUVsCommandlet
+[0000.62] Log: Created UnrealEd static class CheckpointGameAssetDatabaseCommandlet
+[0000.62] Log: Created UnrealEd static class ClassExporterUC
+[0000.62] Log: Created UnrealEd static class ClassFactoryUC
+[0000.62] Log: Created UnrealEd static class CompressAnimationsCommandlet
+[0000.62] Log: Created UnrealEd static class ConformCommandlet
+[0000.62] Log: Created UnrealEd static class ContentAuditCommandlet
+[0000.62] Log: Created UnrealEd static class ContentComparisonCommandlet
+[0000.62] Log: Created UnrealEd static class ConvertMapToNavMesh
+[0000.62] Log: Created UnrealEd static class CookPackagesCommandlet
+[0000.62] Log: Created UnrealEd static class CurveEdOptions
+[0000.62] Log: Created UnrealEd static class CurveEdPresetBase
+[0000.62] Log: Created UnrealEd static class CurveEdPreset_CosWave
+[0000.62] Log: Created UnrealEd static class CurveEdPreset_LinearDecay
+[0000.62] Log: Created UnrealEd static class CurveEdPreset_Nothing
+[0000.62] Log: Created UnrealEd static class CurveEdPreset_SineWave
+[0000.62] Log: Created UnrealEd static class CurveEdPreset_UserSet
+[0000.62] Log: Created UnrealEd static class CurveEdPresetCurveFactoryNew
+[0000.62] Log: Created UnrealEd static class DecalMaterialFactoryNew
+[0000.62] Log: Created UnrealEd static class DEditorParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorFontParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorScalarParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorStaticComponentMaskParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorStaticSwitchParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorTextureParameterValue
+[0000.62] Log: Created UnrealEd static class DEditorVectorParameterValue
+[0000.62] Log: Created UnrealEd static class DeleteQuarantinedContentCommandlet
+[0000.62] Log: Created UnrealEd static class DiffPackagesCommandlet
+[0000.62] Log: Created UnrealEd static class DumpEmittersCommandlet
+[0000.62] Log: Created UnrealEd static class DumpLightmapInfoCommandlet
+[0000.62] Log: Created UnrealEd static class DumpPropertiesCommandlet
+[0000.62] Log: Created UnrealEd static class DumpShadersCommandlet
+[0000.62] Log: Created UnrealEd static class EditorComponent
+[0000.62] Log: Created UnrealEd static class EdModeComponent
+[0000.62] Log: Created UnrealEd static class EditorEngine
+[0000.62] Log: Created UnrealEd static class UnrealEdEngine
+[0000.62] Log: Created UnrealEd static class EditorPlayer
+[0000.62] Log: Created UnrealEd static class EditorUserSettings
+[0000.62] Log: Created UnrealEd static class EditorViewportInput
+[0000.62] Log: Created UnrealEd static class ExamineOutersCommandlet
+[0000.62] Log: Created UnrealEd static class ExporterT3DX
+[0000.62] Log: Created UnrealEd static class MaterialExporterT3D
+[0000.62] Log: Created UnrealEd static class StaticMeshExporterT3D
+[0000.62] Log: Created UnrealEd static class TextureExporterT3D
+[0000.62] Log: Created UnrealEd static class ExportLocCommandlet
+[0000.62] Log: Created UnrealEd static class FaceFXStudioSkelComponent
+[0000.62] Log: Created UnrealEd static class FindAssetReferencersCommandlet
+[0000.62] Log: Created UnrealEd static class FindDarkDiffuseTexturesCommandlet
+[0000.62] Log: Created UnrealEd static class FindDuplicateKismetObjectsCommandlet
+[0000.62] Log: Created UnrealEd static class FindDuplicateTexturesCommandlet
+[0000.62] Log: Created UnrealEd static class FindEmitterMismatchedLODsCommandlet
+[0000.62] Log: Created UnrealEd static class FindEmitterModifiedLODsCommandlet
+[0000.62] Log: Created UnrealEd static class FindEmitterModuleLODErrorsCommandlet
+[0000.62] Log: Created UnrealEd static class FindQuestionableTexturesCommandlet
+[0000.62] Log: Created UnrealEd static class FindStaticMeshCanBecomeDynamicCommandlet
+[0000.62] Log: Created UnrealEd static class FindStaticMeshEmptySectionsCommandlet
+[0000.62] Log: Created UnrealEd static class FindTexturesWithMissingPhysicalMaterialsCommandlet
+[0000.62] Log: Created UnrealEd static class FindUniqueSpecularTextureMaterialsCommandlet
+[0000.62] Log: Created UnrealEd static class FindUnreferencedFunctionsCommandlet
+[0000.62] Log: Created UnrealEd static class FixAdditiveReferencesCommandlet
+[0000.62] Log: Created UnrealEd static class FixAmbiguousMaterialParametersCommandlet
+[0000.62] Log: Created UnrealEd static class FixupEmittersCommandlet
+[0000.62] Log: Created UnrealEd static class FixupRedirectsCommandlet
+[0000.62] Log: Created UnrealEd static class FixupSourceUVsCommandlet
+[0000.62] Log: Created UnrealEd static class FonixFactory
+[0000.62] Log: Created UnrealEd static class FractureMaterialFactoryNew
+[0000.62] Log: Created UnrealEd static class GenericBrowserType
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_Animation
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_AnimTree
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_ApexClothingAsset
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_ApexDestructibleAsset
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_ApexDestructibleDamageParameters
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_ApexGenericAsset
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_Archetype
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_CameraAnim
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_CurveEdPresetCurve
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_Custom
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_All
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_DecalMaterial
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_FaceFXAnimSet
+[0000.62] Log: Created UnrealEd static class GenericBrowserType_FaceFXAsset
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Font
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_FractureMaterial
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_InstancedFoliageSettings
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_LandscapeLayer
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_LensFlare
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Material
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_MaterialFunction
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_MaterialInstanceConstant
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_MaterialInstanceTimeVarying
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_MorphTargetSet
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_MorphWeightSequence
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_ParticleSystem
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_PhysicalMaterial
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_PhysicsAsset
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_PhysXParticleSystem
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_PostProcess
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Prefab
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_ProcBuildingRuleset
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Sequence
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SkeletalMesh
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Sounds
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SoundClass
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SoundCue
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SoundMode
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SoundWave
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SpeechRecognition
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_SpeedTree
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_StaticMesh
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_FracturedStaticMesh
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_TemplateMapMetadata
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_TerrainLayer
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_TerrainMaterial
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_Texture
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_RenderTexture
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_TextureCube
+[0000.63] Log: Created UnrealEd static class GenericBrowserType_TextureMovie
+[0000.63] Log: Created UnrealEd static class GeomModifier
+[0000.63] Log: Created UnrealEd static class GeomModifier_Edit
+[0000.63] Log: Created UnrealEd static class GeomModifier_Clip
+[0000.63] Log: Created UnrealEd static class GeomModifier_Create
+[0000.63] Log: Created UnrealEd static class GeomModifier_Delete
+[0000.63] Log: Created UnrealEd static class GeomModifier_Extrude
+[0000.63] Log: Created UnrealEd static class GeomModifier_Flip
+[0000.63] Log: Created UnrealEd static class GeomModifier_Lathe
+[0000.63] Log: Created UnrealEd static class GeomModifier_Optimize
+[0000.63] Log: Created UnrealEd static class GeomModifier_Pen
+[0000.63] Log: Created UnrealEd static class GeomModifier_Split
+[0000.63] Log: Created UnrealEd static class GeomModifier_Triangulate
+[0000.63] Log: Created UnrealEd static class GeomModifier_Turn
+[0000.63] Log: Created UnrealEd static class GeomModifier_Weld
+[0000.63] Log: Created UnrealEd static class GroupActor
+[0000.63] Log: Created UnrealEd static class InterpEdOptions
+[0000.63] Log: Created UnrealEd static class InterpTrackHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackAnimControlHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackBoolPropHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackDirectorHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackEventHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackFaceFXHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackFloatPropHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackHeadTrackingHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackNotifyHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackParticleReplayHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackSoundHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackToggleHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackVectorPropHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackColorPropHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackLinearColorPropHelper
+[0000.63] Log: Created UnrealEd static class InterpTrackVisibilityHelper
+[0000.63] Log: Created UnrealEd static class KismetBindings
+[0000.63] Log: Created UnrealEd static class LensFlareEditorOptions
+[0000.63] Log: Created UnrealEd static class LensFlareEditorPropertyWrapper
+[0000.63] Log: Created UnrealEd static class LensFlareFactoryNew
+[0000.63] Log: Created UnrealEd static class LensFlarePreviewComponent
+[0000.63] Log: Created UnrealEd static class LevelExporterFBX
+[0000.63] Log: Created UnrealEd static class LevelExporterLOD
+[0000.63] Log: Created UnrealEd static class LevelExporterOBJ
+[0000.63] Log: Created UnrealEd static class LevelExporterSTL
+[0000.63] Log: Created UnrealEd static class LevelExporterT3D
+[0000.63] Log: Created UnrealEd static class LevelFactory
+[0000.63] Log: Created UnrealEd static class LightingChannelsObject
+[0000.63] Log: Created UnrealEd static class LightmassOptionsObject
+[0000.63] Log: Created UnrealEd static class LinkedObjectFactory
+[0000.63] Log: Created UnrealEd static class ListCorruptedComponentsCommandlet
+[0000.63] Log: Created UnrealEd static class ListCustomMaterialExpressionsCommandlet
+[0000.63] Log: Created UnrealEd static class ListDistanceCrossFadeNodesCommandlet
+[0000.63] Log: Created UnrealEd static class ListEmittersUsingModuleCommandlet
+[0000.63] Log: Created UnrealEd static class ListLoopingEmittersCommandlet
+[0000.63] Log: Created UnrealEd static class ListPackagesReferencingCommandlet
+[0000.63] Log: Created UnrealEd static class ListPhysAssetsNumBodiesCommandlet
+[0000.63] Log: Created UnrealEd static class ListPSysFixedBoundSettingCommandlet
+[0000.63] Log: Created UnrealEd static class ListScriptReferencedContentCommandlet
+[0000.63] Log: Created UnrealEd static class ListSoundNodeWavesCommandlet
+[0000.63] Log: Created UnrealEd static class LoadPackageCommandlet
+[0000.63] Log: Created UnrealEd static class LocSoundInfoCommandlet
+[0000.63] Log: Created UnrealEd static class MakeCommandlet
+[0000.63] Log: Created UnrealEd static class MaterialEditorInstanceConstant
+[0000.63] Log: Created UnrealEd static class MaterialEditorInstanceTimeVarying
+[0000.63] Log: Created UnrealEd static class MaterialEditorMeshComponent
+[0000.63] Log: Created UnrealEd static class MaterialEditorOptions
+[0000.63] Log: Created UnrealEd static class MaterialEditorSkeletalMeshComponent
+[0000.63] Log: Created UnrealEd static class MaterialFactory
+[0000.63] Log: Created UnrealEd static class MaterialFactoryNew
+[0000.63] Log: Created UnrealEd static class MaterialFunctionFactoryNew
+[0000.63] Log: Created UnrealEd static class MaterialInstanceConstantFactoryNew
+[0000.63] Log: Created UnrealEd static class MaterialInstanceTimeVaryingFactoryNew
+[0000.63] Log: Created UnrealEd static class MergeConflictingPackagesCommandlet
+[0000.63] Log: Created UnrealEd static class MergePackagesCommandlet
+[0000.63] Log: Created UnrealEd static class MineCookedPackagesCommandlet
+[0000.63] Log: Created UnrealEd static class ModelExporterT3D
+[0000.63] Log: Created UnrealEd static class ModelFactory
+[0000.63] Log: Created UnrealEd static class ObjectExporterT3D
+[0000.63] Log: Created UnrealEd static class OutputAuditSummaryCommandlet
+[0000.63] Log: Created UnrealEd static class PackageExporterT3D
+[0000.63] Log: Created UnrealEd static class PackageFactory
+[0000.63] Log: Created UnrealEd static class ParticleSystemFactoryNew
+[0000.63] Log: Created UnrealEd static class PerformMapCheckCommandlet
+[0000.63] Log: Created UnrealEd static class FindRenamedPrefabSequencesCommandlet
+[0000.63] Log: Created UnrealEd static class FindStaticActorsRefsCommandlet
+[0000.63] Log: Created UnrealEd static class PerformTerrainMaterialDumpCommandlet
+[0000.63] Log: Created UnrealEd static class PersistentCookerData
+[0000.63] Log: Created UnrealEd static class PhATSimOptions
+[0000.63] Log: Created UnrealEd static class PhATSkeletalMeshComponent
+[0000.63] Log: Created UnrealEd static class PhysicalMaterialFactoryNew
+[0000.63] Log: Created UnrealEd static class PhysXExporterAsset
+[0000.63] Log: Created UnrealEd static class PhysXParticleSystemFactoryNew
+[0000.63] Log: Created UnrealEd static class PIEToNormalCommandlet
+[0000.63] Log: Created UnrealEd static class PkgInfoCommandlet
+[0000.63] Log: Created UnrealEd static class PolysExporterT3D
+[0000.63] Log: Created UnrealEd static class PolysFactory
+[0000.63] Log: Created UnrealEd static class PostProcessFactoryNew
+[0000.63] Log: Created UnrealEd static class PrecompileShadersCommandlet
+[0000.63] Log: Created UnrealEd static class PreviewMaterial
+[0000.63] Log: Created UnrealEd static class ProcBuildingRulesetFactoryNew
+[0000.63] Log: Created UnrealEd static class PropertyDrawProxy
+[0000.63] Log: Created UnrealEd static class PropertyInputProxy
+[0000.63] Log: Created UnrealEd static class PropertyInputArrayItemBase
+[0000.63] Log: Created UnrealEd static class PropertyInputBool
+[0000.63] Log: Created UnrealEd static class PropertyInputCombo
+[0000.63] Log: Created UnrealEd static class PropertyInputEditInline
+[0000.63] Log: Created UnrealEd static class PropertyInputText
+[0000.63] Log: Created UnrealEd static class PropertyWindowManager
+[0000.63] Log: Created UnrealEd static class RenderTargetCubeExporterTGA
+[0000.63] Log: Created UnrealEd static class RenderTargetExporterTGA
+[0000.63] Log: Created UnrealEd static class ReplaceActorCommandlet
+[0000.63] Log: Created UnrealEd static class ReplaceMaterialCommandlet
+[0000.63] Log: Created UnrealEd static class ResavePackagesCommandlet
+[0000.63] Log: Created UnrealEd static class ChangePrefabSequenceClassCommandlet
+[0000.63] Log: Created UnrealEd static class ScaleAudioVolumeCommandlet
+[0000.63] Log: Created UnrealEd static class SequenceExporterT3D
+[0000.63] Log: Created UnrealEd static class SequenceFactory
+[0000.63] Log: Created UnrealEd static class SequenceObjectHelper
+[0000.63] Log: Created UnrealEd static class SetMaterialUsageCommandlet
+[0000.63] Log: Created UnrealEd static class SetPackageFlagsCommandlet
+[0000.63] Log: Created UnrealEd static class SetTextureLODGroupCommandlet
+[0000.63] Log: Created UnrealEd static class ShowObjectCountCommandlet
+[0000.63] Log: Created UnrealEd static class ShowPropertyFlagsCommandlet
+[0000.63] Log: Created UnrealEd static class ShowTaggedPropsCommandlet
+[0000.63] Log: Created UnrealEd static class SkeletalMeshExporterFBX
+[0000.63] Log: Created UnrealEd static class SoundClassFactory
+[0000.63] Log: Created UnrealEd static class SoundClassInfoCommandlet
+[0000.63] Log: Created UnrealEd static class SoundCueAuditCommandlet
+[0000.63] Log: Created UnrealEd static class SoundCueFactoryNew
+[0000.63] Log: Created UnrealEd static class SoundExporterWAV
+[0000.63] Log: Created UnrealEd static class SoundModeFactory
+[0000.63] Log: Created UnrealEd static class SoundNodeHelper
+[0000.63] Log: Created UnrealEd static class SoundSurroundExporterWAV
+[0000.63] Log: Created UnrealEd static class SoundSurroundFactory
+[0000.63] Log: Created UnrealEd static class SoundTTSFactory
+[0000.63] Log: Created UnrealEd static class SpeedTreeFactory
+[0000.63] Log: Created UnrealEd static class StaticMeshExporterFBX
+[0000.63] Log: Created UnrealEd static class StaticMeshExporterOBJ
+[0000.63] Log: Created UnrealEd static class StaticMeshMode_Options
+[0000.63] Log: Created UnrealEd static class StripSourceCommandlet
+[0000.63] Log: Created UnrealEd static class TagCookedReferencedAssetsCommandlet
+[0000.63] Log: Created UnrealEd static class TagReferencedAssetsCommandlet
+[0000.63] Log: Created UnrealEd static class TagSuboptimalTexturesCommandlet
+[0000.63] Log: Created UnrealEd static class TemplateMapMetadata
+[0000.63] Log: Created UnrealEd static class TemplateMapMetadataFactory
+[0000.63] Log: Created UnrealEd static class TerrainEditOptions
+[0000.63] Log: Created UnrealEd static class TerrainExporterT3D
+[0000.63] Log: Created UnrealEd static class TerrainFactory
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapExporter
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapExporterG16BMPT3D
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapExporterTextT3D
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapFactory
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapFactoryG16BMP
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapFactoryG16BMPT3D
+[0000.63] Log: Created UnrealEd static class TerrainHeightMapFactoryTextT3D
+[0000.63] Log: Created UnrealEd static class TerrainLayerSetupFactoryNew
+[0000.63] Log: Created UnrealEd static class TerrainMaterialFactoryNew
+[0000.63] Log: Created UnrealEd static class TestCompressionCommandlet
+[0000.63] Log: Created UnrealEd static class TestTextureCompressionCommandlet
+[0000.63] Log: Created UnrealEd static class TestWordWrapCommandlet
+[0000.63] Log: Created UnrealEd static class TextBufferExporterTXT
+[0000.63] Log: Created UnrealEd static class Texture2DFactoryNew
+[0000.63] Log: Created UnrealEd static class TextureCubeFactoryNew
+[0000.63] Log: Created UnrealEd static class TextureExporterBMP
+[0000.63] Log: Created UnrealEd static class TextureExporterPCX
+[0000.63] Log: Created UnrealEd static class TextureExporterTGA
+[0000.63] Log: Created UnrealEd static class FontFactory
+[0000.63] Log: Created UnrealEd static class TrueTypeFontFactory
+[0000.63] Log: Created UnrealEd static class TrueTypeMultiFontFactory
+[0000.63] Log: Created UnrealEd static class TextureMovieFactory
+[0000.63] Log: Created UnrealEd static class TextureRenderTargetCubeFactoryNew
+[0000.63] Log: Created UnrealEd static class TextureRenderTargetFactoryNew
+[0000.63] Log: Created UnrealEd static class ThumbnailLabelRenderer
+[0000.63] Log: Created UnrealEd static class AnimSetLabelRenderer
+[0000.63] Log: Created UnrealEd static class AnimTreeLabelRenderer
+[0000.63] Log: Created UnrealEd static class ApexClothingAssetLabelRenderer
+[0000.63] Log: Created UnrealEd static class ApexDestructibleAssetLabelRenderer
+[0000.63] Log: Created UnrealEd static class ApexGenericAssetLabelRenderer
+[0000.63] Log: Created UnrealEd static class FontThumbnailLabelRenderer
+[0000.63] Log: Created UnrealEd static class GenericThumbnailLabelRenderer
+[0000.63] Log: Created UnrealEd static class LandscapeLayerLabelRenderer
+[0000.63] Log: Created UnrealEd static class MaterialFunctionLabelRenderer
+[0000.63] Log: Created UnrealEd static class MaterialInstanceLabelRenderer
+[0000.63] Log: Created UnrealEd static class MemCountThumbnailLabelRenderer
+[0000.63] Log: Created UnrealEd static class ParticleSystemLabelRenderer
+[0000.63] Log: Created UnrealEd static class PhysicsAssetLabelRenderer
+[0000.63] Log: Created UnrealEd static class PostProcessLabelRenderer
+[0000.63] Log: Created UnrealEd static class SkeletalMeshLabelRenderer
+[0000.63] Log: Created UnrealEd static class SoundLabelRenderer
+[0000.63] Log: Created UnrealEd static class StaticMeshLabelRenderer
+[0000.63] Log: Created UnrealEd static class FracturedStaticMeshLabelRenderer
+[0000.63] Log: Created UnrealEd static class ThumbnailManager
+[0000.63] Log: Created UnrealEd static class ThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class DefaultSizedThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class ApexDestructibleAssetThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class MaterialInstanceThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class SkeletalMeshThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class StaticMeshThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class IconThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class ArchetypeThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class PrefabThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class TextureThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class FontThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class LensFlareThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class ParticleSystemThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class TextureCubeThumbnailRenderer
+[0000.63] Log: Created UnrealEd static class Transactor
+[0000.63] Log: Created UnrealEd static class TransBuffer
+[0000.63] Log: Created UnrealEd static class UnitTestCommandlet
+[0000.63] Log: Created UnrealEd static class UnrealEdKeyBindings
+[0000.63] Log: Created UnrealEd static class UnrealEdOptions
+[0000.63] Log: Created UnrealEd static class UnrealEdTypes
+[0000.63] Log: Created UnrealEd static class UpdateKismetCommandlet
+[0000.63] Log: Created UnrealEd static class UT3MapStatsCommandlet
+[0000.63] Log: Created UnrealEd static class WrangleContentCommandlet
+[0000.63] Log: Created UnrealEd static class WriteGameStatsReportCommandlet
+[0000.63] Log: Registering UnrealEd Cascade classes
+[0000.63] Log: Created UnrealEd static class CascadeParticleSystemComponent
+[0000.63] Log: Registering UnrealEd GameStats classes
+[0000.63] Log: Created UnrealEd static class GameStatsDatabase
+[0000.63] Log: Created UnrealEd static class GameStatsDatabaseVisitor
+[0000.63] Log: Created UnrealEd static class GameStatsFileReader
+[0000.63] Log: Created UnrealEd static class GameStatsReport
+[0000.63] Log: Created UnrealEd static class GameStatsVisitorImpl
+[0000.63] Log: Created UnrealEd static class GameStatsVisualizer
+[0000.63] Log: Created UnrealEd static class BasicStatsVisualizer
+[0000.63] Log: Created UnrealEd static class GenericParamlistVisualizer
+[0000.63] Log: Created UnrealEd static class HeatmapVisualizer
+[0000.63] Log: Created UnrealEd static class PerformanceVisualizer
+[0000.63] Log: Created UnrealEd static class PlayerMovementVisualizer
+[0000.63] Log: Registering UnrealEd private classes
+[0000.63] Log: Created UnrealEd static class CustomPropertyItemBindings
+[0000.63] Log: UnrealEd class registration complete
+[0000.63] Log: Registering WinDrv
+[0000.63] Log: Registering OnlineSubsystemPC
+[0000.63] Log: Registering UTGame
+[0000.63] Log: Native class registration complete; generating names
+[0000.63] Log: Native classes and names registered
+[0000.63] Log: Debug communications initialized
+[0000.63] Log: Streaming and IO managers initialized
+[0000.64] Log: Async IO initialized
+[0000.64] Log: Physics initialization complete
+[0000.64] Log: File cache cleanup complete
+[0000.70] Log: Executing Class UnrealEd.MakeCommandlet
+[0000.70] Heading: --------------------Core - Release--------------------
+[0000.70] Log: Analyzing...
+[0000.70] Log: Loading global macros for Core
+[0000.76] Log: Exporting native class declarations for Core
+[0000.76] Log: Autogenerating C++ header: 
+[0000.76] Log: Autogenerating C++ header: CoreNames.h
+[0000.76] Log: Success: Compiled 3350 line(s), 499 statement(s).
+
+[0000.76] Heading: --------------------Engine - Release--------------------
+[0000.77] Log: Analyzing...
+[0000.77] Log: Loading global macros for Engine
+[0001.16] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 11
+[0006.18] Log: Exporting native class declarations for Engine
+[0006.19] Log: Autogenerating C++ header: 
+[0006.61] Log: Autogenerating C++ header: Mesh
+[0006.63] Log: Autogenerating C++ header: ForceField
+[0006.64] Log: Autogenerating C++ header: ProcBuilding
+[0006.65] Log: Autogenerating C++ header: Camera
+[0006.66] Log: Autogenerating C++ header: Controller
+[0006.67] Log: Autogenerating C++ header: Particle
+[0006.80] Log: Autogenerating C++ header: Fluid
+[0006.80] Log: Autogenerating C++ header: FogVolume
+[0006.81] Log: Autogenerating C++ header: ReplicationInfo
+[0006.81] Log: Autogenerating C++ header: GameEngine
+[0006.83] Log: Autogenerating C++ header: Foliage
+[0006.83] Log: Autogenerating C++ header: Sound
+[0006.85] Log: Autogenerating C++ header: LensFlare
+[0006.85] Log: Autogenerating C++ header: Light
+[0006.86] Log: Autogenerating C++ header: Pawn
+[0006.88] Log: Autogenerating C++ header: Prefab
+[0006.88] Log: Autogenerating C++ header: Anim
+[0006.93] Log: Autogenerating C++ header: SpeedTree
+[0006.94] Log: Autogenerating C++ header: Spline
+[0006.94] Log: Autogenerating C++ header: AudioDevice
+[0006.95] Log: Autogenerating C++ header: PlatformInterface
+[0006.96] Log: Autogenerating C++ header: Base
+[0006.97] Log: Autogenerating C++ header: Interpolation
+[0006.99] Log: Autogenerating C++ header: Material
+[0007.06] Log: Autogenerating C++ header: Scene
+[0007.07] Log: Autogenerating C++ header: Sequence
+[0007.14] Log: Autogenerating C++ header: SkeletalMesh
+[0007.14] Log: Autogenerating C++ header: Texture
+[0007.15] Log: Autogenerating C++ header: UserInterface
+[0007.16] Log: Autogenerating C++ header: AI
+[0007.19] Log: Autogenerating C++ header: Decal
+[0007.20] Log: Autogenerating C++ header: Physics
+[0007.22] Log: Autogenerating C++ header: Terrain
+[0007.24] Log: Autogenerating C++ header: UIPrivate
+[0007.26] Log: Autogenerating C++ header: EngineNames.h
+[0007.26] Log: Success: Compiled 174157 line(s), 19464 statement(s).
+
+[0007.27] Heading: --------------------IpDrv - Release--------------------
+[0007.27] Log: Analyzing...
+[0007.27] Log: Loading global macros for IpDrv
+[0007.98] Log: Exporting native class declarations for IpDrv
+[0007.98] Log: Autogenerating C++ header: 
+[0008.01] Log: Autogenerating C++ header: UIPrivate
+[0008.01] Log: Autogenerating C++ header: IpDrvNames.h
+[0008.01] Log: Success: Compiled 22426 line(s), 1995 statement(s).
+
+[0008.01] Heading: --------------------GameFramework - Release--------------------
+[0008.02] Log: Analyzing...
+[0008.02] Log: Loading global macros for GameFramework
+[0008.77] Log: Exporting native class declarations for GameFramework
+[0008.77] Log: Autogenerating C++ header: 
+[0008.81] Log: Autogenerating C++ header: Camera
+[0008.81] Log: Autogenerating C++ header: Anim
+[0008.81] Log: Autogenerating C++ header: SpecialMoves
+[0008.81] Log: Autogenerating C++ header: GameStats
+[0008.81] Log: Autogenerating C++ header: GameFrameworkNames.h
+[0008.81] Log: Success: Compiled 23901 line(s), 2529 statement(s).
+
+[0008.81] Heading: --------------------UnrealEd - Release--------------------
+[0008.82] Log: Analyzing...
+[0008.82] Log: Loading global macros for UnrealEd
+[0009.28] Log: Exporting native class declarations for UnrealEd
+[0009.29] Log: Autogenerating C++ header: 
+[0009.36] Log: Autogenerating C++ header: Cascade
+[0009.37] Log: Autogenerating C++ header: Private
+[0009.37] Log: Autogenerating C++ header: GameStats
+[0009.37] Log: Autogenerating C++ header: UnrealEdNames.h
+[0009.37] Log: Success: Compiled 10589 line(s), 1113 statement(s).
+
+[0009.37] Heading: --------------------WinDrv - Release--------------------
+[0009.37] Log: Analyzing...
+[0009.38] Log: Loading global macros for WinDrv
+[0009.41] Log: Exporting native class declarations for WinDrv
+[0009.41] Log: Autogenerating C++ header: 
+[0009.41] Log: Autogenerating C++ header: WinDrvNames.h
+[0009.41] Log: Success: Compiled 407 line(s), 66 statement(s).
+
+[0009.41] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0009.41] Log: Analyzing...
+[0009.42] Log: Loading global macros for OnlineSubsystemPC
+[0009.46] Log: Exporting native class declarations for OnlineSubsystemPC
+[0009.46] Log: Autogenerating C++ header: 
+[0009.46] Log: Autogenerating C++ header: OnlineSubsystemPCNames.h
+[0009.46] Log: Success: Compiled 2013 line(s), 228 statement(s).
+
+[0009.46] Heading: --------------------UTGame - Release--------------------
+[0009.46] Log: Analyzing...
+[0009.46] Log: Loading global macros for UTGame
+[0009.63] Warning: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTCharacter.uc(68) : Warning, Function parameter: 'FiringMode' conflicts with previously defined field in 'Pawn'
+[0009.64] Warning: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTPlayerController.uc(433) : Warning, Superclass version is simulated so 'GetPlayerViewPoint' should be!
+[0009.64] Error: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTPlayerController.uc(441) : Error, Redefinition of replication conditions for function 'ServerChangeTeam'
+[0009.65] Warning: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTWeapon.uc(910) : Warning, Function parameter: 'Location' conflicts with previously defined field in 'Actor'
+[0009.65] Warning: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTWeapon.uc(969) : Warning, Superclass version is simulated so 'BeginState' should be!
+[0009.66] Log: Compile aborted due to errors.
+[0009.73] Log: 
+[0009.73] Log: Warning/Error Summary
+[0009.73] Log: ---------------------
+[0009.73] Log: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTPlayerController.uc(441) : Error, Redefinition of replication conditions for function 'ServerChangeTeam'
+[0009.73] Log: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTCharacter.uc(68) : Warning, Function parameter: 'FiringMode' conflicts with previously defined field in 'Pawn'
+[0009.73] Log: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTPlayerController.uc(433) : Warning, Superclass version is simulated so 'GetPlayerViewPoint' should be!
+[0009.73] Log: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTWeapon.uc(910) : Warning, Function parameter: 'Location' conflicts with previously defined field in 'Actor'
+[0009.73] Log: D:\UnrealEngine3-SC\Development\Src\UTGame\Classes\UTWeapon.uc(969) : Warning, Superclass version is simulated so 'BeginState' should be!
+[0009.73] Log: 
+[0009.73] Log: Failure - 1 error(s), 4 warning(s)
+[0009.73] Log: 
+Execution of commandlet took:  9.03 seconds
+[0009.73] Exit: Preparing to exit.
+[0009.83] Exit: Object subsystem successfully closed.
+[0009.83] Exit: Exiting.
+[0009.83] Log: Log file closed, 08/22/26 10:00:22

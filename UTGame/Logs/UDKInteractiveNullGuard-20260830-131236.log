@@ -1,0 +1,337 @@
+Log: Log file open, 08/30/26 13:12:38
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 16:54:28
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -seconds=8 -log=UDKInteractiveNullGuard-20260830-131236.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.55] Init: Computer: CHEATS
+[0000.55] Init: User: vande
+[0000.55] Init: CPU Page size=4096, Processors=8
+[0000.55] Init: High frequency timer resolution =10.000000 MHz
+[0000.55] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.8GB Virtual=131072.0GB
+[0000.59] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.59] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.59] Init: Object subsystem initialized
+[0000.62] Log: SystemSettings based on: SystemSettings
+[0000.87] Log: Shader platform (RHI): PC-D3D-SM3
+[0009.67] Log: Failed to load 'T_FX': Can't find file for package 'T_FX' while loading ..\..\UTGame\Content\Weapons\WP_RocketLauncher.upk
+[0009.68] Log: Failed to load 'Envy_Effects2': Can't find file for package 'Envy_Effects2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'VH_Manta': Can't find file for package 'VH_Manta' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.68] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.69] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.69] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.69] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.69] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.70] Log: Failed to load 'VH_Nemesis': Can't find file for package 'VH_Nemesis' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Weapons\WP_All.upk
+[0009.71] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.71] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_ShockRifle.upk
+[0009.71] Log: Failed to load 'WP_Translocator': Can't find file for package 'WP_Translocator' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.71] Log: Failed to load 'Envy_Effects2': Can't find file for package 'Envy_Effects2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.71] Log: Failed to load 'Envy_Effects2': Can't find file for package 'Envy_Effects2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'Envy_Level_Effects_2': Can't find file for package 'Envy_Level_Effects_2' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'VH_Manta': Can't find file for package 'VH_Manta' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'VH_Manta': Can't find file for package 'VH_Manta' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.72] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'WP_Translocator': Can't find file for package 'WP_Translocator' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'WP_Translocator': Can't find file for package 'WP_Translocator' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'VH_Scorpion': Can't find file for package 'VH_Scorpion' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UTGame\Content\Effects\Envy_Effects.upk
+[0009.73] Log: Failed to load 'T_FX': Can't find file for package 'T_FX' while loading ..\..\UTGame\Content\Weapons\WP_RocketLauncher.upk
+[0009.73] Log: Failed to load 'T_FX': Can't find file for package 'T_FX' while loading ..\..\UTGame\Content\Weapons\WP_RocketLauncher.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.76] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'WP_BioRifle': Can't find file for package 'WP_BioRifle' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'WP_BioRifle': Can't find file for package 'WP_BioRifle' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.77] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.78] Log: Failed to load 'Envy_Effects_UT3_Original': Can't find file for package 'Envy_Effects_UT3_Original' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.78] Log: Failed to load 'WP_BioRifle': Can't find file for package 'WP_BioRifle' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.78] Log: Failed to load 'WP_Enforcers': Can't find file for package 'WP_Enforcers' while loading ..\..\UTGame\Content\Weapons\WP_Stinger.upk
+[0009.82] Log: Failed to load 'VH_Fury': Can't find file for package 'VH_Fury' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.83] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_All': Can't find file for package 'VH_All' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_All': Can't find file for package 'VH_All' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_Fury': Can't find file for package 'VH_Fury' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_Fury': Can't find file for package 'VH_Fury' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_Fury': Can't find file for package 'VH_Fury' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.84] Log: Failed to load 'VH_Paladin': Can't find file for package 'VH_Paladin' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'VH_Paladin': Can't find file for package 'VH_Paladin' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'VH_Fury': Can't find file for package 'VH_Fury' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'VH_Paladin': Can't find file for package 'VH_Paladin' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'VH_Paladin': Can't find file for package 'VH_Paladin' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'WP_LinkGun': Can't find file for package 'WP_LinkGun' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'VH_All': Can't find file for package 'VH_All' while loading ..\..\UTGame\Content\Pickups\Pickups.upk
+[0009.85] Log: Failed to load 'GFxUI': Can't find file for package 'GFxUI' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.85] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'GFxUI': Can't find file for package 'GFxUI' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'A_interface': Can't find file for package 'A_interface' while loading ..\..\UTGame\Content\GFx\UDKFrontEnd.upk
+[0009.86] Log: Failed to load 'CH_IronGuard_Headshot': Can't find file for package 'CH_IronGuard_Headshot' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0009.86] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0009.86] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0009.86] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0009.86] Log: Failed to load 'CH_IronGuard_Headshot': Can't find file for package 'CH_IronGuard_Headshot' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0009.86] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UTGame\Content\UI\UI_HUD.upk
+[0010.49] Log: 51714 objects as part of root set at end of initial load.
+[0010.49] Log: 0 out of 0 bytes used by permanent object pool.
+[0010.63] Log: Supported Consoles:
+[0010.63] Log:   PC
+[0010.63] Log: Initializing Engine...
+[0010.92] Log: Encountered missing default brush - spawning new one
+[0011.47] Log: Missing cached shader map for material CASC_BackgroundCube_MAT, quality 0, compiling.
+[0011.74] Log: Missing cached shader map for material CASC_CurveEd_MAT, quality 0, compiling.
+[0012.22] Log: Missing cached shader map for material CASC_ModuleDisable_MAT, quality 0, compiling.
+[0012.92] Log: Missing cached shader map for material CASC_ModuleEnable_MAT, quality 0, compiling.
+[0013.78] Log: Missing cached shader map for material CASC_RenderCross_MAT, quality 0, compiling.
+[0014.65] Log: Missing cached shader map for material CASC_RenderNone_MAT, quality 0, compiling.
+[0015.41] Log: Missing cached shader map for material CASC_RenderNormal_MAT, quality 0, compiling.
+[0016.21] Log: Missing cached shader map for material CASC_RenderPoint_MAT, quality 0, compiling.
+[0016.98] Log: Missing cached shader map for material CheckMaterial, quality 0, compiling.
+[0017.61] Log: Missing cached shader map for material CovergroupIcon_Mat, quality 0, compiling.
+[0018.16] Log: Missing cached shader map for material Frac_ElementMaterial, quality 0, compiling.
+[0018.40] Log: Missing cached shader map for material GridMaterial, quality 0, compiling.
+[0018.87] Log: Missing cached shader map for material MAT_EnableTrack_Mat, quality 0, compiling.
+[0019.31] Log: Missing cached shader map for material MAT_ColorTrack_Mat, quality 0, compiling.
+[0019.50] Log: Missing cached shader map for material MAT_Groups_Anim_Mat, quality 0, compiling.
+[0020.56] Log: Missing cached shader map for material MAT_Groups_AudioMaster_Mat, quality 0, compiling.
+[0021.42] Log: Missing cached shader map for material MAT_Groups_Director_Mat, quality 0, compiling.
+[0022.57] Log: Missing cached shader map for material MAT_Groups_Event_Mat, quality 0, compiling.
+[0023.33] Log: Missing cached shader map for material MAT_Groups_Fade_Mat, quality 0, compiling.
+[0023.78] Log: Missing cached shader map for material MAT_Groups_Float_Mat, quality 0, compiling.
+[0024.54] Log: Missing cached shader map for material MAT_Groups_Graph_Off_Mat, quality 0, compiling.
+[0024.93] Log: Missing cached shader map for material MAT_Groups_Graph_On_Mat, quality 0, compiling.
+[0025.35] Log: Missing cached shader map for material MAT_Groups_Left_Off_Mat, quality 0, compiling.
+[0026.12] Log: Missing cached shader map for material MAT_Groups_Left_On_Mat, quality 0, compiling.
+[0026.97] Log: Missing cached shader map for material MAT_Groups_Move_Mat, quality 0, compiling.
+[0027.80] Log: Missing cached shader map for material MAT_Groups_ParticleReplay_Mat, quality 0, compiling.
+[0028.65] Log: Missing cached shader map for material MAT_Groups_Right_Off_Mat, quality 0, compiling.
+[0029.55] Log: Missing cached shader map for material MAT_Groups_Right_On_Mat, quality 0, compiling.
+[0030.47] Log: Missing cached shader map for material MAT_Groups_Slomo_Mat, quality 0, compiling.
+[0031.27] Log: Missing cached shader map for material MAT_Groups_Sound_Mat, quality 0, compiling.
+[0032.06] Log: Missing cached shader map for material MAT_Groups_Toggle_Mat, quality 0, compiling.
+[0033.00] Log: Missing cached shader map for material MAT_Groups_Trajectory_Off_Mat, quality 0, compiling.
+[0033.40] Log: Missing cached shader map for material MAT_Groups_Trajectory_On_Mat, quality 0, compiling.
+[0033.82] Log: Missing cached shader map for material MAT_Groups_Vector_Mat, quality 0, compiling.
+[0034.78] Log: Missing cached shader map for material MAT_Groups_View_Off_Mat, quality 0, compiling.
+[0035.62] Log: Missing cached shader map for material MAT_Groups_View_On_Mat, quality 0, compiling.
+[0036.76] Log: Missing cached shader map for material MAT_Groups_Visibility_Mat, quality 0, compiling.
+[0037.68] Log: Missing cached shader map for material PhAT_BoneSelectedMaterial, quality 0, compiling.
+[0037.88] Log: Missing cached shader map for material PhAT_ElemSelectedMaterial, quality 0, compiling.
+[0038.07] Log: Missing cached shader map for material PhAT_JointLimitMaterial, quality 0, compiling.
+[0038.27] Log: Missing cached shader map for material PhAT_NoCollisionMaterial, quality 0, compiling.
+[0038.50] Log: Missing cached shader map for material PhAT_UnselectedMaterial, quality 0, compiling.
+[0038.70] Log: Missing cached shader map for material TLB_AddLayer_Icon_MAT, quality 0, compiling.
+[0039.29] Log: Missing cached shader map for material TLB_AddMaterial_Icon_MAT, quality 0, compiling.
+[0039.82] Log: Missing cached shader map for material TLB_Closed_Alpha_MAT, quality 0, compiling.
+[0040.79] Log: Missing cached shader map for material TLB_Closed_MAT, quality 0, compiling.
+[0041.18] Log: Missing cached shader map for material TLB_DecoLayer_Alpha_MAT, quality 0, compiling.
+[0041.87] Log: Missing cached shader map for material TLB_DecoLayer_Icon_MAT, quality 0, compiling.
+[0042.21] Log: Missing cached shader map for material TLB_DecoLayer_MAT, quality 0, compiling.
+[0042.56] Log: Missing cached shader map for material TLB_DecoLayer_Pressed_MAT, quality 0, compiling.
+[0042.91] Log: Missing cached shader map for material TLB_Decoration_Alpha_MAT, quality 0, compiling.
+[0043.60] Log: Missing cached shader map for material TLB_Decoration_Icon_MAT, quality 0, compiling.
+[0043.94] Log: Missing cached shader map for material TLB_Empty_MAT, quality 0, compiling.
+[0044.29] Log: Missing cached shader map for material TLB_Foliage_Alpha_MAT, quality 0, compiling.
+[0045.03] Log: Missing cached shader map for material TLB_FoliageOverlay_Alpha_MAT, quality 0, compiling.
+[0045.81] Log: Missing cached shader map for material TLB_FoliageOverlayLeft_Alpha_MAT, quality 0, compiling.
+[0046.51] Log: Missing cached shader map for material TLB_HeightMap_Alpha_MAT, quality 0, compiling.
+[0047.22] Log: Missing cached shader map for material TLB_HeightMap_MAT, quality 0, compiling.
+[0047.61] Log: Missing cached shader map for material TLB_Layer_Alpha_MAT, quality 0, compiling.
+[0048.34] Log: Missing cached shader map for material TLB_Lock_MAT, quality 0, compiling.
+[0048.80] Log: Missing cached shader map for material TLB_Material_Alpha_MAT, quality 0, compiling.
+[0049.69] Log: Missing cached shader map for material TLB_Open_Alpha_MAT, quality 0, compiling.
+[0050.64] Log: Missing cached shader map for material TLB_Open_MAT, quality 0, compiling.
+[0051.08] Log: Missing cached shader map for material TLB_ProceduralOverlay_Alpha_MAT, quality 0, compiling.
+[0052.01] Log: Missing cached shader map for material TLB_Solid_MAT, quality 0, compiling.
+[0052.51] Log: Missing cached shader map for material TLB_SolidOff_MAT, quality 0, compiling.
+[0052.95] Log: Missing cached shader map for material TLB_View_MAT, quality 0, compiling.
+[0053.35] Log: Missing cached shader map for material TLB_Wireframe_MAT, quality 0, compiling.
+[0053.73] Log: Missing cached shader map for material TLB_WireframeOff_MAT, quality 0, compiling.
+[0054.07] Log: Missing cached shader map for material LinearColorPicker_MAT, quality 0, compiling.
+[0054.47] Log: Missing cached shader map for material WidgetGridVertexColorMaterial_Mat, quality 0, compiling.
+[0055.17] Log: Missing cached shader map for material WidgetMaterial, quality 0, compiling.
+[0056.07] Log: Missing cached shader map for material WidgetMaterial_Current, quality 0, compiling.
+[0056.15] Log: Missing cached shader map for material WidgetMaterial_X, quality 0, compiling.
+[0056.22] Log: Missing cached shader map for material WidgetMaterial_Y, quality 0, compiling.
+[0056.30] Log: Missing cached shader map for material WidgetMaterial_Z, quality 0, compiling.
+[0056.38] Log: Missing cached shader map for material WidgetVertexColorMaterial, quality 0, compiling.
+[0056.68] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_1sided, quality 0, compiling.
+[0059.64] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_2sided, quality 0, compiling.
+[0065.05] Log: Missing cached shader map for material M_ES_Phong_Opaque_Liquid_Master_01, quality 0, compiling.
+[0069.96] Log: Missing cached shader map for material M_ES_Phong_Opaque_Master_01, quality 0, compiling.
+[0071.70] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01, quality 0, compiling.
+[0077.63] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01_1sided, quality 0, compiling.
+[0082.10] Log: Missing cached shader map for material M_ES_Phong_Translucent_Master_01, quality 0, compiling.
+[0084.29] Log: Missing cached shader map for material M_ES_Unlit_Translucent_Liquid_Master_01, quality 0, compiling.
+[0084.61] Log: Missing cached shader map for material M_Shader_Complex, quality 0, compiling.
+[0085.91] Log: Missing cached shader map for material M_Shader_Medium, quality 0, compiling.
+[0087.69] Log: Missing cached shader map for material M_Shader_PlanarMap, quality 0, compiling.
+[0089.04] Log: Missing cached shader map for material M_Shader_Simple, quality 0, compiling.
+[0090.82] Log: Missing cached shader map for material M_Shader_Simple_CustomUV, quality 0, compiling.
+[0091.98] Log: Missing cached shader map for material M_Shader_SimpleMasked, quality 0, compiling.
+[0094.95] Log: Missing cached shader map for material M_Shader_SimpleMaskedTwoSided, quality 0, compiling.
+[0096.66] Log: Missing cached shader map for material M_Shader_SimpleTranslucent, quality 0, compiling.
+[0098.67] Log: Initializing Engine Completed
+[0098.67] Log: >>>>>>>>>>>>>> Initial startup: 98.67s <<<<<<<<<<<<<<<
+[0099.01] Log: Missing cached shader map for material GizmoMaterial, quality 0, compiling.
+[0099.79] Log: Missing cached shader map for material MaskBrushMaterial, quality 0, compiling.
+[0100.12] Log: Missing cached shader map for material CircleBrushMaterial, quality 0, compiling.
+[0102.97] Log: Missing cached shader map for material AlphaBrushMaterial, quality 0, compiling.
+[0103.53] Log: Missing cached shader map for material SelectBrushMaterial, quality 0, compiling.
+[0104.12] Log: Missing cached shader map for material FoliageBrushSphereMaterial, quality 0, compiling.
+[0104.44] Cmd: MODE MAPEXT=udk
+[0104.44] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0104.44] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0108.36] Log: === Critical error: ===
+Fatal error!
+
+wxFontEnumeratorHelper::OnFont() 0x92dc965c + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:182] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumeratorProc() 0x92dc97e5 + 14 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:288] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+Address = 0x133357a6 (filename not found) [in C:\WINDOWS\System32\gdi32full.dll]
+Address = 0x133355f2 (filename not found) [in C:\WINDOWS\System32\gdi32full.dll]
+wxFontEnumeratorHelper::DoEnumerate() 0x92dc9948 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:175] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::EnumerateFacenames() 0x92dc99cd + 10 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:250] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::GetFacenames() 0x92d5b663 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontenumcmn.cpp:65] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::IsValidFacename() 0x92d5b787 + 37 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontenumcmn.cpp:81] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::SetFaceName() 0x92d5b384 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontcmn.cpp:412] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::SetFamily() 0x92dc77c5 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:668] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::InitFromFont() 0x92d03d6f + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\include\wx\fontutil.h:171] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFillLogFont() 0x92dc9f8e + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontutil.cpp:279] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontRefData::Alloc() 0x92dc7d4b + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:389] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFont::DoCreate() 0x92dc8b8a + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:857] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFont::wxFont() 0x92d509b9 + 75 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\include\wx\msw\font.h:35] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxRichTextAttr::CreateFont() 0x9290c32e + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:8754] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextAttr::operator wxTextAttrEx() 0x9291cf65 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:8683] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextBuffer::InsertTextWithUndo() 0x929249c3 + 39 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:5839] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextCtrl::DoWriteText() 0x92926dd0 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextctrl.cpp:2327] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+WxLogWindow::Serialize() Address = 0x8e664451 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FOutputDeviceRedirector::SerializeBacklog() Address = 0x8d12d9e6 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxLogBrowser::Create() Address = 0x8eeaff96 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::CreateSingleBrowserPane() Address = 0x8ee694f8 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::CreateBrowserPanes() Address = 0x8ee69412 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::Initialize() Address = 0x8ee6fef7 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxEditorFrame::SetUp() Address = 0x8e4d8046 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxUnrealEdApp::OnInit() Address = 0x8ec64bf5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+wxEntryReal() 0x92aedc05 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\init.cpp:447] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_vc_custom_64.dll]
+wxEntry() 0x92dd6cc4 + 14 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\main.cpp:386] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+GuardedMain() Address = 0x8f060f6c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GuardedMainWrapper() Address = 0x8f06100a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WinMain() Address = 0x8f06e92f (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+__scrt_common_main_seh() 0x8f0d6bc9 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0x140fccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0108.36] Log: Fatal error!
+
+wxFontEnumeratorHelper::OnFont() 0x92dc965c + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:182] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumeratorProc() 0x92dc97e5 + 14 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:288] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+Address = 0x133357a6 (filename not found) [in C:\WINDOWS\System32\gdi32full.dll]
+Address = 0x133355f2 (filename not found) [in C:\WINDOWS\System32\gdi32full.dll]
+wxFontEnumeratorHelper::DoEnumerate() 0x92dc9948 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:175] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::EnumerateFacenames() 0x92dc99cd + 10 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontenum.cpp:250] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::GetFacenames() 0x92d5b663 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontenumcmn.cpp:65] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontEnumerator::IsValidFacename() 0x92d5b787 + 37 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontenumcmn.cpp:81] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::SetFaceName() 0x92d5b384 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\fontcmn.cpp:412] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::SetFamily() 0x92dc77c5 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:668] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxNativeFontInfo::InitFromFont() 0x92d03d6f + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\include\wx\fontutil.h:171] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFillLogFont() 0x92dc9f8e + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\fontutil.cpp:279] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFontRefData::Alloc() 0x92dc7d4b + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:389] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFont::DoCreate() 0x92dc8b8a + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\font.cpp:857] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxFont::wxFont() 0x92d509b9 + 75 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\include\wx\msw\font.h:35] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+wxRichTextAttr::CreateFont() 0x9290c32e + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:8754] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextAttr::operator wxTextAttrEx() 0x9291cf65 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:8683] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextBuffer::InsertTextWithUndo() 0x929249c3 + 39 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextbuffer.cpp:5839] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+wxRichTextCtrl::DoWriteText() 0x92926dd0 + 0 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\richtext\richtextctrl.cpp:2327] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_richtext_vc_custom_64.dll]
+WxLogWindow::Serialize() Address = 0x8e664451 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+FOutputDeviceRedirector::SerializeBacklog() Address = 0x8d12d9e6 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxLogBrowser::Create() Address = 0x8eeaff96 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::CreateSingleBrowserPane() Address = 0x8ee694f8 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::CreateBrowserPanes() Address = 0x8ee69412 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+UBrowserManager::Initialize() Address = 0x8ee6fef7 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxEditorFrame::SetUp() Address = 0x8e4d8046 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WxUnrealEdApp::OnInit() Address = 0x8ec64bf5 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+wxEntryReal() 0x92aedc05 + 13 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\common\init.cpp:447] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_vc_custom_64.dll]
+wxEntry() 0x92dd6cc4 + 14 bytes [File=j:\epic_vs2010\unrealengine3\development\external\wxwidgets\src\msw\main.cpp:386] [in D:\UnrealEngine3-SC\Binaries\Win64\wxmsw28u_core_vc_custom_64.dll]
+GuardedMain() Address = 0x8f060f6c (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+GuardedMainWrapper() Address = 0x8f06100a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+WinMain() Address = 0x8f06e92f (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+__scrt_common_main_seh() 0x8f0d6bc9 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UDK.exe]
+Address = 0x140fccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x15caad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0108.37] Exit: Executing UObject::StaticShutdownAfterError
+[0108.37] Exit: Executing UWindowsClient::ShutdownAfterError
+[0108.37] Exit: Executing UWindowsClient::ShutdownAfterError
+[0108.37] Exit: UXAudio2Device::ShutdownAfterError
+[0108.37] Log: appRequestExit(1)

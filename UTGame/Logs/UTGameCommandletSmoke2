@@ -1,0 +1,105 @@
+Log: Log file open, 08/22/26 11:11:24
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 10:40:27
+Init: Changelist: 1532151
+Init: Command line: Core.HelpCommandlet -unattended -nopause -forcelogflush -nullrhi -nosound -nosplash -log=UTGameCommandletSmoke2 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.48] Init: Computer: CHEATS
+[0000.48] Init: User: vande
+[0000.48] Init: CPU Page size=4096, Processors=8
+[0000.48] Init: High frequency timer resolution =10.000000 MHz
+[0000.48] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=15.9GB Virtual=131072.0GB
+[0000.48] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.50] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.62] Log: Executing Class Core.HelpCommandlet
+[0000.86] Log: Missing cached shader map for material FogVolumeMaterial, quality 0, compiling.
+[0001.25] Log: Missing cached shader map for material M_StreamingPause, quality 0, compiling.
+[0001.39] Log: Missing cached shader map for material NodeBuddy_Target, quality 0, compiling.
+[0002.05] Log: Missing cached shader map for material NodeBuddy_Red1, quality 0, compiling.
+[0002.70] Log: Missing cached shader map for material NodeBuddy_Text1, quality 0, compiling.
+[0003.31] Log: Missing cached shader map for material NodeBuddy_Text2, quality 0, compiling.
+[0003.56] Log: Missing cached shader map for material NodeBuddy_White1, quality 0, compiling.
+[0004.16] Log: Missing cached shader map for material DefaultMaterial, quality 0, compiling.
+[0020.76] Log: Missing cached shader map for material LandscapeGizmoHeight_UnderMat, quality 0, compiling.
+[0020.91] Log: Missing cached shader map for material ImageReflectionPreview, quality 0, compiling.
+[0021.07] Log: Missing cached shader map for material LandscapeGizmo_Mat, quality 0, compiling.
+[0021.21] Log: Missing cached shader map for material LandscapeGizmoHeight_Mat, quality 0, compiling.
+[0021.36] Log: Missing cached shader map for material LandscapeGizmo_Mat, quality 0, compiling.
+[0021.49] Log: Initializing Game Engine...
+[0021.49] Log: Missing cached shader map for material DefaultDecalMaterial, quality 0, compiling.
+[0024.64] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineDebugMaterials.upk
+[0024.64] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineDebugMaterials.upk
+[0024.64] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineDebugMaterials.upk
+[0024.64] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineDebugMaterials.upk
+[0024.64] Log: Missing cached shader map for material WireframeMaterial, quality 0, compiling.
+[0029.03] Log: Missing cached shader map for material LevelColorationLitMaterial, quality 0, compiling.
+[0042.72] Log: Missing cached shader map for material LevelColorationUnlitMaterial, quality 0, compiling.
+[0047.93] Log: Missing cached shader map for material MAT_LevelColorationLitLightmapUVs, quality 0, compiling.
+[0062.00] Log: Missing cached shader map for material ShadedLevelColorationLitMaterial, quality 0, compiling.
+[0076.26] Log: Missing cached shader map for material ShadedLevelColorationUnlitMaterial, quality 0, compiling.
+[0080.85] Log: Missing cached shader map for material VertexColorMaterial, quality 0, compiling.
+[0081.12] Log: Missing cached shader map for material MaterialError_Mat, quality 0, compiling.
+[0096.88] Log: Missing cached shader map for material EmissiveTexturedMaterial, quality 0, compiling.
+[0096.94] Log: Missing cached shader map for material ScreenMaterial, quality 0, compiling.
+[0097.01] Log: Missing cached shader map for material CubeMaterial, quality 0, compiling.
+[0097.12] Log: Missing cached shader map for material BlinkingCaret, quality 0, compiling.
+[0097.27] Log: Missing cached shader map for material RemoveSurfaceMaterial, quality 0, compiling.
+[0097.33] Log: Missing cached shader map for material GeomMaterial, quality 0, compiling.
+[0097.48] Log: Missing cached shader map for material Tick_Mat, quality 0, compiling.
+[0097.78] Log: Missing cached shader map for material Cross_Mat, quality 0, compiling.
+[0098.07] Log: Missing cached shader map for material EditorBrushMaterial, quality 0, compiling.
+[0098.21] Log: Missing cached shader map for material HeatmapMaterial, quality 0, compiling.
+[0098.36] Log: Missing cached shader map for material BoneWeightMaterial, quality 0, compiling.
+[0098.91] Log: Missing cached shader map for material TangentColorMaterial, quality 0, compiling.
+[0099.46] Log: Missing cached shader map for material VertexColorViewMode_ColorOnly, quality 0, compiling.
+[0099.56] Log: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, quality 0, compiling.
+[0099.67] Log: Missing cached shader map for material VertexColorViewMode_RedOnly, quality 0, compiling.
+[0099.79] Log: Missing cached shader map for material VertexColorViewMode_GreenOnly, quality 0, compiling.
+[0099.90] Log: Missing cached shader map for material VertexColorViewMode_BlueOnly, quality 0, compiling.
+[0100.02] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineBuildings.upk
+[0100.02] Warning: Warning, Failed to load 'Engine_MI_Shaders': Can't find file for package 'Engine_MI_Shaders' while loading ..\..\Engine\Content\EngineBuildings.upk
+[0100.03] Log: Missing cached shader map for material ProcBuildingSimpleMaterial, quality 0, compiling.
+[0100.51] Log: Missing cached shader map for material M_WP_Stinger, quality 0, compiling.
+[0101.29] Log: Missing cached shader map for material M_CH_All_Base_02, quality 0, compiling.
+[0102.75] Log: Missing cached shader map for material M_CH_All_Base_02, quality 0, compiling.
+[0104.11] Log: Missing cached shader map for material M_Lightning_Curve, quality 0, compiling.
+[0104.53] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_Z2, quality 0, compiling.
+[0105.10] Log: Missing cached shader map for material M_EFX_Smoke_Distort, quality 0, compiling.
+[0105.53] Log: Missing cached shader map for material M_WP_ShockRifle_Impact, quality 0, compiling.
+[0105.94] Log: Missing cached shader map for material M_Shock_colorball_mesh, quality 0, compiling.
+[0106.39] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_2, quality 0, compiling.
+[0106.83] Log: Encountered missing default brush - spawning new one
+[0106.84] Warning: Warning, Failed to load 'Class WinDrv.WindowsClient': Failed to find object 'Class WinDrv.WindowsClient'
+[0106.84] Warning: Warning, Failed to find object 'Class WinDrv.WindowsClient'
+[0107.58] Log: === Critical error: ===
+Fatal error!
+
+UObject::StaticConstructObject() Address = 0xaaa76d61 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+UGameEngine::Init() Address = 0xab09c74a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+FEngineLoop::PreInit() Address = 0xaba19c38 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+GuardedMain() Address = 0xaba158f8 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+GuardedMainWrapper() Address = 0xaba15a2a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+WinMain() Address = 0xaba2104a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+__scrt_common_main_seh() 0xaba51b09 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0107.58] Log: Fatal error!
+
+UObject::StaticConstructObject() Address = 0xaaa76d61 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+UGameEngine::Init() Address = 0xab09c74a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+FEngineLoop::PreInit() Address = 0xaba19c38 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+GuardedMain() Address = 0xaba158f8 (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+GuardedMainWrapper() Address = 0xaba15a2a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+WinMain() Address = 0xaba2104a (filename not found) [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+__scrt_common_main_seh() 0xaba51b09 + 33 bytes [File=D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] [in D:\UnrealEngine3-SC\Binaries\Win64\UTGame.exe]
+Address = 0xa6acccb7 (filename not found) [in C:\WINDOWS\System32\KERNEL32.DLL]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xa864ad6c (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[0107.58] Exit: Executing UObject::StaticShutdownAfterError
+[0107.59] Log: appRequestExit(1)

@@ -1,0 +1,9 @@
+The editor splash window was not visible within 20 seconds. Inspect 
+D:\UnrealEngine3-SC\UTGame\Logs\UDKLiftSplashLayout-20260902-005239-361.log
+At D:\UnrealEngine3-SC\Development\Tools\UDKLift\Verify-SplashLayout.ps1:151 char:9
++         throw "The editor splash window was not visible within $Splas ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (The editor spla...-005239-361.log:String) [], RuntimeException
+    + FullyQualifiedErrorId : The editor splash window was not visible within 20 seconds. Inspect D:\UnrealEngine3-SC\ 
+   UTGame\Logs\UDKLiftSplashLayout-20260902-005239-361.log
+ 

@@ -1,0 +1,185 @@
+Log: Log file open, 08/31/26 00:24:17
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10897
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Aug 22 2026 16:54:28
+Init: Changelist: 1532151
+Init: Command line: editor -unattended -nopause -forcelogflush -nosplash -windowed -ResX=800 -ResY=600 -log=EditorBootFinal-20260831-002417.log 
+Init: Base directory: D:\UnrealEngine3-SC\Binaries\Win64\
+[0000.45] Init: Computer: CHEATS
+[0000.45] Init: User: vande
+[0000.45] Init: CPU Page size=4096, Processors=8
+[0000.45] Init: High frequency timer resolution =10.000000 MHz
+[0000.45] Init: Memory total: Physical=7.8GB (7GB approx) Pagefile=19.2GB Virtual=131072.0GB
+[0000.49] Init: WinSock: I am CHEATS (192.168.56.1:0)
+[0000.49] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.49] Init: Object subsystem initialized
+[0000.51] Log: SystemSettings based on: SystemSettings
+[0000.69] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.19] Log: 52516 objects as part of root set at end of initial load.
+[0002.19] Log: 0 out of 0 bytes used by permanent object pool.
+[0002.24] Log: Supported Consoles:
+[0002.24] Log:   PC
+[0002.24] Log: Initializing Engine...
+[0002.45] Log: Encountered missing default brush - spawning new one
+[0002.77] Log: Missing cached shader map for material CASC_BackgroundCube_MAT, quality 0, compiling.
+[0002.92] Log: Missing cached shader map for material CASC_CurveEd_MAT, quality 0, compiling.
+[0003.32] Log: Missing cached shader map for material CASC_ModuleDisable_MAT, quality 0, compiling.
+[0004.04] Log: Missing cached shader map for material CASC_ModuleEnable_MAT, quality 0, compiling.
+[0004.77] Log: Missing cached shader map for material CASC_RenderCross_MAT, quality 0, compiling.
+[0005.52] Log: Missing cached shader map for material CASC_RenderNone_MAT, quality 0, compiling.
+[0006.18] Log: Missing cached shader map for material CASC_RenderNormal_MAT, quality 0, compiling.
+[0006.99] Log: Missing cached shader map for material CASC_RenderPoint_MAT, quality 0, compiling.
+[0007.90] Log: Missing cached shader map for material CheckMaterial, quality 0, compiling.
+[0008.36] Log: Missing cached shader map for material CovergroupIcon_Mat, quality 0, compiling.
+[0008.81] Log: Missing cached shader map for material Frac_ElementMaterial, quality 0, compiling.
+[0008.97] Log: Missing cached shader map for material GridMaterial, quality 0, compiling.
+[0009.28] Log: Missing cached shader map for material MAT_EnableTrack_Mat, quality 0, compiling.
+[0009.64] Log: Missing cached shader map for material MAT_ColorTrack_Mat, quality 0, compiling.
+[0009.85] Log: Missing cached shader map for material MAT_Groups_Anim_Mat, quality 0, compiling.
+[0010.48] Log: Missing cached shader map for material MAT_Groups_AudioMaster_Mat, quality 0, compiling.
+[0011.20] Log: Missing cached shader map for material MAT_Groups_Director_Mat, quality 0, compiling.
+[0011.96] Log: Missing cached shader map for material MAT_Groups_Event_Mat, quality 0, compiling.
+[0012.59] Log: Missing cached shader map for material MAT_Groups_Fade_Mat, quality 0, compiling.
+[0012.87] Log: Missing cached shader map for material MAT_Groups_Float_Mat, quality 0, compiling.
+[0013.42] Log: Missing cached shader map for material MAT_Groups_Graph_Off_Mat, quality 0, compiling.
+[0013.70] Log: Missing cached shader map for material MAT_Groups_Graph_On_Mat, quality 0, compiling.
+[0013.97] Log: Missing cached shader map for material MAT_Groups_Left_Off_Mat, quality 0, compiling.
+[0014.48] Log: Missing cached shader map for material MAT_Groups_Left_On_Mat, quality 0, compiling.
+[0015.01] Log: Missing cached shader map for material MAT_Groups_Move_Mat, quality 0, compiling.
+[0015.53] Log: Missing cached shader map for material MAT_Groups_ParticleReplay_Mat, quality 0, compiling.
+[0016.06] Log: Missing cached shader map for material MAT_Groups_Right_Off_Mat, quality 0, compiling.
+[0016.58] Log: Missing cached shader map for material MAT_Groups_Right_On_Mat, quality 0, compiling.
+[0017.09] Log: Missing cached shader map for material MAT_Groups_Slomo_Mat, quality 0, compiling.
+[0017.61] Log: Missing cached shader map for material MAT_Groups_Sound_Mat, quality 0, compiling.
+[0018.14] Log: Missing cached shader map for material MAT_Groups_Toggle_Mat, quality 0, compiling.
+[0018.65] Log: Missing cached shader map for material MAT_Groups_Trajectory_Off_Mat, quality 0, compiling.
+[0018.91] Log: Missing cached shader map for material MAT_Groups_Trajectory_On_Mat, quality 0, compiling.
+[0019.18] Log: Missing cached shader map for material MAT_Groups_Vector_Mat, quality 0, compiling.
+[0019.68] Log: Missing cached shader map for material MAT_Groups_View_Off_Mat, quality 0, compiling.
+[0020.20] Log: Missing cached shader map for material MAT_Groups_View_On_Mat, quality 0, compiling.
+[0020.73] Log: Missing cached shader map for material MAT_Groups_Visibility_Mat, quality 0, compiling.
+[0021.24] Log: Missing cached shader map for material PhAT_BoneSelectedMaterial, quality 0, compiling.
+[0021.39] Log: Missing cached shader map for material PhAT_ElemSelectedMaterial, quality 0, compiling.
+[0021.53] Log: Missing cached shader map for material PhAT_JointLimitMaterial, quality 0, compiling.
+[0021.69] Log: Missing cached shader map for material PhAT_NoCollisionMaterial, quality 0, compiling.
+[0021.84] Log: Missing cached shader map for material PhAT_UnselectedMaterial, quality 0, compiling.
+[0021.99] Log: Missing cached shader map for material TLB_AddLayer_Icon_MAT, quality 0, compiling.
+[0022.26] Log: Missing cached shader map for material TLB_AddMaterial_Icon_MAT, quality 0, compiling.
+[0022.52] Log: Missing cached shader map for material TLB_Closed_Alpha_MAT, quality 0, compiling.
+[0023.05] Log: Missing cached shader map for material TLB_Closed_MAT, quality 0, compiling.
+[0023.32] Log: Missing cached shader map for material TLB_DecoLayer_Alpha_MAT, quality 0, compiling.
+[0023.85] Log: Missing cached shader map for material TLB_DecoLayer_Icon_MAT, quality 0, compiling.
+[0024.11] Log: Missing cached shader map for material TLB_DecoLayer_MAT, quality 0, compiling.
+[0024.39] Log: Missing cached shader map for material TLB_DecoLayer_Pressed_MAT, quality 0, compiling.
+[0024.65] Log: Missing cached shader map for material TLB_Decoration_Alpha_MAT, quality 0, compiling.
+[0025.17] Log: Missing cached shader map for material TLB_Decoration_Icon_MAT, quality 0, compiling.
+[0025.46] Log: Missing cached shader map for material TLB_Empty_MAT, quality 0, compiling.
+[0025.73] Log: Missing cached shader map for material TLB_Foliage_Alpha_MAT, quality 0, compiling.
+[0026.24] Log: Missing cached shader map for material TLB_FoliageOverlay_Alpha_MAT, quality 0, compiling.
+[0026.83] Log: Missing cached shader map for material TLB_FoliageOverlayLeft_Alpha_MAT, quality 0, compiling.
+[0027.41] Log: Missing cached shader map for material TLB_HeightMap_Alpha_MAT, quality 0, compiling.
+[0027.97] Log: Missing cached shader map for material TLB_HeightMap_MAT, quality 0, compiling.
+[0028.23] Log: Missing cached shader map for material TLB_Layer_Alpha_MAT, quality 0, compiling.
+[0028.79] Log: Missing cached shader map for material TLB_Lock_MAT, quality 0, compiling.
+[0029.06] Log: Missing cached shader map for material TLB_Material_Alpha_MAT, quality 0, compiling.
+[0029.59] Log: Missing cached shader map for material TLB_Open_Alpha_MAT, quality 0, compiling.
+[0030.12] Log: Missing cached shader map for material TLB_Open_MAT, quality 0, compiling.
+[0030.39] Log: Missing cached shader map for material TLB_ProceduralOverlay_Alpha_MAT, quality 0, compiling.
+[0030.94] Log: Missing cached shader map for material TLB_Solid_MAT, quality 0, compiling.
+[0031.23] Log: Missing cached shader map for material TLB_SolidOff_MAT, quality 0, compiling.
+[0031.53] Log: Missing cached shader map for material TLB_View_MAT, quality 0, compiling.
+[0031.85] Log: Missing cached shader map for material TLB_Wireframe_MAT, quality 0, compiling.
+[0032.13] Log: Missing cached shader map for material TLB_WireframeOff_MAT, quality 0, compiling.
+[0032.45] Log: Missing cached shader map for material LinearColorPicker_MAT, quality 0, compiling.
+[0032.73] Log: Missing cached shader map for material WidgetGridVertexColorMaterial_Mat, quality 0, compiling.
+[0033.37] Log: Missing cached shader map for material WidgetMaterial, quality 0, compiling.
+[0033.94] Log: Missing cached shader map for material WidgetMaterial_Current, quality 0, compiling.
+[0034.01] Log: Missing cached shader map for material WidgetMaterial_X, quality 0, compiling.
+[0034.07] Log: Missing cached shader map for material WidgetMaterial_Y, quality 0, compiling.
+[0034.15] Log: Missing cached shader map for material WidgetMaterial_Z, quality 0, compiling.
+[0034.22] Log: Missing cached shader map for material WidgetVertexColorMaterial, quality 0, compiling.
+[0034.44] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_1sided, quality 0, compiling.
+[0036.30] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_2sided, quality 0, compiling.
+[0039.40] Log: Missing cached shader map for material M_ES_Phong_Opaque_Liquid_Master_01, quality 0, compiling.
+[0043.10] Log: Missing cached shader map for material M_ES_Phong_Opaque_Master_01, quality 0, compiling.
+[0044.43] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01, quality 0, compiling.
+[0049.26] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01_1sided, quality 0, compiling.
+[0052.75] Log: Missing cached shader map for material M_ES_Phong_Translucent_Master_01, quality 0, compiling.
+[0054.22] Log: Missing cached shader map for material M_ES_Unlit_Translucent_Liquid_Master_01, quality 0, compiling.
+[0054.39] Log: Missing cached shader map for material M_Shader_Complex, quality 0, compiling.
+[0055.30] Log: Missing cached shader map for material M_Shader_Medium, quality 0, compiling.
+[0056.58] Log: Missing cached shader map for material M_Shader_PlanarMap, quality 0, compiling.
+[0057.66] Log: Missing cached shader map for material M_Shader_Simple, quality 0, compiling.
+[0058.88] Log: Missing cached shader map for material M_Shader_Simple_CustomUV, quality 0, compiling.
+[0059.88] Log: Missing cached shader map for material M_Shader_SimpleMasked, quality 0, compiling.
+[0062.42] Log: Missing cached shader map for material M_Shader_SimpleMaskedTwoSided, quality 0, compiling.
+[0063.65] Log: Missing cached shader map for material M_Shader_SimpleTranslucent, quality 0, compiling.
+[0065.18] Log: Initializing Engine Completed
+[0065.18] Log: >>>>>>>>>>>>>> Initial startup: 65.18s <<<<<<<<<<<<<<<
+[0065.50] Log: Missing cached shader map for material GizmoMaterial, quality 0, compiling.
+[0066.19] Log: Missing cached shader map for material MaskBrushMaterial, quality 0, compiling.
+[0066.54] Log: Missing cached shader map for material CircleBrushMaterial, quality 0, compiling.
+[0068.59] Log: Missing cached shader map for material AlphaBrushMaterial, quality 0, compiling.
+[0069.04] Log: Missing cached shader map for material SelectBrushMaterial, quality 0, compiling.
+[0069.53] Log: Missing cached shader map for material FoliageBrushSphereMaterial, quality 0, compiling.
+[0069.71] Cmd: MODE MAPEXT=udk
+[0069.71] SourceControl: Stub source control provider is enabled.  Please enable a specific implementation such as WITH_PERFORCE
+[0069.71] SourceControl:   For perforce, see SetUpSourceControlEnvironment in UE3BuildExternal.cs for requirements
+[0074.80] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0075.28] Warning: Failed to load 'Class SubstanceAir.SubstanceAirImageInput': Failed to find object 'Class SubstanceAir.SubstanceAirImageInput'
+[0075.28] Warning: Failed to load 'Class SubstanceAirEd.ImageInputThumbnailRenderer': Failed to find object 'Class SubstanceAirEd.ImageInputThumbnailRenderer'
+[0075.28] Log: Encountered missing default brush - spawning new one
+[0076.09] Log: Missing cached shader map for material M_Procedural_Sky_MASTER02, quality 0, compiling.
+[0077.66] Log: -- Checking Building LODs
+[0077.66] Log: Finished looking for orphan Actors (0.003 secs)
+[0077.71] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0078.10] Log: Save=390.473700
+[0078.10] Log: Compressing '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UTGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0078.28] Log: TIMER ALL OF INIT : [77.255043]
+[0102.34] Log: 
+==== Worlds needing PIE Save:
+[0102.34] Log: template_midday
+[0102.34] Log: ==== 1 total
+[0102.41] Log: Built Phys StaticMesh Cache: 2.749 ms
+[0102.41] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 0 Convex Hulls (0.000000 KB) - Total 0.000000 KB
+[0102.48] Log: Save=68.787900
+[0102.48] Log: Moving 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday_save.tmp' to 'D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk'
+[0102.50] Cmd: MAP LOAD PLAYWORLD=1 FILE="D:\UnrealEngine3-SC\Binaries\Win64\..\..\Engine\Autosaves\UEDPIEtemplate_midday.udk"
+[0102.51] Log: Finished looking for orphan Actors (0.002 secs)
+[0102.51] Log: Game class is 'UTDeathmatch'
+[0102.51] Log: Bringing World uedpietemplate_midday.TheWorld up for play (0) at 2026.08.31-00.25.59
+[0102.52] Log: Bringing up level for play took: 0.003779
+[0102.56] Log: PIE: play in editor start time for UEDPIEtemplate_midday 0.315
+[0103.86] Cmd: StartFire 
+[0103.86] Cmd: OnRelease StopFire
+[0103.97] Cmd: StopFire
+[0106.97] ScriptLog: START MATCH
+[0106.98] Log: Failed to create audio buffer for 'SoundNodeWave WP_Stinger.Sounds.A_Weapon_Stinger_Raise01'
+[0107.11] Log: Failed to create audio buffer for 'SoundNodeWave WP_Stinger.Sounds.A_Weapon_Stinger_Lower01'
+[0107.79] Cmd: StartFire 
+[0107.79] Cmd: OnRelease StopFire
+[0107.94] Cmd: StopFire
+[0107.97] Cmd: StartFire 
+[0107.97] Cmd: OnRelease StopFire
+[0108.16] Cmd: StopFire
+[0109.58] Cmd: onrelease ShowMenu
+[0109.58] ScriptWarning: Ragdoll init failed
+	UTCharacter uedpietemplate_midday.TheWorld:PersistentLevel.UTCharacter_0
+	Function UTGame.UTPawn:PlayDying:008B
+[0109.74] Cmd: UpdateLandscapeSetup
+[0115.99] Cmd: CAMERA ALIGN
+[0116.01] Log: Aligned camera to fit all selected actors.
+[0118.96] Cmd: CAMERA ALIGN
+[0118.98] Log: Aligned camera to fit all selected actors.
+[0122.55] Cmd: CAMERA ALIGN
+[0122.56] Log: Aligned camera to fit all selected actors.
+[0132.71] Exit: Preparing to exit.
+[0132.84] Exit: Editor shut down
+[0132.84] Exit: Transaction tracking system shut down
+[0132.98] Exit: Windows client shut down
+[0132.99] Exit: XAudio2 Device shut down.
+[0133.05] Exit: Object subsystem successfully closed.
+[0133.06] Exit: Exiting.
+[0133.06] Log: Log file closed, 08/31/26 00:26:30
